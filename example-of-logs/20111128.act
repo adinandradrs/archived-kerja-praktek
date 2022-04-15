@@ -1,0 +1,1493 @@
+16:02:27.429 | srv >> srv | thread parent run : cucm_server_main
+16:02:34.456 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:02:34.458 | srv >> ccm | get provider : ON
+16:02:34.463 | ccm >> srv | get provider's service condition : SET
+16:02:39.930 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:02:40.436 | srv >> ccm | collect device : success
+16:02:40.716 | srv >> ccm | collect device
+16:02:40.717 | srv >> ccm | prepare set observer
+16:02:40.717 | srv >> ccm | list device
+16:02:40.719 | srv >> ccm | list address
+16:02:40.743 | ccm >> srv | set call address observer to : 1001
+16:02:40.746 | ccm >> srv | set status address observer to : 1001 *in service only
+16:02:40.759 | ccm >> srv | set call address observer to : 1002
+16:02:40.760 | ccm >> srv | set status address observer to : 1002 *in service only
+16:02:40.769 | ccm >> srv | set call address observer to : 1003
+16:02:40.771 | ccm >> srv | set status address observer to : 1003 *in service only
+16:02:40.784 | ccm >> srv | set call address observer to : 1004
+16:02:40.786 | ccm >> srv | set status address observer to : 1004 *in service only
+16:02:40.787 | srv >> ccm | list device
+16:02:40.787 | srv >> ccm | list terminal
+16:02:40.793 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:02:40.797 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:02:40.803 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:02:40.804 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:02:40.806 | srv >> clt | is opening socket port : 8080
+16:02:40.806 | ccm >> srv | 1001            |Address is out of service
+16:02:40.806 | ccm >> srv | 1002            |Address is out of service
+16:02:40.806 | ccm >> srv | 1003            |Address is out of service
+16:02:40.807 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:02:40.808 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:02:41.013 | srv >> clt | create client at room - 0
+16:02:41.016 | clt >> srv | client connected, from : /192.168.15.12:1661
+16:02:41.017 | srv >> clt | client counter : 1
+16:02:41.018 | clt >> srv | client placed at room : 0
+16:04:08.095 | srv >> ccm | list device
+16:04:08.096 | srv >> ccm | list all data
+16:04:08.097 | srv >> ccm | list device
+16:04:08.097 | srv >> ccm | list all data
+16:04:08.098 | srv >> ccm | list device
+16:04:08.099 | srv >> ccm | list all data
+16:04:08.099 | srv >> ccm | list device
+16:04:08.100 | srv >> ccm | list all data
+16:04:08.101 | srv >> ccm | list device
+16:04:08.102 | srv >> ccm | list all data
+16:04:08.102 | srv >> ccm | list device
+16:04:08.103 | srv >> ccm | list all data
+16:04:08.104 | srv >> ccm | list device
+16:04:08.105 | srv >> ccm | list all data
+16:04:08.105 | srv >> ccm | list device
+16:04:08.106 | srv >> ccm | list all data
+16:04:08.107 | srv >> ccm | list device
+16:04:08.107 | srv >> ccm | list all data
+16:04:08.108 | srv >> ccm | list device
+16:04:08.109 | srv >> ccm | list all data
+16:04:08.624 | srv >> ccm | server is sending SOAP Envelope
+16:04:08.627 | srv >> ccm | server is writing the xml response
+16:04:08.628 | srv >> ccm | server is update css : CSS_INTERNAL
+16:04:08.680 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:04:14.818 | srv >> ccm | list device
+16:04:14.819 | srv >> ccm | list all data
+16:04:14.819 | srv >> ccm | list device
+16:04:14.820 | srv >> ccm | list all data
+16:04:14.821 | srv >> ccm | list device
+16:04:14.822 | srv >> ccm | list all data
+16:04:14.822 | srv >> ccm | list device
+16:04:14.823 | srv >> ccm | list all data
+16:04:14.824 | srv >> ccm | list device
+16:04:14.824 | srv >> ccm | list all data
+16:04:14.825 | srv >> ccm | list device
+16:04:14.826 | srv >> ccm | list all data
+16:04:14.827 | srv >> ccm | list device
+16:04:14.827 | srv >> ccm | list all data
+16:04:14.828 | srv >> ccm | list device
+16:04:14.829 | srv >> ccm | list all data
+16:04:14.829 | srv >> ccm | list device
+16:04:14.830 | srv >> ccm | list all data
+16:04:14.831 | srv >> ccm | list device
+16:04:14.832 | srv >> ccm | list all data
+16:04:15.173 | srv >> ccm | server is sending SOAP Envelope
+16:04:15.174 | srv >> ccm | server is writing the xml response
+16:04:15.176 | srv >> ccm | server using SOAP update_display_name
+16:04:15.182 | srv >> clt | client 0 : display update Extension [1003] Display [Gonzalez] Label [[ Desc []
+16:05:44.963 | srv >> ccm | list device
+16:05:44.964 | srv >> ccm | list all data
+16:05:44.965 | srv >> ccm | list device
+16:05:44.965 | srv >> ccm | list all data
+16:05:44.966 | srv >> ccm | list device
+16:05:44.967 | srv >> ccm | list all data
+16:05:44.968 | srv >> ccm | list device
+16:05:44.969 | srv >> ccm | list all data
+16:05:44.969 | srv >> ccm | list device
+16:05:44.970 | srv >> ccm | list all data
+16:05:44.971 | srv >> ccm | list device
+16:05:44.971 | srv >> ccm | list all data
+16:05:44.972 | srv >> ccm | list device
+16:05:44.973 | srv >> ccm | list all data
+16:05:44.974 | srv >> ccm | list device
+16:05:44.974 | srv >> ccm | list all data
+16:05:44.975 | srv >> ccm | list device
+16:05:44.975 | srv >> ccm | list all data
+16:05:44.976 | srv >> ccm | list device
+16:05:44.976 | srv >> ccm | list all data
+16:05:45.364 | srv >> ccm | server is sending SOAP Envelope
+16:05:45.365 | srv >> ccm | server is writing the xml response
+16:05:45.366 | srv >> ccm | server is update css : CSS_NONE
+16:05:45.372 | srv >> clt | client 0 : css edited Extension [0] CSS [CSS_NONE] 
+16:05:45.961 | srv >> ccm | list device
+16:05:45.962 | srv >> ccm | list all data
+16:05:45.962 | srv >> ccm | list device
+16:05:45.963 | srv >> ccm | list all data
+16:05:45.964 | srv >> ccm | list device
+16:05:45.965 | srv >> ccm | list all data
+16:05:45.965 | srv >> ccm | list device
+16:05:45.966 | srv >> ccm | list all data
+16:05:45.967 | srv >> ccm | list device
+16:05:45.967 | srv >> ccm | list all data
+16:05:45.968 | srv >> ccm | list device
+16:05:45.969 | srv >> ccm | list all data
+16:05:45.969 | srv >> ccm | list device
+16:05:45.970 | srv >> ccm | list all data
+16:05:45.971 | srv >> ccm | list device
+16:05:45.972 | srv >> ccm | list all data
+16:05:45.972 | srv >> ccm | list device
+16:05:45.973 | srv >> ccm | list all data
+16:05:45.973 | srv >> ccm | list device
+16:05:45.974 | srv >> ccm | list all data
+16:05:46.299 | srv >> ccm | server is sending SOAP Envelope
+16:05:46.300 | srv >> ccm | server is writing the xml response
+16:05:46.301 | srv >> ccm | server using SOAP update_display_name
+16:05:46.307 | srv >> clt | client 0 : display update Extension [1003] Display [VACANT] Label [[ Desc []
+16:08:27.072 | srv >> srv | thread parent run : cucm_server_main
+16:08:34.699 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:08:34.700 | srv >> ccm | get provider : ON
+16:08:34.707 | ccm >> srv | get provider's service condition : SET
+16:08:41.235 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:08:41.742 | srv >> ccm | collect device : success
+16:08:42.017 | srv >> ccm | collect device
+16:08:42.017 | srv >> ccm | prepare set observer
+16:08:42.018 | srv >> ccm | list device
+16:08:42.020 | srv >> ccm | list address
+16:08:42.034 | ccm >> srv | set call address observer to : 1001
+16:08:42.037 | ccm >> srv | set status address observer to : 1001 *in service only
+16:08:42.048 | ccm >> srv | set call address observer to : 1002
+16:08:42.050 | ccm >> srv | set status address observer to : 1002 *in service only
+16:08:42.058 | ccm >> srv | set call address observer to : 1003
+16:08:42.060 | ccm >> srv | set status address observer to : 1003 *in service only
+16:08:42.069 | ccm >> srv | set call address observer to : 1004
+16:08:42.071 | ccm >> srv | set status address observer to : 1004 *in service only
+16:08:42.072 | srv >> ccm | list device
+16:08:42.073 | srv >> ccm | list terminal
+16:08:42.079 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:08:42.084 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:08:42.091 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:08:42.093 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:08:42.095 | ccm >> srv | 1001            |Address is out of service
+16:08:42.095 | srv >> clt | is opening socket port : 8080
+16:08:42.095 | ccm >> srv | 1002            |Address is out of service
+16:08:42.096 | ccm >> srv | 1003            |Address is out of service
+16:08:42.097 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:08:42.098 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:08:42.506 | srv >> clt | create client at room - 0
+16:08:42.509 | clt >> srv | client connected, from : /192.168.15.12:1688
+16:08:42.510 | srv >> clt | client counter : 1
+16:08:42.511 | clt >> srv | client placed at room : 0
+16:08:46.522 | srv >> ccm | list device
+16:08:46.523 | srv >> ccm | list all data
+16:08:46.524 | srv >> ccm | list device
+16:08:46.525 | srv >> ccm | list all data
+16:08:46.525 | srv >> ccm | list device
+16:08:46.526 | srv >> ccm | list all data
+16:08:46.527 | srv >> ccm | list device
+16:08:46.527 | srv >> ccm | list all data
+16:08:46.528 | srv >> ccm | list device
+16:08:46.529 | srv >> ccm | list all data
+16:08:46.532 | srv >> ccm | list device
+16:08:46.533 | srv >> ccm | list all data
+16:08:46.533 | srv >> ccm | list device
+16:08:46.534 | srv >> ccm | list all data
+16:08:46.534 | srv >> ccm | list device
+16:08:46.535 | srv >> ccm | list all data
+16:08:46.535 | srv >> ccm | list device
+16:08:46.536 | srv >> ccm | list all data
+16:08:46.536 | srv >> ccm | list device
+16:08:46.536 | srv >> ccm | list all data
+16:08:47.074 | srv >> ccm | server is sending SOAP Envelope
+16:08:47.076 | srv >> ccm | server is writing the xml response
+16:08:47.078 | srv >> ccm | server is update css : CSS_INTERNAL
+16:08:47.130 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:09:19.237 | srv >> clt | client logout, space left : 0
+16:09:21.963 | srv >> clt | create client at room - 0
+16:09:21.964 | clt >> srv | client connected, from : /192.168.15.12:1689
+16:09:21.965 | srv >> clt | client counter : 1
+16:09:21.965 | clt >> srv | client placed at room : 0
+16:09:43.080 | srv >> ccm | list device
+16:09:43.081 | srv >> ccm | list all data
+16:09:43.081 | srv >> ccm | list device
+16:09:43.082 | srv >> ccm | list all data
+16:09:43.083 | srv >> ccm | list device
+16:09:43.084 | srv >> ccm | list all data
+16:09:43.084 | srv >> ccm | list device
+16:09:43.085 | srv >> ccm | list all data
+16:09:43.086 | srv >> ccm | list device
+16:09:43.086 | srv >> ccm | list all data
+16:09:43.087 | srv >> ccm | list device
+16:09:43.088 | srv >> ccm | list all data
+16:09:43.089 | srv >> ccm | list device
+16:09:43.089 | srv >> ccm | list all data
+16:09:43.090 | srv >> ccm | list device
+16:09:43.091 | srv >> ccm | list all data
+16:09:43.091 | srv >> ccm | list device
+16:09:43.092 | srv >> ccm | list all data
+16:09:43.093 | srv >> ccm | list device
+16:09:43.093 | srv >> ccm | list all data
+16:09:44.426 | srv >> ccm | server is sending SOAP Envelope
+16:09:44.427 | srv >> ccm | server is writing the xml response
+16:09:44.428 | srv >> ccm | server is update css : CSS_INTERNAL
+16:09:44.434 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:09:50.171 | srv >> ccm | list device
+16:09:50.172 | srv >> ccm | list all data
+16:09:50.173 | srv >> ccm | list device
+16:09:50.174 | srv >> ccm | list all data
+16:09:50.175 | srv >> ccm | list device
+16:09:50.175 | srv >> ccm | list all data
+16:09:50.176 | srv >> ccm | list device
+16:09:50.177 | srv >> ccm | list all data
+16:09:50.177 | srv >> ccm | list device
+16:09:50.178 | srv >> ccm | list all data
+16:09:50.179 | srv >> ccm | list device
+16:09:50.180 | srv >> ccm | list all data
+16:09:50.181 | srv >> ccm | list device
+16:09:50.181 | srv >> ccm | list all data
+16:09:50.182 | srv >> ccm | list device
+16:09:50.183 | srv >> ccm | list all data
+16:09:50.183 | srv >> ccm | list device
+16:09:50.184 | srv >> ccm | list all data
+16:09:50.185 | srv >> ccm | list device
+16:09:50.186 | srv >> ccm | list all data
+16:09:50.536 | srv >> ccm | server is sending SOAP Envelope
+16:09:50.537 | srv >> ccm | server is writing the xml response
+16:09:50.539 | srv >> ccm | server using SOAP update_display_name
+16:09:50.545 | srv >> clt | client 0 : display update Extension [1003] Display [qweqwe] Label [[ Desc []
+16:10:05.564 | srv >> ccm | list device
+16:10:05.565 | srv >> ccm | list all data
+16:10:05.566 | srv >> ccm | list device
+16:10:05.566 | srv >> ccm | list all data
+16:10:05.567 | srv >> ccm | list device
+16:10:05.568 | srv >> ccm | list all data
+16:10:05.568 | srv >> ccm | list device
+16:10:05.569 | srv >> ccm | list all data
+16:10:05.569 | srv >> ccm | list device
+16:10:05.570 | srv >> ccm | list all data
+16:10:05.571 | srv >> ccm | list device
+16:10:05.571 | srv >> ccm | list all data
+16:10:05.572 | srv >> ccm | list device
+16:10:05.573 | srv >> ccm | list all data
+16:10:05.573 | srv >> ccm | list device
+16:10:05.574 | srv >> ccm | list all data
+16:10:05.574 | srv >> ccm | list device
+16:10:05.574 | srv >> ccm | list all data
+16:10:05.591 | srv >> ccm | list device
+16:10:05.592 | srv >> ccm | list all data
+16:10:05.948 | srv >> ccm | server is sending SOAP Envelope
+16:10:05.949 | srv >> ccm | server is writing the xml response
+16:10:05.950 | srv >> ccm | server is update css : CSS_INTERNAL
+16:10:05.955 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:10:06.107 | srv >> ccm | list device
+16:10:06.107 | srv >> ccm | list all data
+16:10:06.108 | srv >> ccm | list device
+16:10:06.108 | srv >> ccm | list all data
+16:10:06.109 | srv >> ccm | list device
+16:10:06.110 | srv >> ccm | list all data
+16:10:06.110 | srv >> ccm | list device
+16:10:06.111 | srv >> ccm | list all data
+16:10:06.111 | srv >> ccm | list device
+16:10:06.112 | srv >> ccm | list all data
+16:10:06.113 | srv >> ccm | list device
+16:10:06.113 | srv >> ccm | list all data
+16:10:06.114 | srv >> ccm | list device
+16:10:06.114 | srv >> ccm | list all data
+16:10:06.115 | srv >> ccm | list device
+16:10:06.115 | srv >> ccm | list all data
+16:10:06.116 | srv >> ccm | list device
+16:10:06.117 | srv >> ccm | list all data
+16:10:06.117 | srv >> ccm | list device
+16:10:06.118 | srv >> ccm | list all data
+16:10:06.502 | srv >> ccm | server is sending SOAP Envelope
+16:10:06.503 | srv >> ccm | server is writing the xml response
+16:10:06.504 | srv >> ccm | server using SOAP update_display_name
+16:10:06.511 | srv >> clt | client 0 : display update Extension [1003] Display [qweqwe] Label [[ Desc []
+16:11:18.725 | srv >> srv | thread parent run : cucm_server_main
+16:11:25.786 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:11:25.787 | srv >> ccm | get provider : ON
+16:11:25.799 | ccm >> srv | get provider's service condition : SET
+16:11:32.256 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:11:32.765 | srv >> ccm | collect device : success
+16:11:33.044 | srv >> ccm | collect device
+16:11:33.044 | srv >> ccm | prepare set observer
+16:11:33.045 | srv >> ccm | list device
+16:11:33.047 | srv >> ccm | list address
+16:11:33.062 | ccm >> srv | set call address observer to : 1001
+16:11:33.066 | ccm >> srv | set status address observer to : 1001 *in service only
+16:11:33.085 | ccm >> srv | set call address observer to : 1002
+16:11:33.087 | ccm >> srv | set status address observer to : 1002 *in service only
+16:11:33.096 | ccm >> srv | set call address observer to : 1003
+16:11:33.098 | ccm >> srv | set status address observer to : 1003 *in service only
+16:11:33.111 | ccm >> srv | set call address observer to : 1004
+16:11:33.113 | ccm >> srv | set status address observer to : 1004 *in service only
+16:11:33.114 | srv >> ccm | list device
+16:11:33.114 | srv >> ccm | list terminal
+16:11:33.120 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:11:33.126 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:11:33.133 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:11:33.135 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:11:33.136 | ccm >> srv | 1001            |Address is out of service
+16:11:33.137 | srv >> clt | is opening socket port : 8080
+16:11:33.137 | ccm >> srv | 1002            |Address is out of service
+16:11:33.137 | ccm >> srv | 1003            |Address is out of service
+16:11:33.137 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:11:33.139 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:11:53.887 | srv >> clt | create client at room - 0
+16:11:53.890 | clt >> srv | client connected, from : /192.168.15.12:1691
+16:11:53.891 | srv >> clt | client counter : 1
+16:11:53.892 | clt >> srv | client placed at room : 0
+16:12:19.527 | srv >> ccm | list device
+16:12:19.529 | srv >> ccm | list all data
+16:12:19.529 | srv >> ccm | list device
+16:12:19.530 | srv >> ccm | list all data
+16:12:19.531 | srv >> ccm | list device
+16:12:19.531 | srv >> ccm | list all data
+16:12:19.532 | srv >> ccm | list device
+16:12:19.532 | srv >> ccm | list all data
+16:12:19.534 | srv >> ccm | list device
+16:12:19.534 | srv >> ccm | list all data
+16:12:19.535 | srv >> ccm | list device
+16:12:19.536 | srv >> ccm | list all data
+16:12:19.536 | srv >> ccm | list device
+16:12:19.537 | srv >> ccm | list all data
+16:12:19.537 | srv >> ccm | list device
+16:12:19.538 | srv >> ccm | list all data
+16:12:19.538 | srv >> ccm | list device
+16:12:19.539 | srv >> ccm | list all data
+16:12:19.539 | srv >> ccm | list device
+16:12:19.539 | srv >> ccm | list all data
+16:12:20.010 | srv >> ccm | server is sending SOAP Envelope
+16:12:20.013 | srv >> ccm | server is writing the xml response
+16:12:20.014 | srv >> ccm | server is update css : CSS_INTERNAL
+16:12:20.064 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:12:26.176 | srv >> ccm | list device
+16:12:26.177 | srv >> ccm | list all data
+16:12:26.178 | srv >> ccm | list device
+16:12:26.178 | srv >> ccm | list all data
+16:12:26.179 | srv >> ccm | list device
+16:12:26.180 | srv >> ccm | list all data
+16:12:26.181 | srv >> ccm | list device
+16:12:26.181 | srv >> ccm | list all data
+16:12:26.182 | srv >> ccm | list device
+16:12:26.183 | srv >> ccm | list all data
+16:12:26.183 | srv >> ccm | list device
+16:12:26.184 | srv >> ccm | list all data
+16:12:26.185 | srv >> ccm | list device
+16:12:26.186 | srv >> ccm | list all data
+16:12:26.187 | srv >> ccm | list device
+16:12:26.188 | srv >> ccm | list all data
+16:12:26.189 | srv >> ccm | list device
+16:12:26.189 | srv >> ccm | list all data
+16:12:26.190 | srv >> ccm | list device
+16:12:26.191 | srv >> ccm | list all data
+16:12:26.546 | srv >> ccm | server is sending SOAP Envelope
+16:12:26.547 | srv >> ccm | server is writing the xml response
+16:12:26.549 | srv >> ccm | server using SOAP update_display_name
+16:12:26.555 | srv >> clt | client 0 : display update Extension [1003] Display [qwe] Label [[ Desc []
+16:13:24.597 | srv >> srv | thread parent run : cucm_server_main
+16:13:33.070 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:13:33.072 | srv >> ccm | get provider : ON
+16:13:33.081 | ccm >> srv | get provider's service condition : SET
+16:13:38.562 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:13:39.068 | srv >> ccm | collect device : success
+16:13:39.343 | srv >> ccm | collect device
+16:13:39.344 | srv >> ccm | prepare set observer
+16:13:39.344 | srv >> ccm | list device
+16:13:39.346 | srv >> ccm | list address
+16:13:39.360 | ccm >> srv | set call address observer to : 1001
+16:13:39.362 | ccm >> srv | set status address observer to : 1001 *in service only
+16:13:39.372 | ccm >> srv | set call address observer to : 1002
+16:13:39.374 | ccm >> srv | set status address observer to : 1002 *in service only
+16:13:39.380 | ccm >> srv | set call address observer to : 1003
+16:13:39.381 | ccm >> srv | set status address observer to : 1003 *in service only
+16:13:39.393 | ccm >> srv | set call address observer to : 1004
+16:13:39.394 | ccm >> srv | set status address observer to : 1004 *in service only
+16:13:39.395 | srv >> ccm | list device
+16:13:39.396 | srv >> ccm | list terminal
+16:13:39.399 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:13:39.402 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:13:39.406 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:13:39.407 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:13:39.409 | ccm >> srv | 1001            |Address is out of service
+16:13:39.409 | ccm >> srv | 1002            |Address is out of service
+16:13:39.410 | ccm >> srv | 1003            |Address is out of service
+16:13:39.410 | srv >> clt | is opening socket port : 8080
+16:13:39.410 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:13:39.412 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:13:40.062 | srv >> clt | create client at room - 0
+16:13:40.066 | clt >> srv | client connected, from : /192.168.15.12:1694
+16:13:40.066 | srv >> clt | client counter : 1
+16:13:40.067 | clt >> srv | client placed at room : 0
+16:14:06.430 | srv >> ccm | list device
+16:14:06.432 | srv >> ccm | list all data
+16:14:06.433 | srv >> ccm | list device
+16:14:06.433 | srv >> ccm | list all data
+16:14:06.434 | srv >> ccm | list device
+16:14:06.435 | srv >> ccm | list all data
+16:14:06.435 | srv >> ccm | list device
+16:14:06.438 | srv >> ccm | list all data
+16:14:06.439 | srv >> ccm | list device
+16:14:06.439 | srv >> ccm | list all data
+16:14:06.440 | srv >> ccm | list device
+16:14:06.440 | srv >> ccm | list all data
+16:14:06.441 | srv >> ccm | list device
+16:14:06.441 | srv >> ccm | list all data
+16:14:06.441 | srv >> ccm | list device
+16:14:06.442 | srv >> ccm | list all data
+16:14:06.442 | srv >> ccm | list device
+16:14:06.443 | srv >> ccm | list all data
+16:14:06.443 | srv >> ccm | list device
+16:14:06.443 | srv >> ccm | list all data
+16:14:06.444 | srv >> ccm | list device
+16:14:06.444 | srv >> ccm | list all data
+16:14:06.445 | srv >> ccm | list device
+16:14:06.445 | srv >> ccm | list all data
+16:14:06.446 | srv >> ccm | list device
+16:14:06.446 | srv >> ccm | list all data
+16:14:06.447 | srv >> ccm | list device
+16:14:06.447 | srv >> ccm | list all data
+16:14:06.447 | srv >> ccm | list device
+16:14:06.448 | srv >> ccm | list all data
+16:14:06.448 | srv >> ccm | list device
+16:14:06.449 | srv >> ccm | list all data
+16:14:06.449 | srv >> ccm | list device
+16:14:06.450 | srv >> ccm | list all data
+16:14:06.450 | srv >> ccm | list device
+16:14:06.450 | srv >> ccm | list all data
+16:14:06.847 | srv >> ccm | server is sending SOAP Envelope
+16:14:06.849 | srv >> ccm | server is writing the xml response
+16:14:06.851 | srv >> ccm | server is update css : CSS_INTERNAL
+16:14:06.902 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:14:13.023 | srv >> ccm | list device
+16:14:13.023 | srv >> ccm | list all data
+16:14:13.024 | srv >> ccm | list device
+16:14:13.025 | srv >> ccm | list all data
+16:14:13.026 | srv >> ccm | list device
+16:14:13.026 | srv >> ccm | list all data
+16:14:13.027 | srv >> ccm | list device
+16:14:13.028 | srv >> ccm | list all data
+16:14:13.029 | srv >> ccm | list device
+16:14:13.029 | srv >> ccm | list all data
+16:14:13.030 | srv >> ccm | list device
+16:14:13.031 | srv >> ccm | list all data
+16:14:13.031 | srv >> ccm | list device
+16:14:13.032 | srv >> ccm | list all data
+16:14:13.033 | srv >> ccm | list device
+16:14:13.034 | srv >> ccm | list all data
+16:14:13.034 | srv >> ccm | list device
+16:14:13.035 | srv >> ccm | list all data
+16:14:13.035 | srv >> ccm | list device
+16:14:13.036 | srv >> ccm | list all data
+16:14:13.036 | srv >> ccm | list device
+16:14:13.036 | srv >> ccm | list all data
+16:14:13.037 | srv >> ccm | list device
+16:14:13.037 | srv >> ccm | list all data
+16:14:13.038 | srv >> ccm | list device
+16:14:13.038 | srv >> ccm | list all data
+16:14:13.039 | srv >> ccm | list device
+16:14:13.039 | srv >> ccm | list all data
+16:14:13.039 | srv >> ccm | list device
+16:14:13.040 | srv >> ccm | list all data
+16:14:13.040 | srv >> ccm | list device
+16:14:13.041 | srv >> ccm | list all data
+16:14:13.041 | srv >> ccm | list device
+16:14:13.042 | srv >> ccm | list all data
+16:14:13.042 | srv >> ccm | list device
+16:14:13.042 | srv >> ccm | list all data
+16:14:13.633 | srv >> ccm | server is sending SOAP Envelope
+16:14:13.634 | srv >> ccm | server is writing the xml response
+16:14:13.636 | srv >> ccm | server using SOAP update_display_name
+16:14:13.642 | srv >> clt | client 0 : display update Extension [1003] Display [q] Label [[ Desc []
+16:16:22.407 | srv >> srv | thread parent run : cucm_server_main
+16:16:29.297 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:16:29.299 | srv >> ccm | get provider : ON
+16:16:29.304 | ccm >> srv | get provider's service condition : SET
+16:16:34.731 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:16:35.237 | srv >> ccm | collect device : success
+16:16:35.518 | srv >> ccm | collect device
+16:16:35.519 | srv >> ccm | prepare set observer
+16:16:35.519 | srv >> ccm | list device
+16:16:35.521 | srv >> ccm | list address
+16:16:35.545 | ccm >> srv | set call address observer to : 1001
+16:16:35.548 | ccm >> srv | set status address observer to : 1001 *in service only
+16:16:35.557 | ccm >> srv | set call address observer to : 1002
+16:16:35.558 | ccm >> srv | set status address observer to : 1002 *in service only
+16:16:35.565 | ccm >> srv | set call address observer to : 1003
+16:16:35.566 | ccm >> srv | set status address observer to : 1003 *in service only
+16:16:35.576 | ccm >> srv | set call address observer to : 1004
+16:16:35.577 | ccm >> srv | set status address observer to : 1004 *in service only
+16:16:35.578 | srv >> ccm | list device
+16:16:35.578 | srv >> ccm | list terminal
+16:16:35.582 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:16:35.585 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:16:35.589 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:16:35.590 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:16:35.592 | ccm >> srv | 1001            |Address is out of service
+16:16:35.593 | ccm >> srv | 1002            |Address is out of service
+16:16:35.593 | ccm >> srv | 1003            |Address is out of service
+16:16:35.593 | srv >> clt | is opening socket port : 8080
+16:16:35.593 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:16:35.595 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:16:36.004 | srv >> clt | create client at room - 0
+16:16:36.008 | clt >> srv | client connected, from : /192.168.15.12:1701
+16:16:36.008 | srv >> clt | client counter : 1
+16:16:36.009 | clt >> srv | client placed at room : 0
+16:16:54.660 | srv >> ccm | list device
+16:16:54.661 | srv >> ccm | list all data
+16:16:54.665 | srv >> ccm | list device
+16:16:54.666 | srv >> ccm | list all data
+16:16:54.667 | srv >> ccm | list device
+16:16:54.668 | srv >> ccm | list all data
+16:16:54.668 | srv >> ccm | list device
+16:16:54.669 | srv >> ccm | list all data
+16:16:54.670 | srv >> ccm | list device
+16:16:54.671 | srv >> ccm | list all data
+16:16:54.674 | srv >> ccm | list device
+16:16:54.674 | srv >> ccm | list all data
+16:16:54.675 | srv >> ccm | list device
+16:16:54.675 | srv >> ccm | list all data
+16:16:54.676 | srv >> ccm | list device
+16:16:54.676 | srv >> ccm | list all data
+16:16:54.677 | srv >> ccm | list device
+16:16:54.677 | srv >> ccm | list all data
+16:16:54.678 | srv >> ccm | list device
+16:16:54.678 | srv >> ccm | list all data
+16:16:54.678 | srv >> ccm | list device
+16:16:54.679 | srv >> ccm | list all data
+16:16:54.679 | srv >> ccm | list device
+16:16:54.680 | srv >> ccm | list all data
+16:16:54.680 | srv >> ccm | list device
+16:16:54.681 | srv >> ccm | list all data
+16:16:54.681 | srv >> ccm | list device
+16:16:54.681 | srv >> ccm | list all data
+16:16:54.682 | srv >> ccm | list device
+16:16:54.682 | srv >> ccm | list all data
+16:16:54.683 | srv >> ccm | list device
+16:16:54.683 | srv >> ccm | list all data
+16:16:54.684 | srv >> ccm | list device
+16:16:54.684 | srv >> ccm | list all data
+16:16:54.685 | srv >> ccm | list device
+16:16:54.685 | srv >> ccm | list all data
+16:16:55.299 | srv >> ccm | server is sending SOAP Envelope
+16:16:55.302 | srv >> ccm | server is writing the xml response
+16:16:55.303 | srv >> ccm | server is update css : CSS_INTERNAL
+16:16:55.356 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:17:01.278 | srv >> ccm | list device
+16:17:01.279 | srv >> ccm | list all data
+16:17:01.279 | srv >> ccm | list device
+16:17:01.280 | srv >> ccm | list all data
+16:17:01.281 | srv >> ccm | list device
+16:17:01.282 | srv >> ccm | list all data
+16:17:01.282 | srv >> ccm | list device
+16:17:01.283 | srv >> ccm | list all data
+16:17:01.284 | srv >> ccm | list device
+16:17:01.284 | srv >> ccm | list all data
+16:17:01.285 | srv >> ccm | list device
+16:17:01.286 | srv >> ccm | list all data
+16:17:01.287 | srv >> ccm | list device
+16:17:01.287 | srv >> ccm | list all data
+16:17:01.288 | srv >> ccm | list device
+16:17:01.289 | srv >> ccm | list all data
+16:17:01.290 | srv >> ccm | list device
+16:17:01.290 | srv >> ccm | list all data
+16:17:01.291 | srv >> ccm | list device
+16:17:01.292 | srv >> ccm | list all data
+16:17:01.292 | srv >> ccm | list device
+16:17:01.293 | srv >> ccm | list all data
+16:17:01.294 | srv >> ccm | list device
+16:17:01.294 | srv >> ccm | list all data
+16:17:01.295 | srv >> ccm | list device
+16:17:01.295 | srv >> ccm | list all data
+16:17:01.295 | srv >> ccm | list device
+16:17:01.296 | srv >> ccm | list all data
+16:17:01.296 | srv >> ccm | list device
+16:17:01.297 | srv >> ccm | list all data
+16:17:01.297 | srv >> ccm | list device
+16:17:01.297 | srv >> ccm | list all data
+16:17:01.298 | srv >> ccm | list device
+16:17:01.298 | srv >> ccm | list all data
+16:17:01.299 | srv >> ccm | list device
+16:17:01.299 | srv >> ccm | list all data
+16:17:02.937 | srv >> ccm | server is sending SOAP Envelope
+16:17:02.938 | srv >> ccm | server is writing the xml response
+16:17:02.939 | srv >> ccm | server using SOAP update_display_name
+16:17:02.947 | srv >> clt | client 0 : display update Extension [1003] Display [qw] Label [[ Desc []
+16:17:26.222 | srv >> srv | thread parent run : cucm_server_main
+16:17:33.938 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:17:33.939 | srv >> ccm | get provider : ON
+16:17:33.948 | ccm >> srv | get provider's service condition : SET
+16:17:39.417 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:17:39.923 | srv >> ccm | collect device : success
+16:17:40.202 | srv >> ccm | collect device
+16:17:40.202 | srv >> ccm | prepare set observer
+16:17:40.203 | srv >> ccm | list device
+16:17:40.204 | srv >> ccm | list address
+16:17:40.217 | ccm >> srv | set call address observer to : 1001
+16:17:40.220 | ccm >> srv | set status address observer to : 1001 *in service only
+16:17:40.230 | ccm >> srv | set call address observer to : 1002
+16:17:40.231 | ccm >> srv | set status address observer to : 1002 *in service only
+16:17:40.238 | ccm >> srv | set call address observer to : 1003
+16:17:40.239 | ccm >> srv | set status address observer to : 1003 *in service only
+16:17:40.252 | ccm >> srv | set call address observer to : 1004
+16:17:40.253 | ccm >> srv | set status address observer to : 1004 *in service only
+16:17:40.254 | srv >> ccm | list device
+16:17:40.254 | srv >> ccm | list terminal
+16:17:40.258 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:17:40.260 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:17:40.267 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:17:40.268 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:17:40.269 | srv >> clt | is opening socket port : 8080
+16:17:40.270 | ccm >> srv | 1001            |Address is out of service
+16:17:40.270 | ccm >> srv | 1002            |Address is out of service
+16:17:40.271 | ccm >> srv | 1003            |Address is out of service
+16:17:40.271 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:17:40.273 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:17:40.335 | srv >> clt | create client at room - 0
+16:17:40.338 | clt >> srv | client connected, from : /192.168.15.12:1725
+16:17:40.339 | srv >> clt | client counter : 1
+16:17:40.340 | clt >> srv | client placed at room : 0
+16:17:45.354 | srv >> clt | client logout, space left : 0
+16:17:49.024 | srv >> clt | create client at room - 0
+16:17:49.026 | clt >> srv | client connected, from : /192.168.15.12:1726
+16:17:49.029 | srv >> clt | client counter : 1
+16:17:49.030 | clt >> srv | client placed at room : 0
+16:18:11.600 | srv >> ccm | list device
+16:18:11.602 | srv >> ccm | list all data
+16:18:11.602 | srv >> ccm | list device
+16:18:11.603 | srv >> ccm | list all data
+16:18:11.604 | srv >> ccm | list device
+16:18:11.604 | srv >> ccm | list all data
+16:18:11.605 | srv >> ccm | list device
+16:18:11.606 | srv >> ccm | list all data
+16:18:11.607 | srv >> ccm | list device
+16:18:11.608 | srv >> ccm | list all data
+16:18:11.608 | srv >> ccm | list device
+16:18:11.609 | srv >> ccm | list all data
+16:18:11.610 | srv >> ccm | list device
+16:18:11.610 | srv >> ccm | list all data
+16:18:11.611 | srv >> ccm | list device
+16:18:11.612 | srv >> ccm | list all data
+16:18:11.612 | srv >> ccm | list device
+16:18:11.613 | srv >> ccm | list all data
+16:18:11.614 | srv >> ccm | list device
+16:18:11.614 | srv >> ccm | list all data
+16:18:11.614 | srv >> ccm | list device
+16:18:11.615 | srv >> ccm | list all data
+16:18:11.615 | srv >> ccm | list device
+16:18:11.616 | srv >> ccm | list all data
+16:18:11.616 | srv >> ccm | list device
+16:18:11.617 | srv >> ccm | list all data
+16:18:11.617 | srv >> ccm | list device
+16:18:11.617 | srv >> ccm | list all data
+16:18:11.618 | srv >> ccm | list device
+16:18:11.618 | srv >> ccm | list all data
+16:18:11.619 | srv >> ccm | list device
+16:18:11.619 | srv >> ccm | list all data
+16:18:11.620 | srv >> ccm | list device
+16:18:11.620 | srv >> ccm | list all data
+16:18:11.621 | srv >> ccm | list device
+16:18:11.621 | srv >> ccm | list all data
+16:18:12.102 | srv >> ccm | server is sending SOAP Envelope
+16:18:12.104 | srv >> ccm | server is writing the xml response
+16:18:12.106 | srv >> ccm | server is update css : CSS_INTERNAL
+16:18:12.159 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:18:31.934 | srv >> srv | thread parent run : cucm_server_main
+16:18:38.831 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:18:38.832 | srv >> ccm | get provider : ON
+16:18:38.839 | ccm >> srv | get provider's service condition : SET
+16:18:44.302 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:18:44.808 | srv >> ccm | collect device : success
+16:18:45.087 | srv >> ccm | collect device
+16:18:45.088 | srv >> ccm | prepare set observer
+16:18:45.088 | srv >> ccm | list device
+16:18:45.090 | srv >> ccm | list address
+16:18:45.107 | ccm >> srv | set call address observer to : 1001
+16:18:45.109 | ccm >> srv | set status address observer to : 1001 *in service only
+16:18:45.118 | ccm >> srv | set call address observer to : 1002
+16:18:45.120 | ccm >> srv | set status address observer to : 1002 *in service only
+16:18:45.127 | ccm >> srv | set call address observer to : 1003
+16:18:45.129 | ccm >> srv | set status address observer to : 1003 *in service only
+16:18:45.179 | ccm >> srv | set call address observer to : 1004
+16:18:45.181 | ccm >> srv | set status address observer to : 1004 *in service only
+16:18:45.181 | srv >> ccm | list device
+16:18:45.182 | srv >> ccm | list terminal
+16:18:45.185 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:18:45.189 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:18:45.195 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:18:45.197 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:18:45.199 | ccm >> srv | 1001            |Address is out of service
+16:18:45.200 | ccm >> srv | 1002            |Address is out of service
+16:18:45.201 | ccm >> srv | 1003            |Address is out of service
+16:18:45.201 | srv >> clt | is opening socket port : 8080
+16:18:45.201 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:18:45.203 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:23:31.267 | srv >> clt | create client at room - 0
+16:23:31.270 | clt >> srv | client connected, from : /192.168.15.12:1743
+16:23:31.271 | srv >> clt | client counter : 1
+16:23:31.274 | clt >> srv | client placed at room : 0
+16:23:36.795 | srv >> ccm | list device
+16:23:36.797 | srv >> ccm | list all data
+16:23:36.797 | srv >> ccm | list device
+16:23:36.798 | srv >> ccm | list all data
+16:23:36.798 | srv >> ccm | list device
+16:23:36.799 | srv >> ccm | list all data
+16:23:36.800 | srv >> ccm | list device
+16:23:36.801 | srv >> ccm | list all data
+16:23:36.801 | srv >> ccm | list device
+16:23:36.802 | srv >> ccm | list all data
+16:23:36.802 | srv >> ccm | list device
+16:23:36.803 | srv >> ccm | list all data
+16:23:36.804 | srv >> ccm | list device
+16:23:36.805 | srv >> ccm | list all data
+16:23:36.805 | srv >> ccm | list device
+16:23:36.806 | srv >> ccm | list all data
+16:23:36.807 | srv >> ccm | list device
+16:23:36.808 | srv >> ccm | list all data
+16:23:36.808 | srv >> ccm | list device
+16:23:36.809 | srv >> ccm | list all data
+16:23:36.810 | srv >> ccm | list device
+16:23:36.810 | srv >> ccm | list all data
+16:23:36.811 | srv >> ccm | list device
+16:23:36.812 | srv >> ccm | list all data
+16:23:36.812 | srv >> ccm | list device
+16:23:36.813 | srv >> ccm | list all data
+16:23:36.814 | srv >> ccm | list device
+16:23:36.814 | srv >> ccm | list all data
+16:23:36.814 | srv >> ccm | list device
+16:23:36.815 | srv >> ccm | list all data
+16:23:36.815 | srv >> ccm | list device
+16:23:36.816 | srv >> ccm | list all data
+16:23:36.816 | srv >> ccm | list device
+16:23:36.817 | srv >> ccm | list all data
+16:23:36.817 | srv >> ccm | list device
+16:23:36.817 | srv >> ccm | list all data
+16:23:37.528 | srv >> ccm | server is sending SOAP Envelope
+16:23:37.530 | srv >> ccm | server is writing the xml response
+16:23:37.531 | srv >> ccm | server using SOAP update_display_name
+16:23:37.582 | srv >> clt | client 0 : display update Extension [1003] Display [qe] Label [[ Desc []
+16:26:27.378 | srv >> ccm | list device
+16:26:27.379 | srv >> ccm | list all data
+16:26:27.379 | srv >> ccm | list device
+16:26:27.380 | srv >> ccm | list all data
+16:26:27.381 | srv >> ccm | list device
+16:26:27.381 | srv >> ccm | list all data
+16:26:27.382 | srv >> ccm | list device
+16:26:27.383 | srv >> ccm | list all data
+16:26:27.384 | srv >> ccm | list device
+16:26:27.384 | srv >> ccm | list all data
+16:26:27.385 | srv >> ccm | list device
+16:26:27.386 | srv >> ccm | list all data
+16:26:27.386 | srv >> ccm | list device
+16:26:27.387 | srv >> ccm | list all data
+16:26:27.388 | srv >> ccm | list device
+16:26:27.389 | srv >> ccm | list all data
+16:26:27.389 | srv >> ccm | list device
+16:26:27.390 | srv >> ccm | list all data
+16:26:27.391 | srv >> ccm | list device
+16:26:27.391 | srv >> ccm | list all data
+16:26:27.392 | srv >> ccm | list device
+16:26:27.392 | srv >> ccm | list all data
+16:26:27.393 | srv >> ccm | list device
+16:26:27.394 | srv >> ccm | list all data
+16:26:27.394 | srv >> ccm | list device
+16:26:27.395 | srv >> ccm | list all data
+16:26:27.395 | srv >> ccm | list device
+16:26:27.395 | srv >> ccm | list all data
+16:26:27.396 | srv >> ccm | list device
+16:26:27.396 | srv >> ccm | list all data
+16:26:27.397 | srv >> ccm | list device
+16:26:27.397 | srv >> ccm | list all data
+16:26:27.398 | srv >> ccm | list device
+16:26:27.398 | srv >> ccm | list all data
+16:26:27.399 | srv >> ccm | list device
+16:26:27.399 | srv >> ccm | list all data
+16:26:28.002 | srv >> ccm | server is sending SOAP Envelope
+16:26:28.003 | srv >> ccm | server is writing the xml response
+16:26:28.005 | srv >> ccm | server is update css : CSS_INTERNAL
+16:26:28.010 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:26:28.416 | srv >> ccm | list device
+16:26:28.417 | srv >> ccm | list all data
+16:26:28.418 | srv >> ccm | list device
+16:26:28.418 | srv >> ccm | list all data
+16:26:28.419 | srv >> ccm | list device
+16:26:28.420 | srv >> ccm | list all data
+16:26:28.421 | srv >> ccm | list device
+16:26:28.422 | srv >> ccm | list all data
+16:26:28.422 | srv >> ccm | list device
+16:26:28.423 | srv >> ccm | list all data
+16:26:28.424 | srv >> ccm | list device
+16:26:28.425 | srv >> ccm | list all data
+16:26:28.425 | srv >> ccm | list device
+16:26:28.426 | srv >> ccm | list all data
+16:26:28.427 | srv >> ccm | list device
+16:26:28.428 | srv >> ccm | list all data
+16:26:28.428 | srv >> ccm | list device
+16:26:28.429 | srv >> ccm | list all data
+16:26:28.430 | srv >> ccm | list device
+16:26:28.431 | srv >> ccm | list all data
+16:26:28.431 | srv >> ccm | list device
+16:26:28.432 | srv >> ccm | list all data
+16:26:28.433 | srv >> ccm | list device
+16:26:28.434 | srv >> ccm | list all data
+16:26:28.434 | srv >> ccm | list device
+16:26:28.435 | srv >> ccm | list all data
+16:26:28.436 | srv >> ccm | list device
+16:26:28.436 | srv >> ccm | list all data
+16:26:28.437 | srv >> ccm | list device
+16:26:28.437 | srv >> ccm | list all data
+16:26:28.438 | srv >> ccm | list device
+16:26:28.438 | srv >> ccm | list all data
+16:26:28.439 | srv >> ccm | list device
+16:26:28.439 | srv >> ccm | list all data
+16:26:28.440 | srv >> ccm | list device
+16:26:28.440 | srv >> ccm | list all data
+16:26:29.143 | srv >> ccm | server is sending SOAP Envelope
+16:26:29.144 | srv >> ccm | server is writing the xml response
+16:26:29.145 | srv >> ccm | server using SOAP update_display_name
+16:26:29.150 | srv >> clt | client 0 : display update Extension [1002] Display [w] Label [[ Desc []
+16:27:15.895 | srv >> ccm | list device
+16:27:15.896 | srv >> ccm | list all data
+16:27:15.896 | srv >> ccm | list device
+16:27:15.900 | srv >> ccm | list all data
+16:27:15.901 | srv >> ccm | list device
+16:27:15.902 | srv >> ccm | list all data
+16:27:15.903 | srv >> ccm | list device
+16:27:15.903 | srv >> ccm | list all data
+16:27:15.903 | srv >> ccm | list device
+16:27:15.904 | srv >> ccm | list all data
+16:27:15.904 | srv >> ccm | list device
+16:27:15.904 | srv >> ccm | list all data
+16:27:15.905 | srv >> ccm | list device
+16:27:15.905 | srv >> ccm | list all data
+16:27:15.906 | srv >> ccm | list device
+16:27:15.906 | srv >> ccm | list all data
+16:27:15.906 | srv >> ccm | list device
+16:27:15.907 | srv >> ccm | list all data
+16:27:15.907 | srv >> ccm | list device
+16:27:15.909 | srv >> ccm | list all data
+16:27:15.909 | srv >> ccm | list device
+16:27:15.910 | srv >> ccm | list all data
+16:27:15.910 | srv >> ccm | list device
+16:27:15.911 | srv >> ccm | list all data
+16:27:15.911 | srv >> ccm | list device
+16:27:15.912 | srv >> ccm | list all data
+16:27:15.912 | srv >> ccm | list device
+16:27:15.912 | srv >> ccm | list all data
+16:27:15.913 | srv >> ccm | list device
+16:27:15.913 | srv >> ccm | list all data
+16:27:15.913 | srv >> ccm | list device
+16:27:15.914 | srv >> ccm | list all data
+16:27:15.914 | srv >> ccm | list device
+16:27:15.915 | srv >> ccm | list all data
+16:27:17.249 | srv >> ccm | server is sending SOAP Envelope
+16:27:17.250 | srv >> ccm | server is writing the xml response
+16:27:17.251 | srv >> ccm | server is update css : CSS_INTERNAL
+16:27:17.257 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:27:22.669 | srv >> ccm | list device
+16:27:22.670 | srv >> ccm | list all data
+16:27:22.671 | srv >> ccm | list device
+16:27:22.671 | srv >> ccm | list all data
+16:27:22.672 | srv >> ccm | list device
+16:27:22.672 | srv >> ccm | list all data
+16:27:22.673 | srv >> ccm | list device
+16:27:22.674 | srv >> ccm | list all data
+16:27:22.674 | srv >> ccm | list device
+16:27:22.675 | srv >> ccm | list all data
+16:27:22.675 | srv >> ccm | list device
+16:27:22.676 | srv >> ccm | list all data
+16:27:22.677 | srv >> ccm | list device
+16:27:22.677 | srv >> ccm | list all data
+16:27:22.678 | srv >> ccm | list device
+16:27:22.679 | srv >> ccm | list all data
+16:27:22.679 | srv >> ccm | list device
+16:27:22.680 | srv >> ccm | list all data
+16:27:22.680 | srv >> ccm | list device
+16:27:22.681 | srv >> ccm | list all data
+16:27:22.681 | srv >> ccm | list device
+16:27:22.682 | srv >> ccm | list all data
+16:27:22.683 | srv >> ccm | list device
+16:27:22.683 | srv >> ccm | list all data
+16:27:22.684 | srv >> ccm | list device
+16:27:22.685 | srv >> ccm | list all data
+16:27:22.685 | srv >> ccm | list device
+16:27:22.686 | srv >> ccm | list all data
+16:27:22.687 | srv >> ccm | list device
+16:27:22.687 | srv >> ccm | list all data
+16:27:22.688 | srv >> ccm | list device
+16:27:22.689 | srv >> ccm | list all data
+16:27:22.689 | srv >> ccm | list device
+16:27:22.690 | srv >> ccm | list all data
+16:27:23.286 | srv >> ccm | server is sending SOAP Envelope
+16:27:23.287 | srv >> ccm | server is writing the xml response
+16:27:23.288 | srv >> ccm | server using SOAP update_display_name
+16:27:23.294 | srv >> clt | client 0 : display update Extension [1080] Display [w] Label [[ Desc []
+16:28:00.636 | srv >> srv | thread parent run : cucm_server_main
+16:28:07.582 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:28:07.582 | srv >> ccm | get provider : ON
+16:28:07.590 | ccm >> srv | get provider's service condition : SET
+16:28:14.064 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:28:14.570 | srv >> ccm | collect device : success
+16:28:14.849 | srv >> ccm | collect device
+16:28:14.850 | srv >> ccm | prepare set observer
+16:28:14.850 | srv >> ccm | list device
+16:28:14.852 | srv >> ccm | list address
+16:28:14.880 | ccm >> srv | set call address observer to : 1001
+16:28:14.883 | ccm >> srv | set status address observer to : 1001 *in service only
+16:28:14.900 | ccm >> srv | set call address observer to : 1002
+16:28:14.902 | ccm >> srv | set status address observer to : 1002 *in service only
+16:28:14.910 | ccm >> srv | set call address observer to : 1003
+16:28:14.912 | ccm >> srv | set status address observer to : 1003 *in service only
+16:28:14.926 | ccm >> srv | set call address observer to : 1004
+16:28:14.931 | ccm >> srv | set status address observer to : 1004 *in service only
+16:28:14.932 | srv >> ccm | list device
+16:28:14.932 | srv >> ccm | list terminal
+16:28:14.938 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:28:14.943 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:28:14.949 | ccm >> srv | thread child run : cucm_server_main_thread_child
+16:28:14.957 | srv >> clt | is opening socket port : 8080
+======================Data cek[0]======================
+16:28:14.960 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:28:14.964 | ccm >> srv | 1001            |Address is out of service
+16:28:14.965 | ccm >> srv | 1002            |Address is out of service
+16:28:14.965 | ccm >> srv | 1003            |Address is out of service
+16:28:14.966 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:28:14.967 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:28:15.291 | srv >> clt | create client at room - 0
+16:28:15.294 | clt >> srv | client connected, from : /192.168.15.12:1754
+16:28:15.295 | srv >> clt | client counter : 1
+16:28:15.296 | clt >> srv | client placed at room : 0
+16:28:20.222 | srv >> srv | thread parent run : cucm_server_main
+16:28:27.064 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:28:27.065 | srv >> ccm | get provider : ON
+16:28:27.073 | ccm >> srv | get provider's service condition : SET
+16:28:32.482 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+16:28:32.988 | srv >> ccm | collect device : success
+16:28:33.270 | srv >> ccm | collect device
+16:28:33.271 | srv >> ccm | prepare set observer
+16:28:33.271 | srv >> ccm | list device
+16:28:33.273 | srv >> ccm | list address
+16:28:33.283 | ccm >> srv | set call address observer to : 1001
+16:28:33.285 | ccm >> srv | set status address observer to : 1001 *in service only
+16:28:33.304 | ccm >> srv | set call address observer to : 1002
+16:28:33.305 | ccm >> srv | set status address observer to : 1002 *in service only
+16:28:33.316 | ccm >> srv | set call address observer to : 1003
+16:28:33.317 | ccm >> srv | set status address observer to : 1003 *in service only
+16:28:33.324 | ccm >> srv | set call address observer to : 1004
+16:28:33.325 | ccm >> srv | set status address observer to : 1004 *in service only
+16:28:33.326 | srv >> ccm | list device
+16:28:33.326 | srv >> ccm | list terminal
+16:28:33.329 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+16:28:33.332 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+16:28:33.338 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+16:28:33.339 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+16:28:33.341 | srv >> clt | is opening socket port : 8080
+16:28:33.341 | ccm >> srv | 1001            |Address is out of service
+16:28:33.341 | ccm >> srv | 1002            |Address is out of service
+16:28:33.342 | ccm >> srv | 1003            |Address is out of service
+16:28:33.342 | ccm >> srv | 1004            |Address is out of service
+=======================================================
+======================Data cek[4]======================
+16:28:33.343 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+16:28:33.667 | srv >> clt | create client at room - 0
+16:28:33.670 | clt >> srv | client connected, from : /192.168.15.12:1766
+16:28:33.672 | srv >> clt | client counter : 1
+16:28:33.673 | clt >> srv | client placed at room : 0
+16:28:37.699 | srv >> ccm | list device
+16:28:37.700 | srv >> ccm | list all data
+16:28:37.701 | srv >> ccm | list device
+16:28:37.702 | srv >> ccm | list all data
+16:28:37.703 | srv >> ccm | list device
+16:28:37.704 | srv >> ccm | list all data
+16:28:37.704 | srv >> ccm | list device
+16:28:37.705 | srv >> ccm | list all data
+16:28:37.709 | srv >> ccm | list device
+16:28:37.709 | srv >> ccm | list all data
+16:28:37.710 | srv >> ccm | list device
+16:28:37.711 | srv >> ccm | list all data
+16:28:37.711 | srv >> ccm | list device
+16:28:37.712 | srv >> ccm | list all data
+16:28:37.713 | srv >> ccm | list device
+16:28:37.713 | srv >> ccm | list all data
+16:28:37.714 | srv >> ccm | list device
+16:28:37.714 | srv >> ccm | list all data
+16:28:39.116 | srv >> ccm | server is sending SOAP Envelope
+16:28:39.118 | srv >> ccm | server is writing the xml response
+16:28:39.119 | srv >> ccm | server is update css : CSS_INTERNAL
+16:28:39.167 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:28:44.251 | srv >> ccm | list device
+16:28:44.252 | srv >> ccm | list all data
+16:28:44.252 | srv >> ccm | list device
+16:28:44.253 | srv >> ccm | list all data
+16:28:44.254 | srv >> ccm | list device
+16:28:44.255 | srv >> ccm | list all data
+16:28:44.255 | srv >> ccm | list device
+16:28:44.256 | srv >> ccm | list all data
+16:28:44.257 | srv >> ccm | list device
+16:28:44.257 | srv >> ccm | list all data
+16:28:44.258 | srv >> ccm | list device
+16:28:44.259 | srv >> ccm | list all data
+16:28:44.259 | srv >> ccm | list device
+16:28:44.260 | srv >> ccm | list all data
+16:28:44.261 | srv >> ccm | list device
+16:28:44.262 | srv >> ccm | list all data
+16:28:44.262 | srv >> ccm | list device
+16:28:44.263 | srv >> ccm | list all data
+16:28:44.568 | srv >> ccm | server is sending SOAP Envelope
+16:28:44.569 | srv >> ccm | server is writing the xml response
+16:28:44.571 | srv >> ccm | server using SOAP update_display_name
+16:28:44.576 | srv >> clt | client 0 : display update Extension [1080] Display [w] Label [[ Desc []
+16:28:48.753 | srv >> ccm | list device
+16:28:48.754 | srv >> ccm | list all data
+16:28:48.755 | srv >> ccm | list device
+16:28:48.756 | srv >> ccm | list all data
+16:28:48.756 | srv >> ccm | list device
+16:28:48.757 | srv >> ccm | list all data
+16:28:48.758 | srv >> ccm | list device
+16:28:48.759 | srv >> ccm | list all data
+16:28:48.759 | srv >> ccm | list device
+16:28:48.760 | srv >> ccm | list all data
+16:28:48.761 | srv >> ccm | list device
+16:28:48.762 | srv >> ccm | list all data
+16:28:48.762 | srv >> ccm | list device
+16:28:48.763 | srv >> ccm | list all data
+16:28:48.764 | srv >> ccm | list device
+16:28:48.765 | srv >> ccm | list all data
+16:28:48.766 | srv >> ccm | list device
+16:28:48.766 | srv >> ccm | list all data
+16:28:48.767 | srv >> ccm | list device
+16:28:48.768 | srv >> ccm | list all data
+16:28:49.348 | srv >> ccm | server is sending SOAP Envelope
+16:28:49.349 | srv >> ccm | server is writing the xml response
+16:28:49.351 | srv >> ccm | server is update css : CSS_INTERNAL
+16:28:49.356 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:28:55.596 | srv >> ccm | list device
+16:28:55.597 | srv >> ccm | list all data
+16:28:55.598 | srv >> ccm | list device
+16:28:55.599 | srv >> ccm | list all data
+16:28:55.599 | srv >> ccm | list device
+16:28:55.600 | srv >> ccm | list all data
+16:28:55.601 | srv >> ccm | list device
+16:28:55.601 | srv >> ccm | list all data
+16:28:55.602 | srv >> ccm | list device
+16:28:55.603 | srv >> ccm | list all data
+16:28:55.604 | srv >> ccm | list device
+16:28:55.604 | srv >> ccm | list all data
+16:28:55.605 | srv >> ccm | list device
+16:28:55.606 | srv >> ccm | list all data
+16:28:55.606 | srv >> ccm | list device
+16:28:55.607 | srv >> ccm | list all data
+16:28:55.608 | srv >> ccm | list device
+16:28:55.609 | srv >> ccm | list all data
+16:28:55.609 | srv >> ccm | list device
+16:28:55.610 | srv >> ccm | list all data
+16:28:57.134 | srv >> ccm | server is sending SOAP Envelope
+16:28:57.135 | srv >> ccm | server is writing the xml response
+16:28:57.136 | srv >> ccm | server using SOAP update_display_name
+16:28:57.141 | srv >> clt | client 0 : display update Extension [1003] Display [w] Label [[ Desc []
+16:29:01.378 | srv >> ccm | list device
+16:29:01.379 | srv >> ccm | list all data
+16:29:01.380 | srv >> ccm | list device
+16:29:01.380 | srv >> ccm | list all data
+16:29:01.381 | srv >> ccm | list device
+16:29:01.382 | srv >> ccm | list all data
+16:29:01.382 | srv >> ccm | list device
+16:29:01.383 | srv >> ccm | list all data
+16:29:01.384 | srv >> ccm | list device
+16:29:01.384 | srv >> ccm | list all data
+16:29:01.385 | srv >> ccm | list device
+16:29:01.386 | srv >> ccm | list all data
+16:29:01.386 | srv >> ccm | list device
+16:29:01.387 | srv >> ccm | list all data
+16:29:01.388 | srv >> ccm | list device
+16:29:01.388 | srv >> ccm | list all data
+16:29:01.389 | srv >> ccm | list device
+16:29:01.390 | srv >> ccm | list all data
+16:29:01.390 | srv >> ccm | list device
+16:29:01.391 | srv >> ccm | list all data
+16:29:01.940 | srv >> ccm | server is sending SOAP Envelope
+16:29:01.941 | srv >> ccm | server is writing the xml response
+16:29:01.942 | srv >> ccm | server is update css : CSS_INTERNAL
+16:29:01.947 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:29:02.419 | srv >> ccm | list device
+16:29:02.420 | srv >> ccm | list all data
+16:29:02.420 | srv >> ccm | list device
+16:29:02.421 | srv >> ccm | list all data
+16:29:02.422 | srv >> ccm | list device
+16:29:02.422 | srv >> ccm | list all data
+16:29:02.423 | srv >> ccm | list device
+16:29:02.423 | srv >> ccm | list all data
+16:29:02.424 | srv >> ccm | list device
+16:29:02.424 | srv >> ccm | list all data
+16:29:02.425 | srv >> ccm | list device
+16:29:02.426 | srv >> ccm | list all data
+16:29:02.426 | srv >> ccm | list device
+16:29:02.427 | srv >> ccm | list all data
+16:29:02.427 | srv >> ccm | list device
+16:29:02.428 | srv >> ccm | list all data
+16:29:02.428 | srv >> ccm | list device
+16:29:02.429 | srv >> ccm | list all data
+16:29:02.430 | srv >> ccm | list device
+16:29:02.430 | srv >> ccm | list all data
+16:29:02.929 | srv >> ccm | server is sending SOAP Envelope
+16:29:02.930 | srv >> ccm | server is writing the xml response
+16:29:02.931 | srv >> ccm | server using SOAP update_display_name
+16:29:02.937 | srv >> clt | client 0 : display update Extension [1002] Display [w] Label [[ Desc []
+16:29:27.425 | srv >> ccm | list device
+16:29:27.426 | srv >> ccm | list all data
+16:29:27.426 | srv >> ccm | list device
+16:29:27.427 | srv >> ccm | list all data
+16:29:27.427 | srv >> ccm | list device
+16:29:27.428 | srv >> ccm | list all data
+16:29:27.428 | srv >> ccm | list device
+16:29:27.429 | srv >> ccm | list all data
+16:29:27.430 | srv >> ccm | list device
+16:29:27.430 | srv >> ccm | list all data
+16:29:27.431 | srv >> ccm | list device
+16:29:27.431 | srv >> ccm | list all data
+16:29:27.432 | srv >> ccm | list device
+16:29:27.432 | srv >> ccm | list all data
+16:29:27.433 | srv >> ccm | list device
+16:29:27.434 | srv >> ccm | list all data
+16:29:27.434 | srv >> ccm | list device
+16:29:27.435 | srv >> ccm | list all data
+16:29:27.435 | srv >> ccm | list device
+16:29:27.436 | srv >> ccm | list all data
+16:29:27.985 | srv >> ccm | server is sending SOAP Envelope
+16:29:27.986 | srv >> ccm | server is writing the xml response
+16:29:27.987 | srv >> ccm | server is update css : CSS_INTERNAL
+16:29:27.990 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:29:28.924 | srv >> ccm | list device
+16:29:28.924 | srv >> ccm | list all data
+16:29:28.925 | srv >> ccm | list device
+16:29:28.926 | srv >> ccm | list all data
+16:29:28.926 | srv >> ccm | list device
+16:29:28.927 | srv >> ccm | list all data
+16:29:28.927 | srv >> ccm | list device
+16:29:28.928 | srv >> ccm | list all data
+16:29:28.929 | srv >> ccm | list device
+16:29:28.930 | srv >> ccm | list all data
+16:29:28.930 | srv >> ccm | list device
+16:29:28.931 | srv >> ccm | list all data
+16:29:28.931 | srv >> ccm | list device
+16:29:28.932 | srv >> ccm | list all data
+16:29:28.933 | srv >> ccm | list device
+16:29:28.933 | srv >> ccm | list all data
+16:29:28.934 | srv >> ccm | list device
+16:29:28.934 | srv >> ccm | list all data
+16:29:28.935 | srv >> ccm | list device
+16:29:28.936 | srv >> ccm | list all data
+16:29:29.823 | srv >> ccm | server is sending SOAP Envelope
+16:29:29.824 | srv >> ccm | server is writing the xml response
+16:29:29.825 | srv >> ccm | server using SOAP update_display_name
+16:29:29.831 | srv >> clt | client 0 : display update Extension [1002] Display [w] Label [[ Desc []
+16:29:37.551 | srv >> ccm | list device
+16:29:37.552 | srv >> ccm | list all data
+16:29:37.552 | srv >> ccm | list device
+16:29:37.553 | srv >> ccm | list all data
+16:29:37.554 | srv >> ccm | list device
+16:29:37.555 | srv >> ccm | list all data
+16:29:37.556 | srv >> ccm | list device
+16:29:37.556 | srv >> ccm | list all data
+16:29:37.557 | srv >> ccm | list device
+16:29:37.558 | srv >> ccm | list all data
+16:29:37.559 | srv >> ccm | list device
+16:29:37.559 | srv >> ccm | list all data
+16:29:37.560 | srv >> ccm | list device
+16:29:37.561 | srv >> ccm | list all data
+16:29:37.562 | srv >> ccm | list device
+16:29:37.562 | srv >> ccm | list all data
+16:29:37.563 | srv >> ccm | list device
+16:29:37.564 | srv >> ccm | list all data
+16:29:38.943 | srv >> ccm | server is sending SOAP Envelope
+16:29:38.944 | srv >> ccm | server is writing the xml response
+16:29:38.946 | srv >> ccm | server is update css : CSS_INTERNAL
+16:29:38.951 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:29:44.610 | srv >> ccm | list device
+16:29:44.610 | srv >> ccm | list all data
+16:29:44.611 | srv >> ccm | list device
+16:29:44.612 | srv >> ccm | list all data
+16:29:44.612 | srv >> ccm | list device
+16:29:44.613 | srv >> ccm | list all data
+16:29:44.613 | srv >> ccm | list device
+16:29:44.614 | srv >> ccm | list all data
+16:29:44.615 | srv >> ccm | list device
+16:29:44.615 | srv >> ccm | list all data
+16:29:44.616 | srv >> ccm | list device
+16:29:44.617 | srv >> ccm | list all data
+16:29:44.617 | srv >> ccm | list device
+16:29:44.618 | srv >> ccm | list all data
+16:29:44.618 | srv >> ccm | list device
+16:29:44.619 | srv >> ccm | list all data
+16:29:44.620 | srv >> ccm | list device
+16:29:44.620 | srv >> ccm | list all data
+16:29:44.937 | srv >> ccm | server is sending SOAP Envelope
+16:29:44.938 | srv >> ccm | server is writing the xml response
+16:29:44.939 | srv >> ccm | server using SOAP update_display_name
+16:29:44.944 | srv >> clt | client 0 : display update Extension [1080] Display [w] Label [[ Desc []
+16:29:58.972 | srv >> ccm | list device
+16:29:58.973 | srv >> ccm | list all data
+16:29:58.973 | srv >> ccm | list device
+16:29:58.974 | srv >> ccm | list all data
+16:29:58.974 | srv >> ccm | list device
+16:29:58.975 | srv >> ccm | list all data
+16:29:58.976 | srv >> ccm | list device
+16:29:58.976 | srv >> ccm | list all data
+16:29:58.977 | srv >> ccm | list device
+16:29:58.977 | srv >> ccm | list all data
+16:29:58.978 | srv >> ccm | list device
+16:29:58.979 | srv >> ccm | list all data
+16:29:58.979 | srv >> ccm | list device
+16:29:58.980 | srv >> ccm | list all data
+16:29:58.980 | srv >> ccm | list device
+16:29:58.981 | srv >> ccm | list all data
+16:29:58.981 | srv >> ccm | list device
+16:29:58.982 | srv >> ccm | list all data
+16:29:58.983 | srv >> ccm | list device
+16:29:58.983 | srv >> ccm | list all data
+16:29:59.462 | srv >> ccm | server is sending SOAP Envelope
+16:29:59.463 | srv >> ccm | server is writing the xml response
+16:29:59.464 | srv >> ccm | server is update css : CSS_INTERNAL
+16:29:59.470 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:30:05.048 | srv >> ccm | list device
+16:30:05.049 | srv >> ccm | list all data
+16:30:05.049 | srv >> ccm | list device
+16:30:05.050 | srv >> ccm | list all data
+16:30:05.050 | srv >> ccm | list device
+16:30:05.051 | srv >> ccm | list all data
+16:30:05.051 | srv >> ccm | list device
+16:30:05.052 | srv >> ccm | list all data
+16:30:05.053 | srv >> ccm | list device
+16:30:05.053 | srv >> ccm | list all data
+16:30:05.054 | srv >> ccm | list device
+16:30:05.054 | srv >> ccm | list all data
+16:30:05.055 | srv >> ccm | list device
+16:30:05.056 | srv >> ccm | list all data
+16:30:05.056 | srv >> ccm | list device
+16:30:05.057 | srv >> ccm | list all data
+16:30:05.057 | srv >> ccm | list device
+16:30:05.058 | srv >> ccm | list all data
+16:30:05.058 | srv >> ccm | list device
+16:30:05.059 | srv >> ccm | list all data
+16:30:05.581 | srv >> ccm | server is sending SOAP Envelope
+16:30:05.581 | srv >> ccm | server is writing the xml response
+16:30:05.583 | srv >> ccm | server using SOAP update_display_name
+16:30:05.587 | srv >> clt | client 0 : display update Extension [1004] Display [w] Label [[ Desc []
+16:30:30.457 | srv >> ccm | list device
+16:30:30.458 | srv >> ccm | list all data
+16:30:30.458 | srv >> ccm | list device
+16:30:30.459 | srv >> ccm | list all data
+16:30:30.460 | srv >> ccm | list device
+16:30:30.460 | srv >> ccm | list all data
+16:30:30.461 | srv >> ccm | list device
+16:30:30.461 | srv >> ccm | list all data
+16:30:30.462 | srv >> ccm | list device
+16:30:30.463 | srv >> ccm | list all data
+16:30:30.463 | srv >> ccm | list device
+16:30:30.464 | srv >> ccm | list all data
+16:30:30.464 | srv >> ccm | list device
+16:30:30.465 | srv >> ccm | list all data
+16:30:30.465 | srv >> ccm | list device
+16:30:30.466 | srv >> ccm | list all data
+16:30:30.467 | srv >> ccm | list device
+16:30:30.467 | srv >> ccm | list all data
+16:30:30.817 | srv >> ccm | server is sending SOAP Envelope
+16:30:30.818 | srv >> ccm | server is writing the xml response
+16:30:30.819 | srv >> ccm | server is update css : CSS_INTERNAL
+16:30:30.824 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:30:32.078 | srv >> ccm | list device
+16:30:32.079 | srv >> ccm | list all data
+16:30:32.079 | srv >> ccm | list device
+16:30:32.080 | srv >> ccm | list all data
+16:30:32.081 | srv >> ccm | list device
+16:30:32.081 | srv >> ccm | list all data
+16:30:32.082 | srv >> ccm | list device
+16:30:32.082 | srv >> ccm | list all data
+16:30:32.083 | srv >> ccm | list device
+16:30:32.083 | srv >> ccm | list all data
+16:30:32.084 | srv >> ccm | list device
+16:30:32.085 | srv >> ccm | list all data
+16:30:32.085 | srv >> ccm | list device
+16:30:32.086 | srv >> ccm | list all data
+16:30:32.086 | srv >> ccm | list device
+16:30:32.087 | srv >> ccm | list all data
+16:30:32.088 | srv >> ccm | list device
+16:30:32.088 | srv >> ccm | list all data
+16:30:32.454 | srv >> ccm | server is sending SOAP Envelope
+16:30:32.454 | srv >> ccm | server is writing the xml response
+16:30:32.456 | srv >> ccm | server using SOAP update_display_name
+16:30:32.461 | srv >> clt | client 0 : display update Extension [9090] Display [w] Label [[ Desc []
+16:30:40.503 | srv >> ccm | list device
+16:30:40.504 | srv >> ccm | list all data
+16:30:40.504 | srv >> ccm | list device
+16:30:40.505 | srv >> ccm | list all data
+16:30:40.506 | srv >> ccm | list device
+16:30:40.506 | srv >> ccm | list all data
+16:30:40.507 | srv >> ccm | list device
+16:30:40.507 | srv >> ccm | list all data
+16:30:40.508 | srv >> ccm | list device
+16:30:40.508 | srv >> ccm | list all data
+16:30:40.509 | srv >> ccm | list device
+16:30:40.510 | srv >> ccm | list all data
+16:30:40.510 | srv >> ccm | list device
+16:30:40.511 | srv >> ccm | list all data
+16:30:40.511 | srv >> ccm | list device
+16:30:40.512 | srv >> ccm | list all data
+16:30:40.513 | srv >> ccm | list device
+16:30:40.513 | srv >> ccm | list all data
+16:30:40.843 | srv >> ccm | server is sending SOAP Envelope
+16:30:40.844 | srv >> ccm | server is writing the xml response
+16:30:40.845 | srv >> ccm | server using SOAP update_dnd
+16:30:40.851 | srv >> clt | client 0 : dnd update Extension [9090] Option [Ringer Off] Statis [true]
+16:30:51.561 | srv >> ccm | list device
+16:30:51.562 | srv >> ccm | list all data
+16:30:51.562 | srv >> ccm | list device
+16:30:51.563 | srv >> ccm | list all data
+16:30:51.563 | srv >> ccm | list device
+16:30:51.564 | srv >> ccm | list all data
+16:30:51.565 | srv >> ccm | list device
+16:30:51.565 | srv >> ccm | list all data
+16:30:51.566 | srv >> ccm | list device
+16:30:51.566 | srv >> ccm | list all data
+16:30:51.567 | srv >> ccm | list device
+16:30:51.568 | srv >> ccm | list all data
+16:30:51.568 | srv >> ccm | list device
+16:30:51.569 | srv >> ccm | list all data
+16:30:51.569 | srv >> ccm | list device
+16:30:51.570 | srv >> ccm | list all data
+16:30:51.571 | srv >> ccm | list device
+16:30:51.571 | srv >> ccm | list all data
+16:30:51.572 | srv >> ccm | list device
+16:30:51.573 | srv >> ccm | list all data
+16:30:53.157 | srv >> ccm | server is sending SOAP Envelope
+16:30:53.158 | srv >> ccm | server is writing the xml response
+16:30:53.159 | srv >> ccm | server using SOAP update_dnd
+16:30:53.166 | srv >> clt | client 0 : dnd update Extension [1004] Option [Ringer Off] Statis [true]
+16:31:40.569 | srv >> ccm | list device
+16:31:40.569 | srv >> ccm | list all data
+16:31:40.570 | srv >> ccm | list device
+16:31:40.571 | srv >> ccm | list all data
+16:31:40.571 | srv >> ccm | list device
+16:31:40.572 | srv >> ccm | list all data
+16:31:40.572 | srv >> ccm | list device
+16:31:40.573 | srv >> ccm | list all data
+16:31:40.574 | srv >> ccm | list device
+16:31:40.574 | srv >> ccm | list all data
+16:31:40.575 | srv >> ccm | list device
+16:31:40.575 | srv >> ccm | list all data
+16:31:40.576 | srv >> ccm | list device
+16:31:40.577 | srv >> ccm | list all data
+16:31:40.577 | srv >> ccm | list device
+16:31:40.578 | srv >> ccm | list all data
+16:31:40.579 | srv >> ccm | list device
+16:31:40.579 | srv >> ccm | list all data
+16:31:40.580 | srv >> ccm | list device
+16:31:40.581 | srv >> ccm | list all data
+16:31:41.122 | srv >> ccm | server is sending SOAP Envelope
+16:31:41.123 | srv >> ccm | server is writing the xml response
+16:31:41.124 | srv >> ccm | server is update css : CSS_INTERNAL
+16:31:41.129 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:31:52.929 | srv >> ccm | list device
+16:31:52.929 | srv >> ccm | list all data
+16:31:52.930 | srv >> ccm | list device
+16:31:52.931 | srv >> ccm | list all data
+16:31:52.931 | srv >> ccm | list device
+16:31:52.932 | srv >> ccm | list all data
+16:31:52.932 | srv >> ccm | list device
+16:31:52.933 | srv >> ccm | list all data
+16:31:52.934 | srv >> ccm | list device
+16:31:52.935 | srv >> ccm | list all data
+16:31:52.935 | srv >> ccm | list device
+16:31:52.936 | srv >> ccm | list all data
+16:31:52.937 | srv >> ccm | list device
+16:31:52.938 | srv >> ccm | list all data
+16:31:52.938 | srv >> ccm | list device
+16:31:52.939 | srv >> ccm | list all data
+16:31:52.940 | srv >> ccm | list device
+16:31:52.941 | srv >> ccm | list all data
+16:31:53.274 | srv >> ccm | server is sending SOAP Envelope
+16:31:53.275 | srv >> ccm | server is writing the xml response
+16:31:53.276 | srv >> ccm | server is update css : CSS_INTERNAL
+16:31:53.281 | srv >> clt | client 0 : css edited Extension [1] CSS [CSS_INTERNAL] 
+16:32:06.285 | srv >> clt | client logout, space left : 0
+17:41:42.385 | srv >> srv | thread parent run : cucm_server_main
+17:41:49.931 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+17:41:49.931 | srv >> ccm | get provider : ON
+17:41:49.941 | ccm >> srv | get provider's service condition : SET
+17:41:55.387 | srv >> ccm | get provider : success; 192.168.15.11;login=dtcjtapi;passwd=datacom
+17:41:55.893 | srv >> ccm | collect device : success
+17:41:56.179 | srv >> ccm | collect device
+17:41:56.179 | srv >> ccm | prepare set observer
+17:41:56.180 | srv >> ccm | list device
+17:41:56.182 | srv >> ccm | list address
+17:41:56.194 | ccm >> srv | set call address observer to : 1001
+17:41:56.196 | ccm >> srv | set status address observer to : 1001 *in service only
+17:41:56.206 | ccm >> srv | set call address observer to : 1002
+17:41:56.207 | ccm >> srv | set status address observer to : 1002 *in service only
+17:41:56.214 | ccm >> srv | set call address observer to : 1003
+17:41:56.215 | ccm >> srv | set status address observer to : 1003 *in service only
+17:41:56.227 | ccm >> srv | set call address observer to : 1004
+17:41:56.229 | ccm >> srv | set status address observer to : 1004 *in service only
+17:41:56.229 | srv >> ccm | list device
+17:41:56.230 | srv >> ccm | list terminal
+17:41:56.233 | ccm >> srv | set call terminal observer to : SEP001B2431F2F6
+17:41:56.236 | ccm >> srv | set status terminal observer to : SEP001B2431F2F6
+17:41:56.240 | ccm >> srv | thread child run : cucm_server_main_thread_child
+======================Data cek[0]======================
+17:41:56.241 | ccm >> srv | 192.168.15.11   |Provider is in service
+=======================================================
+======================Data cek[2]======================
+17:41:56.243 | ccm >> srv | 1001            |Address is out of service
+17:41:56.243 | ccm >> srv | 1002            |Address is out of service
+17:41:56.244 | ccm >> srv | 1003            |Address is out of service
+17:41:56.244 | ccm >> srv | 1004            |Address is out of service
+17:41:56.244 | srv >> clt | is opening socket port : 8080
+=======================================================
+======================Data cek[4]======================
+17:41:56.245 | ccm >> srv | SEP001B2431F2F6 |Terminal is out of service
+=======================================================
+17:42:00.182 | srv >> clt | create client at room - 0
+17:42:00.185 | clt >> srv | client connected, from : /192.168.15.12:1778
+17:42:00.186 | srv >> clt | client counter : 1
+17:42:00.187 | clt >> srv | client placed at room : 0
+17:42:11.362 | srv >> ccm | list device
+17:42:11.363 | srv >> ccm | list all data
+17:42:11.364 | srv >> ccm | list device
+17:42:11.368 | srv >> ccm | list all data
+17:42:11.369 | srv >> clt | client 0 : search ext/term Scope [Terminal]
+17:42:22.046 | srv >> clt | client logout, space left : 0

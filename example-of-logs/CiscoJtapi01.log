@@ -1,0 +1,3563 @@
+Cisco Jtapi version 8.0(2.32200)-7 Release
+0: Nov 29 13:21:24.830 WIT %JTAPI-MISC-7-UNK:(P1-) started preloading classes
+1: Nov 29 13:21:24.836 WIT %JTAPI-MISC-7-UNK:(P1-) finished preloading classes
+2: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) JVM Field Order is  onetwothree
+3: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) EventThread wakeups are disabled
+4: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) EventThread queue statistics are disabled
+5: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) EventThread queue size threshold is 25
+6: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) Provider retry interval is set to  30 seconds
+7: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) Client desired server heartbeat time is set to 30 seconds
+8: Nov 29 13:21:24.836 WIT %JTAPI-CTI-7-UNK:(P1-) CTI request timeout is is set to 30 seconds
+9: Nov 29 13:21:24.837 WIT %JTAPI-CTI-7-UNK:(P1-) Provider open request timeout is set to 200 seconds
+10: Nov 29 13:21:24.837 WIT %JTAPI-CTI-7-UNK:(P1-) Provider priority is set to 2
+11: Nov 29 13:21:24.837 WIT %JTAPI-CTI-7-UNK:(P1-) Provider Reconnect attempts is set to 0
+12: Nov 29 13:21:24.837 WIT %JTAPI-CTI-7-UNK:(P1-) JAVA Socket Connect Timeout is set to 15 seconds
+13: Nov 29 13:21:24.837 WIT %JTAPI-CTI-7-UNK:(P1-) Hunt List is disabled
+14: Nov 29 13:21:24.839 WIT %JTAPI-CTIIMPL-7-UNK:(P1-) Provider.info(Entering encryptPassword)
+15: Nov 29 13:21:25.374 WIT %JTAPI-CTIIMPL-7-UNK:(P1-) Provider.info(Exiting encryptPassword)
+16: Nov 29 13:21:25.375 WIT %JTAPI-CTIIMPL-7-UNK:(P1-) application did not set appinfo, creating default
+17: Nov 29 13:21:25.375 WIT %JTAPI-JTAPIIMPL-7-UNK:ProviderImpl(): calling jtapiProperties.getSecurityPropertyForInstance()
+18: Nov 29 13:21:25.375 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) TraceModule: JTAPI version Cisco Jtapi version 8.0(2.32200)-7 Release
+19: Nov 29 13:21:25.375 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Route Select Timeout is 5000 msecs
+20: Nov 29 13:21:25.375 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Jtapi post condition timeout is set to 15 seconds
+21: Nov 29 13:21:25.375 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) IgnoreFwdDestination set to false
+22: Nov 29 13:21:25.380 WIT %JTAPI-CTIIMPL-7-UNK:(P1-dtcjtapi) Opening server "192.168.15.11" login "dtcjtapi"
+23: Nov 29 13:21:25.380 WIT %JTAPI-CTIIMPL-7-UNK:(P1-dtcjtapi) ProviderID = P1-dtcjtapi
+24: Nov 29 13:21:30.483 WIT %JTAPI-CTIIMPL-7-UNK:(P1-dtcjtapi) Trying to create normal socket connection to 192.168.15.11
+25: Nov 29 13:21:30.490 WIT %JTAPI-CTIIMPL-7-UNK:(P1-dtcjtapi) connected
+26: Nov 29 13:21:30.499 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: created
+27: Nov 29 13:21:30.500 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread starting up...
+28: Nov 29 13:21:30.704 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderOpenRequest {
+ provider                   = 192.168.15.11
+ qbeClientVersion           = Cisco JTAPI 8.0(2.32200)-7 Release
+ login                      = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = dtcjtapi
+  count              = 8
+  sizeofElement      = 2
+  }
+ filter                     = com.cisco.cti.protocol.ProviderEventFilter {
+  deviceRegistered         = true
+  deviceUnregistered       = true
+  directoryChangeNotify    = true
+  deviceConfigChangeNotify = true
+  }
+ applicationID              = JTAPI[182]@localhost.localdomain
+ desiredServerHeartbeatTime = 30
+ requestTimer               = 0
+ cmAssignedApplicationID    = 0
+ pluginName                 = CiscoJTAPI
+ applicationPriority        = 2
+ lightWeightOpen            = false
+}
+29: Nov 29 13:21:30.705 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) ReceiveThread starting up...
+30: Nov 29 13:21:30.717 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderOpenResponse {
+  sequenceNumber     = 0
+  result             = 0
+  providerInfoString = 8.0.0.99141-4
+  clientHeartbeat    = 30
+  serverHeartbeat    = 30
+  requestTimer       = 5
+  pluginVersion      = 8.0.0.98000-17
+  pluginLocation     = http://CUCMPub/plugins/
+  providerId         = 16777431
+  }
+31: Nov 29 13:21:30.717 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) Server response: will send server heartbeat every 30 seconds
+32: Nov 29 13:21:30.717 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) Server response: expecting client heartbeat every 30 seconds
+33: Nov 29 13:21:30.720 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) HeartbeatSendThread starting up
+34: Nov 29 13:21:30.722 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) HeartbeatReceiveThread starting up
+35: Nov 29 13:21:30.722 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) DeviceLineUpdateThread: created
+36: Nov 29 13:21:30.722 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) DeviceLineUpdateThread starting up...
+37: Nov 29 13:21:30.939 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.ProviderOpenCompletedEvent {
+  eventSequence       = 0
+  reason              = 0
+  sequenceNumber      = 0
+  providerInfoString  = 8.0.0.99141-4
+  clientHeartbeat     = 30
+  serverHeartbeat     = 30
+  failureDescription  = null
+  bMonitorCallParkDNs = true
+  providerId          = 16777431
+  precedenceValue     = 96
+  canSupportIPv6      = false
+  }
+38: Nov 29 13:21:30.940 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ProviderOpenCompletedEvent
+39: Nov 29 13:21:30.940 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ProviderOpenCompletedEvent[0]
+40: Nov 29 13:21:30.941 WIT %JTAPI-PROTOCOL-7-UNK:QoS parameter Set To96
+41: Nov 29 13:21:30.941 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) connected to CTIManager version 8.0.0.99141-4
+42: Nov 29 13:21:30.941 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetCapabilitiesRequest {
+  sequenceNumber = 1
+  }
+43: Nov 29 13:21:30.942 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 1
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP080027CA5FBC
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 5
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 252684480
+  }
+44: Nov 29 13:21:30.942 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+45: Nov 29 13:21:30.942 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[1]
+46: Nov 29 13:21:30.942 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) Received DeviceRegisteredEvent
+47: Nov 29 13:21:30.943 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 2
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP001B2431F2F6
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 8
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 303016128
+  }
+48: Nov 29 13:21:30.943 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+49: Nov 29 13:21:30.943 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP080027CA5FBC EMLoginUsername=
+50: Nov 29 13:21:30.944 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[2]
+51: Nov 29 13:21:30.944 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 3
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP00E04C55F91C
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 7
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 202352832
+  }
+52: Nov 29 13:21:30.944 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) Received DeviceRegisteredEvent
+53: Nov 29 13:21:30.944 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+54: Nov 29 13:21:30.944 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP001B2431F2F6 EMLoginUsername=
+55: Nov 29 13:21:30.944 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[3]
+56: Nov 29 13:21:30.944 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) Received DeviceRegisteredEvent
+57: Nov 29 13:21:30.945 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP00E04C55F91C EMLoginUsername=
+58: Nov 29 13:21:30.945 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetCapabilitiesResponse {
+  sequenceNumber           = 1
+  result                   = 0
+  providerCapabilitiesInfo = com.cisco.cti.protocol.ProviderCapabilitiesInfo {
+  controlAnyDevice       = true
+  maxNumberOfDevicesOpen = 0
+  monitorParkDN          = true
+  modifyCallingParty     = true
+  allowCallMonitoring    = true
+  allowCallRecording     = true
+  canSupportIPv6         = false
+  providerCapabilityMask = 3
+  canAutoPickup          = false
+  }
+  }
+59: Nov 29 13:21:30.945 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) CanControlAnyDevice: can control any device = true
+60: Nov 29 13:21:30.946 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) MonitorParkDN:  can Park = true
+61: Nov 29 13:21:30.946 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) CallingPartyModification: can Modify CgPn = true
+62: Nov 29 13:21:30.946 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11)can record = true
+63: Nov 29 13:21:30.946 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11)can Monitor= true
+64: Nov 29 13:21:30.946 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) CanSupportIPv6 = false
+65: Nov 29 13:21:30.947 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) CanSupportConnectedTransferConference= true
+66: Nov 29 13:21:30.947 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) CanObserveTerminalsWithRollOverMode= true
+67: Nov 29 13:21:30.947 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) CanAutoPickup = false
+68: Nov 29 13:21:30.947 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetDeviceInfoRequest {
+  sequenceNumber = 2
+  deviceGroup    = 1
+  }
+69: Nov 29 13:21:30.948 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetDeviceInfoResponse {
+  sequenceNumber    = 2
+  result            = 0
+  enumerationHandle = 859
+  }
+70: Nov 29 13:21:30.949 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoFetchRequest {
+  sequenceNumber    = 3
+  enumerationHandle = 859
+  count             = 100
+  }
+71: Nov 29 13:21:31.020 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoFetchResponse {
+  sequenceNumber           = 3
+  result                   = 0
+  info                     = 4@[
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP080027CA5FBC
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 5
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP001B2431F2F6
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 8
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP08002701469E
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 6
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP00E04C55F91C
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 7
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }]
+  more                     = false
+  deviceControlFlagBitMask = 4@[1,1,1,1]
+  }
+72: Nov 29 13:21:31.020 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoCloseRequest {
+  sequenceNumber    = 4
+  enumerationHandle = 859
+  }
+73: Nov 29 13:21:31.021 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoCloseResponse {
+  sequenceNumber = 4
+  result         = 0
+  }
+74: Nov 29 13:21:31.021 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) creating controlled devices
+75: Nov 29 13:21:31.035 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 5
+  deviceName     = SEP001B2431F2F6
+  }
+76: Nov 29 13:21:31.036 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 5
+  result            = 0
+  enumerationHandle = 873
+  }
+77: Nov 29 13:21:31.039 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 6
+  enumerationHandle = 873
+  count             = 10
+  }
+78: Nov 29 13:21:31.048 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 6
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1003
+  displayName               = test ASCII
+  permanentLineID           = 4
+  maxNumberOfCalls          = 4
+  lineInstance              = 1
+  busyTrigger               = 2
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = test Line Text
+  pickupGroupPartition      = a h a i  
+  }]
+  more           = false
+  }
+79: Nov 29 13:21:31.049 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 7
+  enumerationHandle = 873
+  }
+80: Nov 29 13:21:31.050 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 7
+  result         = 0
+  }
+81: Nov 29 13:21:31.064 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: adding device "SEP001B2431F2F6"
+82: Nov 29 13:21:31.064 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 8
+  deviceName     = SEP080027CA5FBC
+  }
+83: Nov 29 13:21:31.065 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 8
+  result            = 0
+  enumerationHandle = 874
+  }
+84: Nov 29 13:21:31.065 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 9
+  enumerationHandle = 874
+  count             = 10
+  }
+85: Nov 29 13:21:31.068 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 9
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1001
+  displayName               = 
+  permanentLineID           = 8
+  maxNumberOfCalls          = 2
+  lineInstance              = 1
+  busyTrigger               = 1
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = aduh
+  count              = 4
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = d u h a i  
+  }]
+  more           = false
+  }
+86: Nov 29 13:21:31.068 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 10
+  enumerationHandle = 874
+  }
+87: Nov 29 13:21:31.070 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 10
+  result         = 0
+  }
+88: Nov 29 13:21:31.070 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: adding device "SEP080027CA5FBC"
+89: Nov 29 13:21:31.070 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 11
+  deviceName     = SEP08002701469E
+  }
+90: Nov 29 13:21:31.071 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 11
+  result            = 0
+  enumerationHandle = 875
+  }
+91: Nov 29 13:21:31.072 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 12
+  enumerationHandle = 875
+  count             = 10
+  }
+92: Nov 29 13:21:31.074 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 12
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1002
+  displayName               = 
+  permanentLineID           = 7
+  maxNumberOfCalls          = 2
+  lineInstance              = 1
+  busyTrigger               = 1
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = h h e h e  
+  }]
+  more           = false
+  }
+93: Nov 29 13:21:31.074 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 13
+  enumerationHandle = 875
+  }
+94: Nov 29 13:21:31.075 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 13
+  result         = 0
+  }
+95: Nov 29 13:21:31.075 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: adding device "SEP08002701469E"
+96: Nov 29 13:21:31.076 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 14
+  deviceName     = SEP00E04C55F91C
+  }
+97: Nov 29 13:21:31.078 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 14
+  result            = 0
+  enumerationHandle = 876
+  }
+98: Nov 29 13:21:31.078 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 15
+  enumerationHandle = 876
+  count             = 10
+  }
+99: Nov 29 13:21:31.081 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 15
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1004
+  displayName               = 
+  permanentLineID           = 3
+  maxNumberOfCalls          = 4
+  lineInstance              = 1
+  busyTrigger               = 2
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = H E L L O 2  
+  }]
+  more           = false
+  }
+100: Nov 29 13:21:31.081 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 16
+  enumerationHandle = 876
+  }
+101: Nov 29 13:21:31.082 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 16
+  result         = 0
+  }
+102: Nov 29 13:21:31.082 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: adding device "SEP00E04C55F91C"
+103: Nov 29 13:21:31.082 WIT %JTAPI-CTI-7-UNK:(P1-192.168.15.11) refreshing device map: previous=0 current=4 created=4 removed=0
+104: Nov 29 13:21:31.083 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetDeviceInfoRequest {
+  sequenceNumber = 17
+  deviceGroup    = 3
+  }
+105: Nov 29 13:21:31.084 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetDeviceInfoResponse {
+  sequenceNumber    = 17
+  result            = 0
+  enumerationHandle = 860
+  }
+106: Nov 29 13:21:31.085 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoFetchRequest {
+  sequenceNumber    = 18
+  enumerationHandle = 860
+  count             = 100
+  }
+107: Nov 29 13:21:31.086 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoFetchResponse {
+  sequenceNumber           = 18
+  result                   = 0
+  info                     = null
+  more                     = false
+  deviceControlFlagBitMask = null
+  }
+108: Nov 29 13:21:31.086 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoCloseRequest {
+  sequenceNumber    = 19
+  enumerationHandle = 860
+  }
+109: Nov 29 13:21:31.087 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoCloseResponse {
+  sequenceNumber = 19
+  result         = 0
+  }
+110: Nov 29 13:21:31.087 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetMonitorDNInfoRequest {
+  sequenceNumber = 20
+  DNType         = 0
+  }
+111: Nov 29 13:21:31.089 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetMonitorDNInfoResponse {
+  sequenceNumber             = 20
+  result                     = 0
+  monitorDNenumerationHandle = 1
+  }
+112: Nov 29 13:21:31.089 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetMonitorDNFetchRequest {
+  sequenceNumber    = 21
+  enumerationHandle = 1
+  count             = 100
+  }
+113: Nov 29 13:21:31.090 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetMonitorDNFetchResponse {
+  sequenceNumber = 21
+  result         = 0
+  dninfo         = null
+  more           = false
+  }
+114: Nov 29 13:21:31.090 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) No Park DNs Created
+115: Nov 29 13:21:31.090 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetMonitorDNCloseRequest {
+  sequenceNumber = 22
+  enumHandle     = 1
+  }
+116: Nov 29 13:21:31.091 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.GetMonitorDNCloseResponse {
+  sequenceNumber             = 22
+  result                     = 0
+  monitorDNenumerationHandle = 0
+  }
+117: Nov 29 13:21:31.092 WIT %JTAPI-MISC-7-UNK:Provider 192.168.15.11 open, beginning device initialization
+118: Nov 29 13:21:31.098 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1001 in partition
+119: Nov 29 13:21:31.098 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) ProviderRetryThread starting up
+120: Nov 29 13:21:31.099 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) ProviderRetryThread waiting until notified
+121: Nov 29 13:21:31.100 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) SEP080027CA5FBC: Address: 1001 in partition created
+122: Nov 29 13:21:31.100 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1001 in Partition 
+123: Nov 29 13:21:31.101 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1003 in partition
+124: Nov 29 13:21:31.101 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) SEP001B2431F2F6: Address: 1003 in partition created
+125: Nov 29 13:21:31.101 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1003 in Partition 
+126: Nov 29 13:21:31.101 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1002 in partition
+127: Nov 29 13:21:31.101 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) SEP08002701469E: Address: 1002 in partition created
+128: Nov 29 13:21:31.102 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1002 in Partition 
+129: Nov 29 13:21:31.102 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1004 in partition
+130: Nov 29 13:21:31.102 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) SEP00E04C55F91C: Address: 1004 in partition created
+131: Nov 29 13:21:31.102 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1004 in Partition 
+132: Nov 29 13:21:31.102 WIT %JTAPI-MISC-7-UNK:Provider "(P1-dtcjtapi)" changing state to IN_SERVICE
+133: Nov 29 13:21:31.103 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[Thread-7](P1-dtcjtapi) Request: getObservers
+134: Nov 29 13:21:31.103 WIT %JTAPI-JTAPIIMPL-7-UNK:Provider 192.168.15.11 initialized 4 devices
+135: Nov 29 13:21:31.104 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: addObserver
+136: Nov 29 13:21:31.106 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$1@6119e2c1]ObserverProxy: creating asynchronous proxy
+137: Nov 29 13:21:31.106 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$1@6119e2c1): created
+138: Nov 29 13:21:31.106 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) ProvInServiceEv [#0] Cause:100 CallCtlCause:0 FeatReason:12
+139: Nov 29 13:21:31.107 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$1@6119e2c1]ObserverProxy.queueEvents: queuing asynchronously
+140: Nov 29 13:21:31.107 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$1@6119e2c1): queuing com.cisco.jtapi.JtapiProviderEventSet
+141: Nov 29 13:21:31.107 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$1@6119e2c1) starting up...
+142: Nov 29 13:21:31.107 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$1@6119e2c1): delivering JPES[1]
+143: Nov 29 13:21:31.108 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$1@6119e2c1]ObserverProxy.deliverEvents()
+144: Nov 29 13:21:31.108 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$1@6119e2c1]delivering to providerChangedEvent
+145: Nov 29 13:21:31.109 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$1@6119e2c1]ObserverProxy.deliverEvents() completed
+146: Nov 29 13:21:31.112 WIT %JTAPI-MISC-7-UNK:(P2-) started preloading classes
+147: Nov 29 13:21:31.113 WIT %JTAPI-MISC-7-UNK:(P2-) finished preloading classes
+148: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) JVM Field Order is  onetwothree
+149: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) EventThread wakeups are disabled
+150: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) EventThread queue statistics are disabled
+151: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) EventThread queue size threshold is 25
+152: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) Provider retry interval is set to  30 seconds
+153: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) Client desired server heartbeat time is set to 30 seconds
+154: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) CTI request timeout is is set to 30 seconds
+155: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) Provider open request timeout is set to 200 seconds
+156: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) Provider priority is set to 2
+157: Nov 29 13:21:31.113 WIT %JTAPI-CTI-7-UNK:(P2-) Provider Reconnect attempts is set to 0
+158: Nov 29 13:21:31.114 WIT %JTAPI-CTI-7-UNK:(P2-) JAVA Socket Connect Timeout is set to 15 seconds
+159: Nov 29 13:21:31.114 WIT %JTAPI-CTI-7-UNK:(P2-) Hunt List is disabled
+160: Nov 29 13:21:31.114 WIT %JTAPI-CTIIMPL-7-UNK:(P2-) Provider.info(Entering encryptPassword)
+161: Nov 29 13:21:31.114 WIT %JTAPI-CTIIMPL-7-UNK:(P2-) Provider.info(Exiting encryptPassword)
+162: Nov 29 13:21:31.115 WIT %JTAPI-CTIIMPL-7-UNK:(P2-) application did not set appinfo, creating default
+163: Nov 29 13:21:31.115 WIT %JTAPI-JTAPIIMPL-7-UNK:ProviderImpl(): calling jtapiProperties.getSecurityPropertyForInstance()
+164: Nov 29 13:21:31.115 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) TraceModule: JTAPI version Cisco Jtapi version 8.0(2.32200)-7 Release
+165: Nov 29 13:21:31.115 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) Route Select Timeout is 5000 msecs
+166: Nov 29 13:21:31.115 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) Jtapi post condition timeout is set to 15 seconds
+167: Nov 29 13:21:31.115 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) IgnoreFwdDestination set to false
+168: Nov 29 13:21:31.115 WIT %JTAPI-CTIIMPL-7-UNK:(P2-dtcjtapi) Opening server "192.168.15.11" login "dtcjtapi"
+169: Nov 29 13:21:31.115 WIT %JTAPI-CTIIMPL-7-UNK:(P2-dtcjtapi) ProviderID = P2-dtcjtapi
+170: Nov 29 13:21:36.234 WIT %JTAPI-CTIIMPL-7-UNK:(P2-dtcjtapi) Trying to create normal socket connection to 192.168.15.11
+171: Nov 29 13:21:36.235 WIT %JTAPI-CTIIMPL-7-UNK:(P2-dtcjtapi) connected
+172: Nov 29 13:21:36.235 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: created
+173: Nov 29 13:21:36.235 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread starting up...
+174: Nov 29 13:21:36.236 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderOpenRequest {
+ provider                   = 192.168.15.11
+ qbeClientVersion           = Cisco JTAPI 8.0(2.32200)-7 Release
+ login                      = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = dtcjtapi
+  count              = 8
+  sizeofElement      = 2
+  }
+ filter                     = com.cisco.cti.protocol.ProviderEventFilter {
+  deviceRegistered         = true
+  deviceUnregistered       = true
+  directoryChangeNotify    = true
+  deviceConfigChangeNotify = true
+  }
+ applicationID              = JTAPI[104]@localhost.localdomain
+ desiredServerHeartbeatTime = 30
+ requestTimer               = 0
+ cmAssignedApplicationID    = 0
+ pluginName                 = CiscoJTAPI
+ applicationPriority        = 2
+ lightWeightOpen            = false
+}
+175: Nov 29 13:21:36.236 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread starting up...
+176: Nov 29 13:21:36.238 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderOpenResponse {
+  sequenceNumber     = 0
+  result             = 0
+  providerInfoString = 8.0.0.99141-4
+  clientHeartbeat    = 30
+  serverHeartbeat    = 30
+  requestTimer       = 5
+  pluginVersion      = 8.0.0.98000-17
+  pluginLocation     = http://CUCMPub/plugins/
+  providerId         = 16777432
+  }
+177: Nov 29 13:21:36.238 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) Server response: will send server heartbeat every 30 seconds
+178: Nov 29 13:21:36.238 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) Server response: expecting client heartbeat every 30 seconds
+179: Nov 29 13:21:36.239 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatSendThread starting up
+180: Nov 29 13:21:36.239 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread: created
+181: Nov 29 13:21:36.239 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatReceiveThread starting up
+182: Nov 29 13:21:36.240 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread starting up...
+183: Nov 29 13:21:36.528 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Event: com.cisco.cti.protocol.ProviderOpenCompletedEvent {
+  eventSequence       = 4
+  reason              = 0
+  sequenceNumber      = 0
+  providerInfoString  = 8.0.0.99141-4
+  clientHeartbeat     = 30
+  serverHeartbeat     = 30
+  failureDescription  = null
+  bMonitorCallParkDNs = true
+  providerId          = 16777432
+  precedenceValue     = 96
+  canSupportIPv6      = false
+  }
+184: Nov 29 13:21:36.528 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ProviderOpenCompletedEvent
+185: Nov 29 13:21:36.528 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ProviderOpenCompletedEvent[4]
+186: Nov 29 13:21:36.528 WIT %JTAPI-PROTOCOL-7-UNK:QoS parameter Set To96
+187: Nov 29 13:21:36.529 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 5
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP080027CA5FBC
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 5
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 252684480
+  }
+188: Nov 29 13:21:36.529 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+189: Nov 29 13:21:36.529 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[5]
+190: Nov 29 13:21:36.529 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) Received DeviceRegisteredEvent
+191: Nov 29 13:21:36.529 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP080027CA5FBC EMLoginUsername=
+192: Nov 29 13:21:36.530 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) connected to CTIManager version 8.0.0.99141-4
+193: Nov 29 13:21:36.530 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetCapabilitiesRequest {
+  sequenceNumber = 1
+  }
+194: Nov 29 13:21:36.531 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 6
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP001B2431F2F6
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 8
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 303016128
+  }
+195: Nov 29 13:21:36.531 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+196: Nov 29 13:21:36.531 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[6]
+197: Nov 29 13:21:36.531 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) Received DeviceRegisteredEvent
+198: Nov 29 13:21:36.532 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP001B2431F2F6 EMLoginUsername=
+199: Nov 29 13:21:36.532 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 7
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP00E04C55F91C
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 7
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 202352832
+  }
+200: Nov 29 13:21:36.533 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+201: Nov 29 13:21:36.533 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[7]
+202: Nov 29 13:21:36.533 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) Received DeviceRegisteredEvent
+203: Nov 29 13:21:36.533 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP00E04C55F91C EMLoginUsername=
+204: Nov 29 13:21:36.533 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetCapabilitiesResponse {
+  sequenceNumber           = 1
+  result                   = 0
+  providerCapabilitiesInfo = com.cisco.cti.protocol.ProviderCapabilitiesInfo {
+  controlAnyDevice       = true
+  maxNumberOfDevicesOpen = 0
+  monitorParkDN          = true
+  modifyCallingParty     = true
+  allowCallMonitoring    = true
+  allowCallRecording     = true
+  canSupportIPv6         = false
+  providerCapabilityMask = 3
+  canAutoPickup          = false
+  }
+  }
+205: Nov 29 13:21:36.533 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) CanControlAnyDevice: can control any device = true
+206: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) MonitorParkDN:  can Park = true
+207: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) CallingPartyModification: can Modify CgPn = true
+208: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11)can record = true
+209: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11)can Monitor= true
+210: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) CanSupportIPv6 = false
+211: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) CanSupportConnectedTransferConference= true
+212: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) CanObserveTerminalsWithRollOverMode= true
+213: Nov 29 13:21:36.534 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) CanAutoPickup = false
+214: Nov 29 13:21:36.534 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetDeviceInfoRequest {
+  sequenceNumber = 2
+  deviceGroup    = 1
+  }
+215: Nov 29 13:21:36.535 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetDeviceInfoResponse {
+  sequenceNumber    = 2
+  result            = 0
+  enumerationHandle = 863
+  }
+216: Nov 29 13:21:36.535 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoFetchRequest {
+  sequenceNumber    = 3
+  enumerationHandle = 863
+  count             = 100
+  }
+217: Nov 29 13:21:36.604 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoFetchResponse {
+  sequenceNumber           = 3
+  result                   = 0
+  info                     = 4@[
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP080027CA5FBC
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 5
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP001B2431F2F6
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 8
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP08002701469E
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 6
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP00E04C55F91C
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 7
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }]
+  more                     = false
+  deviceControlFlagBitMask = 4@[1,1,1,1]
+  }
+218: Nov 29 13:21:36.604 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoCloseRequest {
+  sequenceNumber    = 4
+  enumerationHandle = 863
+  }
+219: Nov 29 13:21:36.605 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoCloseResponse {
+  sequenceNumber = 4
+  result         = 0
+  }
+220: Nov 29 13:21:36.605 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) creating controlled devices
+221: Nov 29 13:21:36.606 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 5
+  deviceName     = SEP001B2431F2F6
+  }
+222: Nov 29 13:21:36.607 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 5
+  result            = 0
+  enumerationHandle = 877
+  }
+223: Nov 29 13:21:36.607 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 6
+  enumerationHandle = 877
+  count             = 10
+  }
+224: Nov 29 13:21:36.610 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 6
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1003
+  displayName               = test ASCII
+  permanentLineID           = 4
+  maxNumberOfCalls          = 4
+  lineInstance              = 1
+  busyTrigger               = 2
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = test Line Text
+  pickupGroupPartition      = a h a i  
+  }]
+  more           = false
+  }
+225: Nov 29 13:21:36.610 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 7
+  enumerationHandle = 877
+  }
+226: Nov 29 13:21:36.611 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 7
+  result         = 0
+  }
+227: Nov 29 13:21:36.611 WIT %JTAPI-CTI-7-UNK:(P2-dtcjtapi) DeviceMap: adding device "SEP001B2431F2F6"
+228: Nov 29 13:21:36.612 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 8
+  deviceName     = SEP080027CA5FBC
+  }
+229: Nov 29 13:21:36.613 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 8
+  result            = 0
+  enumerationHandle = 878
+  }
+230: Nov 29 13:21:36.613 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 9
+  enumerationHandle = 878
+  count             = 10
+  }
+231: Nov 29 13:21:36.616 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 9
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1001
+  displayName               = 
+  permanentLineID           = 8
+  maxNumberOfCalls          = 2
+  lineInstance              = 1
+  busyTrigger               = 1
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = aduh
+  count              = 4
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = d u h a i  
+  }]
+  more           = false
+  }
+232: Nov 29 13:21:36.616 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 10
+  enumerationHandle = 878
+  }
+233: Nov 29 13:21:36.617 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 10
+  result         = 0
+  }
+234: Nov 29 13:21:36.618 WIT %JTAPI-CTI-7-UNK:(P2-dtcjtapi) DeviceMap: adding device "SEP080027CA5FBC"
+235: Nov 29 13:21:36.618 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 11
+  deviceName     = SEP08002701469E
+  }
+236: Nov 29 13:21:36.619 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 11
+  result            = 0
+  enumerationHandle = 879
+  }
+237: Nov 29 13:21:36.619 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 12
+  enumerationHandle = 879
+  count             = 10
+  }
+238: Nov 29 13:21:36.621 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 12
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1002
+  displayName               = 
+  permanentLineID           = 7
+  maxNumberOfCalls          = 2
+  lineInstance              = 1
+  busyTrigger               = 1
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = h h e h e  
+  }]
+  more           = false
+  }
+239: Nov 29 13:21:36.622 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 13
+  enumerationHandle = 879
+  }
+240: Nov 29 13:21:36.623 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 13
+  result         = 0
+  }
+241: Nov 29 13:21:36.623 WIT %JTAPI-CTI-7-UNK:(P2-dtcjtapi) DeviceMap: adding device "SEP08002701469E"
+242: Nov 29 13:21:36.623 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 14
+  deviceName     = SEP00E04C55F91C
+  }
+243: Nov 29 13:21:36.625 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 14
+  result            = 0
+  enumerationHandle = 880
+  }
+244: Nov 29 13:21:36.625 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 15
+  enumerationHandle = 880
+  count             = 10
+  }
+245: Nov 29 13:21:36.627 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 15
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1004
+  displayName               = 
+  permanentLineID           = 3
+  maxNumberOfCalls          = 4
+  lineInstance              = 1
+  busyTrigger               = 2
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = H E L L O 2  
+  }]
+  more           = false
+  }
+246: Nov 29 13:21:36.628 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 16
+  enumerationHandle = 880
+  }
+247: Nov 29 13:21:36.629 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 16
+  result         = 0
+  }
+248: Nov 29 13:21:36.629 WIT %JTAPI-CTI-7-UNK:(P2-dtcjtapi) DeviceMap: adding device "SEP00E04C55F91C"
+249: Nov 29 13:21:36.629 WIT %JTAPI-CTI-7-UNK:(P2-192.168.15.11) refreshing device map: previous=0 current=4 created=4 removed=0
+250: Nov 29 13:21:36.630 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetDeviceInfoRequest {
+  sequenceNumber = 17
+  deviceGroup    = 3
+  }
+251: Nov 29 13:21:36.630 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetDeviceInfoResponse {
+  sequenceNumber    = 17
+  result            = 0
+  enumerationHandle = 864
+  }
+252: Nov 29 13:21:36.631 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoFetchRequest {
+  sequenceNumber    = 18
+  enumerationHandle = 864
+  count             = 100
+  }
+253: Nov 29 13:21:36.632 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoFetchResponse {
+  sequenceNumber           = 18
+  result                   = 0
+  info                     = null
+  more                     = false
+  deviceControlFlagBitMask = null
+  }
+254: Nov 29 13:21:36.632 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetDeviceInfoCloseRequest {
+  sequenceNumber    = 19
+  enumerationHandle = 864
+  }
+255: Nov 29 13:21:36.633 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoCloseResponse {
+  sequenceNumber = 19
+  result         = 0
+  }
+256: Nov 29 13:21:36.633 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderGetMonitorDNInfoRequest {
+  sequenceNumber = 20
+  DNType         = 0
+  }
+257: Nov 29 13:21:36.634 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetMonitorDNInfoResponse {
+  sequenceNumber             = 20
+  result                     = 0
+  monitorDNenumerationHandle = 1
+  }
+258: Nov 29 13:21:36.634 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetMonitorDNFetchRequest {
+  sequenceNumber    = 21
+  enumerationHandle = 1
+  count             = 100
+  }
+259: Nov 29 13:21:36.635 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetMonitorDNFetchResponse {
+  sequenceNumber = 21
+  result         = 0
+  dninfo         = null
+  more           = false
+  }
+260: Nov 29 13:21:36.636 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) No Park DNs Created
+261: Nov 29 13:21:36.636 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.GetMonitorDNCloseRequest {
+  sequenceNumber = 22
+  enumHandle     = 1
+  }
+262: Nov 29 13:21:36.636 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.GetMonitorDNCloseResponse {
+  sequenceNumber             = 22
+  result                     = 0
+  monitorDNenumerationHandle = 0
+  }
+263: Nov 29 13:21:36.637 WIT %JTAPI-MISC-7-UNK:Provider 192.168.15.11 open, beginning device initialization
+264: Nov 29 13:21:36.640 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1001 in partition
+265: Nov 29 13:21:36.640 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) SEP080027CA5FBC: Address: 1001 in partition created
+266: Nov 29 13:21:36.640 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1001 in Partition 
+267: Nov 29 13:21:36.640 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1003 in partition
+268: Nov 29 13:21:36.640 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) SEP001B2431F2F6: Address: 1003 in partition created
+269: Nov 29 13:21:36.641 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1003 in Partition 
+270: Nov 29 13:21:36.641 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ProviderRetryThread starting up
+271: Nov 29 13:21:36.641 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1002 in partition
+272: Nov 29 13:21:36.641 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ProviderRetryThread waiting until notified
+273: Nov 29 13:21:36.641 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) SEP08002701469E: Address: 1002 in partition created
+274: Nov 29 13:21:36.641 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1002 in Partition 
+275: Nov 29 13:21:36.641 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1004 in partition
+276: Nov 29 13:21:36.642 WIT %JTAPI-JTAPIIMPL-7-UNK:(P2-dtcjtapi) SEP00E04C55F91C: Address: 1004 in partition created
+277: Nov 29 13:21:36.642 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1004 in Partition 
+278: Nov 29 13:21:36.642 WIT %JTAPI-MISC-7-UNK:Provider "(P2-dtcjtapi)" changing state to IN_SERVICE
+279: Nov 29 13:21:36.642 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[Thread-16](P2-dtcjtapi) Request: getObservers
+280: Nov 29 13:21:36.642 WIT %JTAPI-JTAPIIMPL-7-UNK:Provider 192.168.15.11 initialized 4 devices
+281: Nov 29 13:21:37.142 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+282: Nov 29 13:21:37.143 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getAddresses
+283: Nov 29 13:21:37.143 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+284: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+285: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getAddresses
+286: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+287: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+288: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getAddresses
+289: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+290: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+291: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getAddresses
+292: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+293: Nov 29 13:21:37.144 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getTerminals 
+294: Nov 29 13:21:37.146 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: shutdown
+295: Nov 29 13:21:37.146 WIT %JTAPI-MISC-7-UNK:Provider "(P2-dtcjtapi)" changing state to SHUTDOWN
+296: Nov 29 13:21:37.146 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[main](P2-dtcjtapi) Request: getObservers
+297: Nov 29 13:21:37.147 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) [main] sending: com.cisco.cti.protocol.ProviderCloseRequest {
+  sequenceNumber = 23
+  }
+298: Nov 29 13:21:37.407 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderCloseResponse {
+  sequenceNumber = 23
+  result         = 0
+  }
+299: Nov 29 13:21:37.409 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread: stream closed
+300: Nov 29 13:21:37.409 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread: exiting
+301: Nov 29 13:21:37.409 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) shutting down
+302: Nov 29 13:21:37.409 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread: notifying handler of demise
+303: Nov 29 13:21:37.409 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ProviderRetryThread shutting down
+304: Nov 29 13:21:37.409 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ProviderRetryThread finished shutting down
+305: Nov 29 13:21:37.410 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread: shutting down
+306: Nov 29 13:21:37.410 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread:java.lang.NullPointerException
+307: Nov 29 13:21:37.410 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread: waiting for exit
+308: Nov 29 13:21:37.410 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ProviderRetryThread exiting
+309: Nov 29 13:21:37.411 WIT %JTAPI-PROTOCOL-7-UNK:(P2-192.168.15.11) received Event: com.cisco.cti.protocol.ProviderOutOfServiceEvent {
+  eventSequence                 = 8
+  PROVIDER_OUT_OF_SERVICE_EVENT = 200
+  }
+310: Nov 29 13:21:37.411 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ProviderOutOfServiceEvent
+311: Nov 29 13:21:37.411 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ProviderOutOfServiceEvent[8]
+312: Nov 29 13:21:37.411 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) deviceMap is empty? -false
+313: Nov 29 13:21:37.411 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) lineMap is empty? -true
+314: Nov 29 13:21:37.411 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) callMap is empty? -true
+315: Nov 29 13:21:37.411 WIT %JTAPI-CTIIMPL-7-UNK:(P2-192.168.15.11) clearing park DN map
+316: Nov 29 13:21:37.412 WIT %JTAPI-JTAPI-7-UNK:(P2-dtcjtapi)[(P2-192.168.15.11) EventThread](P2-dtcjtapi) Request: getCalls
+317: Nov 29 13:21:37.415 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: shutting down
+318: Nov 29 13:21:37.415 WIT %JTAPI-MISC-7-UNK:[com.cisco.cti.util.BlockingQueue@682edfcb]BlockingQueue:takeAll() Threadname=(P2-192.168.15.11) EventThread  Thread interrupted
+319: Nov 29 13:21:37.416 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: interrupted java.lang.InterruptedException
+320: Nov 29 13:21:37.416 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: waiting for exit
+321: Nov 29 13:21:37.416 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: exiting
+322: Nov 29 13:21:37.416 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) EventThread: finished shutting down
+323: Nov 29 13:21:37.418 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatSendThread shutting down
+324: Nov 29 13:21:37.418 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatSendThread waiting for exit
+325: Nov 29 13:21:37.418 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatSendThread exiting
+326: Nov 29 13:21:37.418 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatSendThread finished shutting down
+327: Nov 29 13:21:37.419 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatReceiveThread shutting down
+328: Nov 29 13:21:37.419 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatReceiveThread waiting for exit
+329: Nov 29 13:21:37.419 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatReceiveThread server heartbeat or message not received for 60600 mili-second
+330: Nov 29 13:21:37.420 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatReceiveThread exiting
+331: Nov 29 13:21:37.420 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) HeartbeatReceiveThread finished shutting down
+332: Nov 29 13:21:37.420 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread: shutting down
+333: Nov 29 13:21:37.420 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread: waiting for exit
+334: Nov 29 13:21:37.421 WIT %JTAPI-MISC-7-UNK:[com.cisco.cti.util.BlockingQueue@2e058fad]BlockingQueue:take() Threadname=(P2-192.168.15.11) DeviceLineUpdateThread  Thread interrupted
+335: Nov 29 13:21:37.421 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread: interrupted java.lang.InterruptedException
+336: Nov 29 13:21:37.421 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread: exiting
+337: Nov 29 13:21:37.421 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) DeviceLineUpdateThread: finished shutting down
+338: Nov 29 13:21:37.423 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) ReceiveThread: finished shutting down
+339: Nov 29 13:21:37.423 WIT %JTAPI-MISC-7-UNK:(P2-192.168.15.11) finished shutting down
+340: Nov 29 13:21:37.427 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: getAddress( 1001 )Partition = 
+341: Nov 29 13:21:37.429 WIT %JTAPI-JTAPI-7-UNK:[1001::1]Request: addCallObserver(dtcom.server.corp.cucm_server_main$2@19e876ae)
+342: Nov 29 13:21:37.429 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@19e876ae]ObserverProxy: creating asynchronous proxy
+343: Nov 29 13:21:37.430 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@19e876ae): created
+344: Nov 29 13:21:37.432 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@19e876ae) starting up...
+345: Nov 29 13:21:37.432 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceOpenRequest {
+  sequenceNumber        = 23
+  deviceName            = SEP080027CA5FBC
+  filter                = com.cisco.cti.protocol.DeviceEventFilter {
+  deviceModeChanged               = false
+  keyPressed                      = false
+  featureButtonPressed            = false
+  lampModeChanged                 = false
+  ringModeChanged                 = false
+  displayChanged                  = false
+  startTransmission               = true
+  stopTransmission                = true
+  startReception                  = true
+  stopReception                   = true
+  softKeyPressed                  = true
+  openLogicalChannel              = false
+  deviceData                      = false
+  mediaResourceAllocated          = false
+  mediaResourceDeallocated        = false
+  mediaResourceUpdated            = false
+  mediaConnectionAdded            = false
+  mediaConnectionRemoved          = false
+  mediaResourceExisting           = false
+  existingMediaResourcesCompleted = false
+  snapshot                        = false
+  receptionKey                    = false
+  transmissionKey                 = false
+  deviceIdleState                 = false
+  deviceActiveState               = false
+  deviceAlertingState             = false
+  deviceHoldState                 = false
+  deviceWhisperState              = false
+  bDNDChanged                     = true
+  bDNDOptionChanged               = false
+  }
+  softkeysApplicationId = 0
+  }
+346: Nov 29 13:21:37.434 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceOpenResponse {
+  sequenceNumber = 23
+  result         = 0
+  callManagerID  = 1
+  deviceID       = 728
+  }
+347: Nov 29 13:21:37.435 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceInServiceEvent {
+  eventSequence       = 9
+  deviceCallManagerID = 1
+  deviceID            = 728
+  locale              = 1
+  supportedEncoding   = 3
+  altScript           = 
+  dndStatus           = false
+  dndOption           = 1
+  }
+348: Nov 29 13:21:37.435 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceInServiceEvent
+349: Nov 29 13:21:37.435 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceInServiceEvent[9]
+350: Nov 29 13:21:37.435 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: opening device "SEP080027CA5FBC"
+351: Nov 29 13:21:37.436 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Terminal "SEP080027CA5FBC" in service
+352: Nov 29 13:21:37.436 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP080027CA5FBC:1001::(0,0)] out of service
+353: Nov 29 13:21:37.436 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [SEP080027CA5FBC] CiscoTermInServiceEv [#1] Cause:100 CallCtlCause:0 FeatReason:12
+354: Nov 29 13:21:37.436 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1001:] CiscoAddrOutOfServiceEv [#2] Cause:100 CallCtlCause:0 FeatReason:12
+355: Nov 29 13:21:37.439 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.LineOpenRequest {
+  sequenceNumber   = 24
+  deviceName       = SEP080027CA5FBC
+  lineName         = 1001
+  filter           = com.cisco.cti.protocol.LineEventFilter {
+  callStateChanged               = true
+  dtmf                           = true
+  ring                           = false
+  toneChanged                    = 1
+  globalCallHandleChanged        = true
+  partyInfoChanged               = true
+  bExistingCallEvent             = true
+  bNewCallEvent                  = true
+  bLineCfwdAllStatus             = true
+  bTransferStarted               = true
+  bTransferEnded                 = true
+  bTransferFailed                = true
+  bConferenceStarted             = true
+  bConferenceEnded               = true
+  bConferenceFailed              = true
+  bBargeStarted                  = true
+  bBargeEnded                    = true
+  bCBargeStarted                 = true
+  bCBargeEnded                   = true
+  bPrivacyChanged                = true
+  bCallSelectChanged             = true
+  bExistingCallCompleted         = false
+  bHoldReversion                 = true
+  bIntercomInfoChanged           = true
+  bIntercomInfoRestorationFailed = true
+  bMonitoringStarted             = true
+  bMonitoringEnded               = true
+  bRecordingStarted              = true
+  bRecordingEnded                = true
+  bCallAttributeInfo             = true
+  bCallSecurityStatusUpdate      = false
+  bCallPresentEvent              = true
+  bCallFeatureCancelled          = true
+  bParkStatusEvent               = false
+  bMonitoringTerminatedEvent     = true
+  }
+  autoAcceptStatus = 0
+  partition        = 
+  }
+356: Nov 29 13:21:37.441 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.LineOpenResponse {
+  sequenceNumber    = 24
+  result            = 0
+  lineCallManagerID = 1
+  lineID            = 728
+  autoAcceptStatus  = 0
+  }
+357: Nov 29 13:21:37.441 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.LineInServiceEvent {
+  eventSequence       = 10
+  lineCallManagerID   = 1
+  lineID              = 728
+  defaultIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  currentIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  isIntercomTargetSet = false
+  }
+358: Nov 29 13:21:37.441 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.LineInServiceEvent
+359: Nov 29 13:21:37.442 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.LineInServiceEvent[10]
+360: Nov 29 13:21:37.442 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP080027CA5FBC: Lines opened
+361: Nov 29 13:21:37.442 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi){Line:SEP080027CA5FBC:1001::(1,728)} LineInServiceEvent
+362: Nov 29 13:21:37.442 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi){Line:SEP080027CA5FBC:1001::(1,728)} open() Added Line into Vector size = 1
+363: Nov 29 13:21:37.442 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP080027CA5FBC:1001::(1,728)]  in service
+364: Nov 29 13:21:37.442 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1001:] CiscoAddrInServiceEv [#3] Cause:100 CallCtlCause:0 FeatReason:12
+365: Nov 29 13:21:37.445 WIT %JTAPI-JTAPI-7-UNK:[1001::1]Request: addObserver(dtcom.server.corp.cucm_server_main$3@31f32e51)
+366: Nov 29 13:21:37.445 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]ObserverProxy: creating asynchronous proxy
+367: Nov 29 13:21:37.445 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@31f32e51): created
+368: Nov 29 13:21:37.445 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]ObserverProxy.queueEvents: queuing asynchronously
+369: Nov 29 13:21:37.445 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@31f32e51): queuing com.cisco.jtapi.JtapiAddressEventSet
+370: Nov 29 13:21:37.445 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP080027CA5FBC:1001::(1,728)] in service
+371: Nov 29 13:21:37.445 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1001:] CiscoAddrInServiceEv [#4] Cause:100 CallCtlCause:0 FeatReason:12
+372: Nov 29 13:21:37.446 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]ObserverProxy.queueEvents: queuing asynchronously
+373: Nov 29 13:21:37.446 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@31f32e51): queuing com.cisco.jtapi.JtapiAddressEventSet
+374: Nov 29 13:21:37.446 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: getAddress( 1002 )Partition = 
+375: Nov 29 13:21:37.447 WIT %JTAPI-JTAPI-7-UNK:[1002::1]Request: addCallObserver(dtcom.server.corp.cucm_server_main$2@6cb4f39c)
+376: Nov 29 13:21:37.448 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@6cb4f39c]ObserverProxy: creating asynchronous proxy
+377: Nov 29 13:21:37.448 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@6cb4f39c): created
+378: Nov 29 13:21:37.448 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@31f32e51) starting up...
+379: Nov 29 13:21:37.449 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@31f32e51): delivering JAES[0]
+380: Nov 29 13:21:37.449 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]ObserverProxy.deliverEvents()
+381: Nov 29 13:21:37.452 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@31f32e51): delivering JAES[1]
+382: Nov 29 13:21:37.452 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceOpenRequest {
+  sequenceNumber        = 25
+  deviceName            = SEP08002701469E
+  filter                = com.cisco.cti.protocol.DeviceEventFilter {
+  deviceModeChanged               = false
+  keyPressed                      = false
+  featureButtonPressed            = false
+  lampModeChanged                 = false
+  ringModeChanged                 = false
+  displayChanged                  = false
+  startTransmission               = true
+  stopTransmission                = true
+  startReception                  = true
+  stopReception                   = true
+  softKeyPressed                  = true
+  openLogicalChannel              = false
+  deviceData                      = false
+  mediaResourceAllocated          = false
+  mediaResourceDeallocated        = false
+  mediaResourceUpdated            = false
+  mediaConnectionAdded            = false
+  mediaConnectionRemoved          = false
+  mediaResourceExisting           = false
+  existingMediaResourcesCompleted = false
+  snapshot                        = false
+  receptionKey                    = false
+  transmissionKey                 = false
+  deviceIdleState                 = false
+  deviceActiveState               = false
+  deviceAlertingState             = false
+  deviceHoldState                 = false
+  deviceWhisperState              = false
+  bDNDChanged                     = true
+  bDNDOptionChanged               = false
+  }
+  softkeysApplicationId = 0
+  }
+383: Nov 29 13:21:37.452 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]ObserverProxy.deliverEvents()
+384: Nov 29 13:21:37.452 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]delivering to addressChangedEvent
+385: Nov 29 13:21:37.453 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@31f32e51]ObserverProxy.deliverEvents() completed
+386: Nov 29 13:21:37.453 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@6cb4f39c) starting up...
+387: Nov 29 13:21:37.454 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceOpenResponse {
+  sequenceNumber = 25
+  result         = 0
+  callManagerID  = 1
+  deviceID       = 730
+  }
+388: Nov 29 13:21:37.454 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: opening device "SEP08002701469E"
+389: Nov 29 13:21:37.454 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP08002701469E:1002::(0,0)] out of service
+390: Nov 29 13:21:37.454 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1002:] CiscoAddrOutOfServiceEv [#5] Cause:100 CallCtlCause:0 FeatReason:12
+391: Nov 29 13:21:37.455 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.LineOpenRequest {
+  sequenceNumber   = 26
+  deviceName       = SEP08002701469E
+  lineName         = 1002
+  filter           = com.cisco.cti.protocol.LineEventFilter {
+  callStateChanged               = true
+  dtmf                           = true
+  ring                           = false
+  toneChanged                    = 1
+  globalCallHandleChanged        = true
+  partyInfoChanged               = true
+  bExistingCallEvent             = true
+  bNewCallEvent                  = true
+  bLineCfwdAllStatus             = true
+  bTransferStarted               = true
+  bTransferEnded                 = true
+  bTransferFailed                = true
+  bConferenceStarted             = true
+  bConferenceEnded               = true
+  bConferenceFailed              = true
+  bBargeStarted                  = true
+  bBargeEnded                    = true
+  bCBargeStarted                 = true
+  bCBargeEnded                   = true
+  bPrivacyChanged                = true
+  bCallSelectChanged             = true
+  bExistingCallCompleted         = false
+  bHoldReversion                 = true
+  bIntercomInfoChanged           = true
+  bIntercomInfoRestorationFailed = true
+  bMonitoringStarted             = true
+  bMonitoringEnded               = true
+  bRecordingStarted              = true
+  bRecordingEnded                = true
+  bCallAttributeInfo             = true
+  bCallSecurityStatusUpdate      = false
+  bCallPresentEvent              = true
+  bCallFeatureCancelled          = true
+  bParkStatusEvent               = false
+  bMonitoringTerminatedEvent     = true
+  }
+  autoAcceptStatus = 0
+  partition        = 
+  }
+392: Nov 29 13:21:37.457 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.LineOpenResponse {
+  sequenceNumber    = 26
+  result            = 0
+  lineCallManagerID = 1
+  lineID            = 730
+  autoAcceptStatus  = 0
+  }
+393: Nov 29 13:21:37.457 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP08002701469E: Lines opened
+394: Nov 29 13:21:37.457 WIT %JTAPI-JTAPI-7-UNK:[1002::1]Request: addObserver(dtcom.server.corp.cucm_server_main$3@784504dd)
+395: Nov 29 13:21:37.457 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@784504dd]ObserverProxy: creating asynchronous proxy
+396: Nov 29 13:21:37.457 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@784504dd): created
+397: Nov 29 13:21:37.458 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP08002701469E:1002::(1,730)] out of service
+398: Nov 29 13:21:37.458 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@784504dd) starting up...
+399: Nov 29 13:21:37.458 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1002:] CiscoAddrOutOfServiceEv [#6] Cause:100 CallCtlCause:0 FeatReason:12
+400: Nov 29 13:21:37.458 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@784504dd]ObserverProxy.queueEvents: queuing asynchronously
+401: Nov 29 13:21:37.458 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@784504dd): queuing com.cisco.jtapi.JtapiAddressEventSet
+402: Nov 29 13:21:37.458 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@784504dd): delivering JAES[1]
+403: Nov 29 13:21:37.458 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@784504dd]ObserverProxy.deliverEvents()
+404: Nov 29 13:21:37.458 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@784504dd]delivering to addressChangedEvent
+405: Nov 29 13:21:37.458 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@784504dd]ObserverProxy.deliverEvents() completed
+406: Nov 29 13:21:37.458 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: getAddress( 1003 )Partition = 
+407: Nov 29 13:21:37.458 WIT %JTAPI-JTAPI-7-UNK:[1003::1]Request: addCallObserver(dtcom.server.corp.cucm_server_main$2@4ca3916e)
+408: Nov 29 13:21:37.459 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy: creating asynchronous proxy
+409: Nov 29 13:21:37.459 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@4ca3916e): created
+410: Nov 29 13:21:37.460 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@4ca3916e) starting up...
+411: Nov 29 13:21:37.460 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceOpenRequest {
+  sequenceNumber        = 27
+  deviceName            = SEP001B2431F2F6
+  filter                = com.cisco.cti.protocol.DeviceEventFilter {
+  deviceModeChanged               = false
+  keyPressed                      = false
+  featureButtonPressed            = false
+  lampModeChanged                 = false
+  ringModeChanged                 = false
+  displayChanged                  = false
+  startTransmission               = true
+  stopTransmission                = true
+  startReception                  = true
+  stopReception                   = true
+  softKeyPressed                  = true
+  openLogicalChannel              = false
+  deviceData                      = false
+  mediaResourceAllocated          = false
+  mediaResourceDeallocated        = false
+  mediaResourceUpdated            = false
+  mediaConnectionAdded            = false
+  mediaConnectionRemoved          = false
+  mediaResourceExisting           = false
+  existingMediaResourcesCompleted = false
+  snapshot                        = false
+  receptionKey                    = false
+  transmissionKey                 = false
+  deviceIdleState                 = false
+  deviceActiveState               = false
+  deviceAlertingState             = false
+  deviceHoldState                 = false
+  deviceWhisperState              = false
+  bDNDChanged                     = true
+  bDNDOptionChanged               = false
+  }
+  softkeysApplicationId = 0
+  }
+412: Nov 29 13:21:37.466 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceOpenResponse {
+  sequenceNumber = 27
+  result         = 0
+  callManagerID  = 1
+  deviceID       = 732
+  }
+413: Nov 29 13:21:37.466 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: opening device "SEP001B2431F2F6"
+414: Nov 29 13:21:37.466 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceInServiceEvent {
+  eventSequence       = 11
+  deviceCallManagerID = 1
+  deviceID            = 732
+  locale              = 1
+  supportedEncoding   = 3
+  altScript           = 
+  dndStatus           = false
+  dndOption           = 1
+  }
+415: Nov 29 13:21:37.466 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP001B2431F2F6:1003::(0,0)] out of service
+416: Nov 29 13:21:37.466 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1003:] CiscoAddrOutOfServiceEv [#7] Cause:100 CallCtlCause:0 FeatReason:12
+417: Nov 29 13:21:37.467 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.LineOpenRequest {
+  sequenceNumber   = 28
+  deviceName       = SEP001B2431F2F6
+  lineName         = 1003
+  filter           = com.cisco.cti.protocol.LineEventFilter {
+  callStateChanged               = true
+  dtmf                           = true
+  ring                           = false
+  toneChanged                    = 1
+  globalCallHandleChanged        = true
+  partyInfoChanged               = true
+  bExistingCallEvent             = true
+  bNewCallEvent                  = true
+  bLineCfwdAllStatus             = true
+  bTransferStarted               = true
+  bTransferEnded                 = true
+  bTransferFailed                = true
+  bConferenceStarted             = true
+  bConferenceEnded               = true
+  bConferenceFailed              = true
+  bBargeStarted                  = true
+  bBargeEnded                    = true
+  bCBargeStarted                 = true
+  bCBargeEnded                   = true
+  bPrivacyChanged                = true
+  bCallSelectChanged             = true
+  bExistingCallCompleted         = false
+  bHoldReversion                 = true
+  bIntercomInfoChanged           = true
+  bIntercomInfoRestorationFailed = true
+  bMonitoringStarted             = true
+  bMonitoringEnded               = true
+  bRecordingStarted              = true
+  bRecordingEnded                = true
+  bCallAttributeInfo             = true
+  bCallSecurityStatusUpdate      = false
+  bCallPresentEvent              = true
+  bCallFeatureCancelled          = true
+  bParkStatusEvent               = false
+  bMonitoringTerminatedEvent     = true
+  }
+  autoAcceptStatus = 0
+  partition        = 
+  }
+418: Nov 29 13:21:37.466 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceInServiceEvent
+419: Nov 29 13:21:37.467 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceInServiceEvent[11]
+420: Nov 29 13:21:37.467 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Terminal "SEP001B2431F2F6" in service
+421: Nov 29 13:21:37.467 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [SEP001B2431F2F6] CiscoTermInServiceEv [#8] Cause:100 CallCtlCause:0 FeatReason:12
+422: Nov 29 13:21:37.470 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.LineOpenResponse {
+  sequenceNumber    = 28
+  result            = 0
+  lineCallManagerID = 1
+  lineID            = 732
+  autoAcceptStatus  = 0
+  }
+423: Nov 29 13:21:37.470 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.LineInServiceEvent {
+  eventSequence       = 12
+  lineCallManagerID   = 1
+  lineID              = 732
+  defaultIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  currentIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  isIntercomTargetSet = false
+  }
+424: Nov 29 13:21:37.470 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.LineInServiceEvent
+425: Nov 29 13:21:37.470 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.LineInServiceEvent[12]
+426: Nov 29 13:21:37.471 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi){Line:SEP001B2431F2F6:1003::(1,732)} LineInServiceEvent
+427: Nov 29 13:21:37.471 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi){Line:SEP001B2431F2F6:1003::(1,732)} open() Added Line into Vector size = 1
+428: Nov 29 13:21:37.471 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP001B2431F2F6: Lines opened
+429: Nov 29 13:21:37.471 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP001B2431F2F6:1003::(1,732)]  in service
+430: Nov 29 13:21:37.471 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1003:] CiscoAddrInServiceEv [#9] Cause:100 CallCtlCause:0 FeatReason:12
+431: Nov 29 13:21:37.472 WIT %JTAPI-JTAPI-7-UNK:[1003::1]Request: addObserver(dtcom.server.corp.cucm_server_main$3@9d43178)
+432: Nov 29 13:21:37.472 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]ObserverProxy: creating asynchronous proxy
+433: Nov 29 13:21:37.472 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@9d43178): created
+434: Nov 29 13:21:37.473 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]ObserverProxy.queueEvents: queuing asynchronously
+435: Nov 29 13:21:37.473 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@9d43178): queuing com.cisco.jtapi.JtapiAddressEventSet
+436: Nov 29 13:21:37.473 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP001B2431F2F6:1003::(1,732)] in service
+437: Nov 29 13:21:37.473 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1003:] CiscoAddrInServiceEv [#10] Cause:100 CallCtlCause:0 FeatReason:12
+438: Nov 29 13:21:37.473 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]ObserverProxy.queueEvents: queuing asynchronously
+439: Nov 29 13:21:37.473 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@9d43178): queuing com.cisco.jtapi.JtapiAddressEventSet
+440: Nov 29 13:21:37.474 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: getAddress( 1004 )Partition = 
+441: Nov 29 13:21:37.474 WIT %JTAPI-JTAPI-7-UNK:[1004::1]Request: addCallObserver(dtcom.server.corp.cucm_server_main$2@f719660)
+442: Nov 29 13:21:37.474 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@9d43178) starting up...
+443: Nov 29 13:21:37.475 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@f719660]ObserverProxy: creating asynchronous proxy
+444: Nov 29 13:21:37.475 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@f719660): created
+445: Nov 29 13:21:37.475 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@9d43178): delivering JAES[0]
+446: Nov 29 13:21:37.475 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]ObserverProxy.deliverEvents()
+447: Nov 29 13:21:37.475 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@9d43178): delivering JAES[1]
+448: Nov 29 13:21:37.475 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]ObserverProxy.deliverEvents()
+449: Nov 29 13:21:37.475 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]delivering to addressChangedEvent
+450: Nov 29 13:21:37.476 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@9d43178]ObserverProxy.deliverEvents() completed
+451: Nov 29 13:21:37.477 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceOpenRequest {
+  sequenceNumber        = 29
+  deviceName            = SEP00E04C55F91C
+  filter                = com.cisco.cti.protocol.DeviceEventFilter {
+  deviceModeChanged               = false
+  keyPressed                      = false
+  featureButtonPressed            = false
+  lampModeChanged                 = false
+  ringModeChanged                 = false
+  displayChanged                  = false
+  startTransmission               = true
+  stopTransmission                = true
+  startReception                  = true
+  stopReception                   = true
+  softKeyPressed                  = true
+  openLogicalChannel              = false
+  deviceData                      = false
+  mediaResourceAllocated          = false
+  mediaResourceDeallocated        = false
+  mediaResourceUpdated            = false
+  mediaConnectionAdded            = false
+  mediaConnectionRemoved          = false
+  mediaResourceExisting           = false
+  existingMediaResourcesCompleted = false
+  snapshot                        = false
+  receptionKey                    = false
+  transmissionKey                 = false
+  deviceIdleState                 = false
+  deviceActiveState               = false
+  deviceAlertingState             = false
+  deviceHoldState                 = false
+  deviceWhisperState              = false
+  bDNDChanged                     = true
+  bDNDOptionChanged               = false
+  }
+  softkeysApplicationId = 0
+  }
+452: Nov 29 13:21:37.477 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.ExistingCallEvent {
+  eventSequence                     = 13
+  lineCallManagerID                 = 1
+  lineID                            = 732
+  lineHandleSpecified               = true
+  deviceName                        = SEP001B2431F2F6
+  callCallManagerID                 = 1
+  callLegID                         = 21720100
+  globalCallManagerID               = 1
+  callID                            = 5064
+  callingParty                      = 1004
+  calledParty                       = 1003
+  originalCalledParty               = 1003
+  lastRedirectingParty              = 
+  state                             = 8
+  origin                            = 1
+  userData                          = null
+  auxiliaryData                     = 0
+  farEndpointCallManagerID          = 0
+  farEndpointType                   = 1
+  reason                            = 1
+  cause                             = 0
+  participantsInfo                  = null
+  callingPartyName                  = 
+  calledPartyName                   = test ASCII
+  originalCalledPartyName           = test ASCII
+  lastRedirectingPartyName          = 
+  callingPartyDeviceName            = SEP00E04C55F91C
+  controllerParticipant             = com.cisco.cti.protocol.ParticipantInfo {
+  participantNumber                      = 
+  unModifiedParticipantNumber            = 
+  participantName                        = 
+  numberPI                               = false
+  namePI                                 = false
+  endpointType                           = 0
+  state                                  = 0
+  unModifiedPaticipantUnicodeDisplayName = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  participantLocale                      = 1
+  participantDNInfo                      = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  callManagerID                          = 0
+  callLegID                              = 0
+  bridgeParticipantID                    = 
+  }
+  mediaDeviceName                   = 
+  mediaResourceId                   = 0
+  mediaTransmitActive               = true
+  mediaReceiveActive                = true
+  bRemoteInUse                      = false
+  parentCallManagerID               = 0
+  parentCallID                      = 0
+  bPrivacy                          = false
+  callSelectStatus                  = 0
+  unModifiedCallingParty            = 1004
+  unModifiedCalledParty             = 1003
+  unModifiedOriginalCalledParty     = 1003
+  unModifiedLastRedirectingParty    = 
+  callingPartyPi                    = true
+  callingPartyNamePi                = true
+  calledPartyPi                     = true
+  calledPartyNamePi                 = true
+  originalCalledPartyPi             = true
+  originalCalledPartyNamePi         = true
+  lastRedirectingPartyPi            = true
+  lastRedirectingPartyNamePi        = true
+  unicodeCallingPartyName           = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodeCalledPartyName            = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodeOriginalCalledPartyName    = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodelastRedirectingPartyName   = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  unicodeCallingPartyLocale         = 1
+  unicodeCalledPartyLocale          = 1
+  unicodeOriginalCalledPartyLocale  = 1
+  unicodeLastRedirectingPartyLocale = 1
+  callingPartyDNInfo                = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  calledPartyDNInfo                 = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  originalCalledPartyDNInfo         = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  lastRedirectingPartyDNInfo        = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  bHoldReversionDelivered           = false
+  localConferenceBridgeId           = 
+  localConferenceBridgeName         = 
+  bAdvanceAdhocConference           = false
+  ctiCallType                       = 0
+  callingPartyIpAddr                = 202352832
+  overallCallSecurityStatus         = 1
+  farEndLineIdDN                    = 1004
+  farEndLineIdPartition             = 
+  callPresentable                   = true
+  featurePriority                   = 1
+  globalizedCallingParty            = 1004
+  callingPartyIpAddr_v6             = null
+  callingPartyIpAddressingMode      = 0
+  consultSetupbyRollover            = false
+  uniqueProtocolCallReference       = 00000000000013C8014B6C2400000000
+  cgpnHuntMemberDN                  = 
+  cgpnHuntMemberPartition           = 
+  cdpnHuntMemberDN                  = 
+  cdpnHuntMemberPartition           = 
+  cgpnPatternUsage                  = 2
+  cdpnPatternUsage                  = 2
+  calledPartyDeviceName             = SEP001B2431F2F6
+  }
+453: Nov 29 13:21:37.477 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ExistingCallEvent
+454: Nov 29 13:21:37.477 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ExistingCallEvent[13]
+455: Nov 29 13:21:37.477 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@f719660) starting up...
+456: Nov 29 13:21:37.479 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceOpenResponse {
+  sequenceNumber = 29
+  result         = 0
+  callManagerID  = 1
+  deviceID       = 734
+  }
+457: Nov 29 13:21:37.479 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceInServiceEvent {
+  eventSequence       = 14
+  deviceCallManagerID = 1
+  deviceID            = 734
+  locale              = 1
+  supportedEncoding   = 3
+  altScript           = 
+  dndStatus           = true
+  dndOption           = 1
+  }
+458: Nov 29 13:21:37.479 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceInServiceEvent
+459: Nov 29 13:21:37.480 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi) DeviceMap: opening device "SEP00E04C55F91C"
+460: Nov 29 13:21:37.480 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP00E04C55F91C:1004::(0,0)] out of service
+461: Nov 29 13:21:37.480 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1004:] CiscoAddrOutOfServiceEv [#11] Cause:100 CallCtlCause:0 FeatReason:12
+462: Nov 29 13:21:37.480 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.LineOpenRequest {
+  sequenceNumber   = 30
+  deviceName       = SEP00E04C55F91C
+  lineName         = 1004
+  filter           = com.cisco.cti.protocol.LineEventFilter {
+  callStateChanged               = true
+  dtmf                           = true
+  ring                           = false
+  toneChanged                    = 1
+  globalCallHandleChanged        = true
+  partyInfoChanged               = true
+  bExistingCallEvent             = true
+  bNewCallEvent                  = true
+  bLineCfwdAllStatus             = true
+  bTransferStarted               = true
+  bTransferEnded                 = true
+  bTransferFailed                = true
+  bConferenceStarted             = true
+  bConferenceEnded               = true
+  bConferenceFailed              = true
+  bBargeStarted                  = true
+  bBargeEnded                    = true
+  bCBargeStarted                 = true
+  bCBargeEnded                   = true
+  bPrivacyChanged                = true
+  bCallSelectChanged             = true
+  bExistingCallCompleted         = false
+  bHoldReversion                 = true
+  bIntercomInfoChanged           = true
+  bIntercomInfoRestorationFailed = true
+  bMonitoringStarted             = true
+  bMonitoringEnded               = true
+  bRecordingStarted              = true
+  bRecordingEnded                = true
+  bCallAttributeInfo             = true
+  bCallSecurityStatusUpdate      = false
+  bCallPresentEvent              = true
+  bCallFeatureCancelled          = true
+  bParkStatusEvent               = false
+  bMonitoringTerminatedEvent     = true
+  }
+  autoAcceptStatus = 0
+  partition        = 
+  }
+463: Nov 29 13:21:37.482 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.LineOpenResponse {
+  sequenceNumber    = 30
+  result            = 0
+  lineCallManagerID = 1
+  lineID            = 734
+  autoAcceptStatus  = 0
+  }
+464: Nov 29 13:21:37.483 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.LineInServiceEvent {
+  eventSequence       = 15
+  lineCallManagerID   = 1
+  lineID              = 734
+  defaultIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  currentIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  isIntercomTargetSet = false
+  }
+465: Nov 29 13:21:37.483 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.LineInServiceEvent
+466: Nov 29 13:21:37.483 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP00E04C55F91C: Lines opened
+467: Nov 29 13:21:37.484 WIT %JTAPI-JTAPI-7-UNK:[1004::1]Request: addObserver(dtcom.server.corp.cucm_server_main$3@6e10fcd4)
+468: Nov 29 13:21:37.484 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy: creating asynchronous proxy
+469: Nov 29 13:21:37.484 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@6e10fcd4): created
+470: Nov 29 13:21:37.484 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP00E04C55F91C:1004::(1,734)] out of service
+471: Nov 29 13:21:37.484 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1004:] CiscoAddrOutOfServiceEv [#12] Cause:100 CallCtlCause:0 FeatReason:12
+472: Nov 29 13:21:37.484 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy.queueEvents: queuing asynchronously
+473: Nov 29 13:21:37.484 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@6e10fcd4): queuing com.cisco.jtapi.JtapiAddressEventSet
+474: Nov 29 13:21:37.488 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Event: com.cisco.cti.protocol.ExistingCallEvent {
+  eventSequence                     = 16
+  lineCallManagerID                 = 1
+  lineID                            = 734
+  lineHandleSpecified               = true
+  deviceName                        = SEP00E04C55F91C
+  callCallManagerID                 = 1
+  callLegID                         = 21720099
+  globalCallManagerID               = 1
+  callID                            = 5064
+  callingParty                      = 1004
+  calledParty                       = 1003
+  originalCalledParty               = 1003
+  lastRedirectingParty              = 
+  state                             = 8
+  origin                            = 4
+  userData                          = null
+  auxiliaryData                     = 0
+  farEndpointCallManagerID          = 0
+  farEndpointType                   = 1
+  reason                            = 1
+  cause                             = 0
+  participantsInfo                  = null
+  callingPartyName                  = 
+  calledPartyName                   = test ASCII
+  originalCalledPartyName           = test ASCII
+  lastRedirectingPartyName          = 
+  callingPartyDeviceName            = SEP00E04C55F91C
+  controllerParticipant             = com.cisco.cti.protocol.ParticipantInfo {
+  participantNumber                      = 
+  unModifiedParticipantNumber            = 
+  participantName                        = 
+  numberPI                               = false
+  namePI                                 = false
+  endpointType                           = 0
+  state                                  = 0
+  unModifiedPaticipantUnicodeDisplayName = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  participantLocale                      = 1
+  participantDNInfo                      = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  callManagerID                          = 0
+  callLegID                              = 0
+  bridgeParticipantID                    = 
+  }
+  mediaDeviceName                   = 
+  mediaResourceId                   = 0
+  mediaTransmitActive               = true
+  mediaReceiveActive                = true
+  bRemoteInUse                      = false
+  parentCallManagerID               = 0
+  parentCallID                      = 0
+  bPrivacy                          = false
+  callSelectStatus                  = 0
+  unModifiedCallingParty            = 1004
+  unModifiedCalledParty             = 1003
+  unModifiedOriginalCalledParty     = 1003
+  unModifiedLastRedirectingParty    = 
+  callingPartyPi                    = true
+  callingPartyNamePi                = true
+  calledPartyPi                     = true
+  calledPartyNamePi                 = true
+  originalCalledPartyPi             = true
+  originalCalledPartyNamePi         = true
+  lastRedirectingPartyPi            = true
+  lastRedirectingPartyNamePi        = true
+  unicodeCallingPartyName           = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodeCalledPartyName            = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodeOriginalCalledPartyName    = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodelastRedirectingPartyName   = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  unicodeCallingPartyLocale         = 1
+  unicodeCalledPartyLocale          = 1
+  unicodeOriginalCalledPartyLocale  = 1
+  unicodeLastRedirectingPartyLocale = 1
+  callingPartyDNInfo                = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  calledPartyDNInfo                 = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  originalCalledPartyDNInfo         = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  lastRedirectingPartyDNInfo        = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  bHoldReversionDelivered           = false
+  localConferenceBridgeId           = 
+  localConferenceBridgeName         = 
+  bAdvanceAdhocConference           = false
+  ctiCallType                       = 0
+  callingPartyIpAddr                = 0
+  overallCallSecurityStatus         = 1
+  farEndLineIdDN                    = 1003
+  farEndLineIdPartition             = 
+  callPresentable                   = true
+  featurePriority                   = 1
+  globalizedCallingParty            = 
+  callingPartyIpAddr_v6             = null
+  callingPartyIpAddressingMode      = 3
+  consultSetupbyRollover            = false
+  uniqueProtocolCallReference       = 00000000000013C8014B6C2300000000
+  cgpnHuntMemberDN                  = 
+  cgpnHuntMemberPartition           = 
+  cdpnHuntMemberDN                  = 
+  cdpnHuntMemberPartition           = 
+  cgpnPatternUsage                  = 2
+  cdpnPatternUsage                  = 2
+  calledPartyDeviceName             = SEP001B2431F2F6
+  }
+475: Nov 29 13:21:37.488 WIT %JTAPI-MISC-7-UNK:(P1-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ExistingCallEvent
+476: Nov 29 13:21:37.490 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: getTerminal SEP001B2431F2F6
+477: Nov 29 13:21:37.491 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main][SEP001B2431F2F6]Request: addCallObserver(dtcom.server.corp.cucm_server_main$4@591905e0)
+478: Nov 29 13:21:37.491 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy: creating asynchronous proxy
+479: Nov 29 13:21:37.491 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@591905e0): created
+480: Nov 29 13:21:37.491 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@6e10fcd4) starting up...
+481: Nov 29 13:21:37.492 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@6e10fcd4): delivering JAES[1]
+482: Nov 29 13:21:37.492 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy.deliverEvents()
+483: Nov 29 13:21:37.492 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]delivering to addressChangedEvent
+484: Nov 29 13:21:37.493 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy.deliverEvents() completed
+485: Nov 29 13:21:37.494 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP001B2431F2F6: Lines opened
+486: Nov 29 13:21:37.495 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main][SEP001B2431F2F6]Request: addObserver(dtcom.server.corp.cucm_server_main$5@7f275e1e)
+487: Nov 29 13:21:37.496 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@7f275e1e]ObserverProxy: creating asynchronous proxy
+488: Nov 29 13:21:37.496 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@7f275e1e): created
+489: Nov 29 13:21:37.496 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Terminal "SEP001B2431F2F6" in service
+490: Nov 29 13:21:37.496 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [SEP001B2431F2F6] CiscoTermInServiceEv [#13] Cause:100 CallCtlCause:0 FeatReason:12
+491: Nov 29 13:21:37.496 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@7f275e1e]ObserverProxy.queueEvents: queuing asynchronously
+492: Nov 29 13:21:37.496 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@7f275e1e): queuing com.cisco.jtapi.JtapiTerminalEventSet
+493: Nov 29 13:21:37.497 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi){Line:SEP001B2431F2F6:1003::(1,732)|Call:[GCID=(5064/1),CID=21720100]} ExistingCall [ state=CONNECTED auxData=0 destCM=0 destType=IN_CLUSTER cause=0 confParties=PARTY[](null) localConferenceBridgeId= localConferenceBridgeName= bAdvanceAdhocConference=false CallType=0 CallSecurityStatus=1 unCg=1004 unCd=1003 unOrigCd=1003 unLRP= cg=1004 cgN= ed=1003 edN=test ASCII orig=1003 origN=test ASCII lrp= lrpN= origin=INBOUNDINTERNAL reason=DIRECTCALL activeTone=0 devN=SEP001B2431F2F6 RIU=false Priv=false Select=0 CgPI=True CgNPI=True CdPI=True CdNPI=True OrigPI=True OrigNPI=True LRPPI=True LRPNPI=True UcodeCgPN= w Locale = 1 UcodeCdPN= w Locale = 1 CgIP = 192.168.15.12 CgIPv6 = null LineIdDn = 1004 Parti =  globCg = 1004CdInfo=000Url= 000CdNType= 0CgInfo=000Url= 000CgPNType= 0 Pre=true Priority=1 UniqueIdentifier=00000000000013C8014B6C2400000000 cgHuntDN=: cdHuntDN: cgPat=2 cdpat=2 ]
+494: Nov 29 13:21:37.497 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) [main] sending: com.cisco.cti.protocol.DeviceGetDeviceStateRequest {
+  sequenceNumber = 31
+  callManagerID  = 1
+  deviceID       = 732
+  }
+495: Nov 29 13:21:37.497 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@7f275e1e) starting up...
+496: Nov 29 13:21:37.498 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetDeviceStateResponse {
+  sequenceNumber = 31
+  result         = 0
+  callManagerID  = 1
+  deviceID       = 732
+  deviceState    = 1
+  }
+497: Nov 29 13:21:37.498 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) getCallManager() Creating new Call/CallManager
+498: Nov 29 13:21:37.498 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main][SEP001B2431F2F6]Request: getDeviceState()   returns DeviceState = 1
+499: Nov 29 13:21:37.499 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main](P1-dtcjtapi) Request: getTerminal SEP00E04C55F91C
+500: Nov 29 13:21:37.499 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main][SEP00E04C55F91C]Request: addCallObserver(dtcom.server.corp.cucm_server_main$4@2686695c)
+501: Nov 29 13:21:37.499 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@2686695c]ObserverProxy: creating asynchronous proxy
+502: Nov 29 13:21:37.499 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@2686695c): created
+503: Nov 29 13:21:37.498 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@7f275e1e): delivering JTES[1]
+504: Nov 29 13:21:37.499 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@7f275e1e]ObserverProxy.deliverEvents()
+505: Nov 29 13:21:37.500 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP00E04C55F91C: Lines opened
+506: Nov 29 13:21:37.500 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi)[main][SEP00E04C55F91C]Request: addObserver(dtcom.server.corp.cucm_server_main$5@670b6ffc)
+507: Nov 29 13:21:37.500 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy: creating asynchronous proxy
+508: Nov 29 13:21:37.501 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@670b6ffc): created
+509: Nov 29 13:21:37.501 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@2686695c) starting up...
+510: Nov 29 13:21:37.501 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Terminal "SEP00E04C55F91C" out of service
+511: Nov 29 13:21:37.501 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [SEP00E04C55F91C] CiscoTermOutOfServiceEv [#14] Cause:100 CallCtlCause:0 FeatReason:12
+512: Nov 29 13:21:37.501 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy.queueEvents: queuing asynchronously
+513: Nov 29 13:21:37.501 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@670b6ffc): queuing com.cisco.jtapi.JtapiTerminalEventSet
+514: Nov 29 13:21:37.502 WIT %JTAPI-JTAPI-7-UNK:[SEP00E04C55F91C]InvalidStateExceptionImpl caught: null
+515: Nov 29 13:21:37.503 WIT %JTAPI-JTAPIIMPL-7-UNK:CallInfo for = (P1-dtcjtapi) GCID=(1,5064)->IDLE CurIng :1004::1 Cured :1003::1 LRP :null ing :1004::1 ed :1003::1 ModEd :1003::1 Moding :1004::1
+516: Nov 29 13:21:37.503 WIT %JTAPI-JTAPIIMPL-7-UNK:{SETTING Calling Address 1004Partition = Display name
+517: Nov 29 13:21:37.505 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallActiveEv [#15] Cause:106 CallCtlCause:0 CiscoCause:0 FeatReason:12
+518: Nov 29 13:21:37.506 WIT %JTAPI-JTAPI-7-UNK:[[1003::1/(P1-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE]creating internal connection for 1003::1
+519: Nov 29 13:21:37.507 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@591905e0) starting up...
+520: Nov 29 13:21:37.508 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@7f275e1e]delivering to terminalChangedEvent
+521: Nov 29 13:21:37.508 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@7f275e1e]ObserverProxy.deliverEvents() completed
+522: Nov 29 13:21:37.509 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnCreatedEv 1003::1 [#16] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+523: Nov 29 13:21:37.509 WIT %JTAPI-JTAPI-7-UNK:{ CcnCall=Call:[GCID=(5064/1),CID=21720100] Connection=[1003::1/(P1-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE: creating new Connection for CCNCall }
+524: Nov 29 13:21:37.510 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} Initializing to CONNECTED for 1003::1
+525: Nov 29 13:21:37.510 WIT %JTAPI-CTI-7-UNK:{Address:1003::1 Call:(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} MAKEUP CallStateChanged [ state=CONNECTED cause=NOERROR unCg=1004 unCd=1003 unOrigCd=1003 unLRP= cg=1004 cgN= ed=1003 edN=test ASCII orig=1003 origN=test ASCII lrp= lrpN= origin=INBOUNDINTERNAL reason=DIRECTCALL activeTone=0 devN=SEP001B2431F2F6 RIU=false Priv=false Select=0 CgPI=True CgNPI=True CdPI=True CdNPI=True OrigPI=True OrigNPI=True LRPPI=True LRPNPI=True UcodeCgPN= w Locale = 1 UcodeCdPN= w Locale = 1 CgIP = 192.168.15.12 CgIPv6 = null LineIdDn = 1004 Parti =  globCg = 1004CdInfo=000Url= 000CdNType= 0CgInfo=000Url= 000CgPNType= 0 Pre=true Priority=1 UniqueIdentifier=00000000000013C8014B6C2400000000 cgHuntDN=: cdHuntDN: cgPat=2 cdpat=2 ]
+526: Nov 29 13:21:37.510 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} CallManager.processCallStateChange:Handling CONNECTED for 1003::1
+527: Nov 29 13:21:37.510 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnConnectedEv 1003::1 [#17] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+528: Nov 29 13:21:37.511 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlConnEstablishedEv 1003::1 [#18] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+529: Nov 29 13:21:37.511 WIT %JTAPI-JTAPIIMPL-7-UNK:Adding CCNCall Call:[GCID=(5064/1),CID=21720100] to TermConn:[SEP001B2431F2F6/[1003::1/(P1-dtcjtapi) GCID=(1,5064)->ACTIVE]->ESTABLISHED]->IDLE
+530: Nov 29 13:21:37.512 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnCreatedEv SEP001B2431F2F6 [#19] Cause:0 CallCtlCause:0 CiscoCause:110 FeatReason:12
+531: Nov 29 13:21:37.512 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnActiveEv SEP001B2431F2F6 [#20] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+532: Nov 29 13:21:37.512 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlTermConnTalkingEv SEP001B2431F2F6 [#21] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+533: Nov 29 13:21:37.512 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@670b6ffc) starting up...
+534: Nov 29 13:21:37.513 WIT %JTAPI-JTAPIIMPL-7-UNK:CallInfo for = (P1-dtcjtapi) GCID=(1,5064)->ACTIVE CurIng :1004::1 Cured :1003::1 LRP :null ing :1004::1 ed :1003::1 ModEd :1003::1 Moding :1004::1
+535: Nov 29 13:21:37.513 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) GCID=(1,5064)->ACTIVECallManager.deliverEvents: deliver 7 events with METACODE 128
+536: Nov 29 13:21:37.514 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 2 observers 
+537: Nov 29 13:21:37.515 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy.queueEvents: queuing asynchronously
+538: Nov 29 13:21:37.515 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@4ca3916e): queuing com.cisco.jtapi.JtapiCallEventSet
+539: Nov 29 13:21:37.515 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 2 observers 
+540: Nov 29 13:21:37.515 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy.queueEvents: queuing asynchronously
+541: Nov 29 13:21:37.515 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@591905e0): queuing com.cisco.jtapi.JtapiCallEventSet
+542: Nov 29 13:21:37.515 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceInServiceEvent[14]
+543: Nov 29 13:21:37.515 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) Terminal "SEP00E04C55F91C" in service
+544: Nov 29 13:21:37.518 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [SEP00E04C55F91C] CiscoTermInServiceEv [#22] Cause:100 CallCtlCause:0 FeatReason:12
+545: Nov 29 13:21:37.518 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@670b6ffc): delivering JTES[1]
+546: Nov 29 13:21:37.533 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy.deliverEvents()
+547: Nov 29 13:21:37.533 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]delivering to terminalChangedEvent
+548: Nov 29 13:21:37.534 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy.deliverEvents() completed
+549: Nov 29 13:21:37.521 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@4ca3916e): delivering JCES[7]
+550: Nov 29 13:21:37.535 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy.deliverEvents()
+551: Nov 29 13:21:37.521 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@591905e0): delivering JCES[7]
+552: Nov 29 13:21:37.536 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy.deliverEvents()
+553: Nov 29 13:21:37.537 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]delivering to callChangedEvent
+554: Nov 29 13:21:37.521 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy.queueEvents: queuing asynchronously
+555: Nov 29 13:21:37.538 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy.deliverEvents() completed
+556: Nov 29 13:21:37.538 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@670b6ffc): queuing com.cisco.jtapi.JtapiTerminalEventSet
+557: Nov 29 13:21:37.538 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]delivering to callChangedEvent
+558: Nov 29 13:21:37.538 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.LineInServiceEvent[15]
+559: Nov 29 13:21:37.538 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi){Line:SEP00E04C55F91C:1004::(1,734)} LineInServiceEvent
+560: Nov 29 13:21:37.539 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi){Line:SEP00E04C55F91C:1004::(1,734)} open() Added Line into Vector size = 1
+561: Nov 29 13:21:37.539 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP00E04C55F91C:1004::(1,734)]  in service
+562: Nov 29 13:21:37.539 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) [1004:] CiscoAddrInServiceEv [#23] Cause:100 CallCtlCause:0 FeatReason:12
+563: Nov 29 13:21:37.539 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy.queueEvents: queuing asynchronously
+564: Nov 29 13:21:37.539 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@6e10fcd4): queuing com.cisco.jtapi.JtapiAddressEventSet
+565: Nov 29 13:21:37.539 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$3@6e10fcd4): delivering JAES[1]
+566: Nov 29 13:21:37.539 WIT %JTAPI-CTIIMPL-7-UNK:(P1-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ExistingCallEvent[16]
+567: Nov 29 13:21:37.539 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy.deliverEvents()
+568: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]delivering to addressChangedEvent
+569: Nov 29 13:21:37.540 WIT %JTAPI-CTI-7-UNK:(P1-dtcjtapi){Line:SEP00E04C55F91C:1004::(1,734)|Call:[GCID=(5064/1),CID=21720099]} ExistingCall [ state=CONNECTED auxData=0 destCM=0 destType=IN_CLUSTER cause=0 confParties=PARTY[](null) localConferenceBridgeId= localConferenceBridgeName= bAdvanceAdhocConference=false CallType=0 CallSecurityStatus=1 unCg=1004 unCd=1003 unOrigCd=1003 unLRP= cg=1004 cgN= ed=1003 edN=test ASCII orig=1003 origN=test ASCII lrp= lrpN= origin=OUTBOUND reason=DIRECTCALL activeTone=0 devN=SEP00E04C55F91C RIU=false Priv=false Select=0 CgPI=True CgNPI=True CdPI=True CdNPI=True OrigPI=True OrigNPI=True LRPPI=True LRPNPI=True UcodeCgPN= w Locale = 1 UcodeCdPN= w Locale = 1 CgIP = null CgIPv6 = null LineIdDn = 1003 Parti =  globCg = CdInfo=000Url= 000CdNType= 0CgInfo=000Url= 000CgPNType= 0 Pre=true Priority=1 UniqueIdentifier=00000000000013C8014B6C2300000000 cgHuntDN=: cdHuntDN: cgPat=2 cdpat=2 ]
+570: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) getCallManager() Found existing CallManager
+571: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$3@6e10fcd4]ObserverProxy.deliverEvents() completed
+572: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:CallInfo for = (P1-dtcjtapi) GCID=(1,5064)->ACTIVE CurIng :1004::1 Cured :1003::1 LRP :null ing :1004::1 ed :1003::1 ModEd :1003::1 Moding :1004::1
+573: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:{SETTING Calling Address 1004Partition = Display name
+574: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy.deliverEvents() completed
+575: Nov 29 13:21:37.540 WIT %JTAPI-JTAPI-7-UNK:[[1004::1/(P1-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE]creating internal connection for 1004::1
+576: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$5@670b6ffc): delivering JTES[1]
+577: Nov 29 13:21:37.540 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy.deliverEvents()
+578: Nov 29 13:21:37.540 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnCreatedEv 1004::1 [#24] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+579: Nov 29 13:21:37.541 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]delivering to terminalChangedEvent
+580: Nov 29 13:21:37.541 WIT %JTAPI-JTAPI-7-UNK:{ CcnCall=Call:[GCID=(5064/1),CID=21720099] Connection=[1004::1/(P1-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE: creating new Connection for CCNCall }
+581: Nov 29 13:21:37.541 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} Initializing to CONNECTED for 1004::1
+582: Nov 29 13:21:37.541 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$5@670b6ffc]ObserverProxy.deliverEvents() completed
+583: Nov 29 13:21:37.541 WIT %JTAPI-CTI-7-UNK:{Address:1004::1 Call:(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} MAKEUP CallStateChanged [ state=CONNECTED cause=NOERROR unCg=1004 unCd=1003 unOrigCd=1003 unLRP= cg=1004 cgN= ed=1003 edN=test ASCII orig=1003 origN=test ASCII lrp= lrpN= origin=OUTBOUND reason=DIRECTCALL activeTone=0 devN=SEP00E04C55F91C RIU=false Priv=false Select=0 CgPI=True CgNPI=True CdPI=True CdNPI=True OrigPI=True OrigNPI=True LRPPI=True LRPNPI=True UcodeCgPN= w Locale = 1 UcodeCdPN= w Locale = 1 CgIP = null CgIPv6 = null LineIdDn = 1003 Parti =  globCg = CdInfo=000Url= 000CdNType= 0CgInfo=000Url= 000CgPNType= 0 Pre=true Priority=1 UniqueIdentifier=00000000000013C8014B6C2300000000 cgHuntDN=: cdHuntDN: cgPat=2 cdpat=2 ]
+584: Nov 29 13:21:37.541 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} CallManager.processCallStateChange:Handling CONNECTED for 1004::1
+585: Nov 29 13:21:37.541 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnConnectedEv 1004::1 [#25] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+586: Nov 29 13:21:37.541 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlConnEstablishedEv 1004::1 [#26] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+587: Nov 29 13:21:37.541 WIT %JTAPI-JTAPIIMPL-7-UNK:Adding CCNCall Call:[GCID=(5064/1),CID=21720099] to TermConn:[SEP00E04C55F91C/[1004::1/(P1-dtcjtapi) GCID=(1,5064)->ACTIVE]->ESTABLISHED]->IDLE
+588: Nov 29 13:21:37.542 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnCreatedEv SEP00E04C55F91C [#27] Cause:0 CallCtlCause:0 CiscoCause:110 FeatReason:12
+589: Nov 29 13:21:37.542 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnActiveEv SEP00E04C55F91C [#28] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+590: Nov 29 13:21:37.542 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlTermConnTalkingEv SEP00E04C55F91C [#29] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+591: Nov 29 13:21:37.542 WIT %JTAPI-JTAPIIMPL-7-UNK:CallInfo for = (P1-dtcjtapi) GCID=(1,5064)->ACTIVE CurIng :1004::1 Cured :1003::1 LRP :null ing :1004::1 ed :1003::1 ModEd :1003::1 Moding :1004::1
+592: Nov 29 13:21:37.542 WIT %JTAPI-JTAPIIMPL-7-UNK:(P1-dtcjtapi) GCID=(1,5064)->ACTIVECallManager.deliverEvents: deliver 6 events with METACODE 129
+593: Nov 29 13:21:37.544 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallActiveEv [#30] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+594: Nov 29 13:21:37.544 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} CallManager.snapshotCall: 2 connections.
+595: Nov 29 13:21:37.544 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnCreatedEv 1003::1 [#31] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+596: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnConnectedEv 1003::1 [#32] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+597: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlConnEstablishedEv 1003::1 [#33] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+598: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnCreatedEv SEP001B2431F2F6 [#34] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+599: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnActiveEv SEP001B2431F2F6 [#35] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+600: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlTermConnTalkingEv SEP001B2431F2F6 [#36] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+601: Nov 29 13:21:37.545 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P1-dtcjtapi) GCID=(1,5064)->ACTIVE} CallManager.snapshotCall: 2 connections.
+602: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnCreatedEv 1004::1 [#37] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+603: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 ConnConnectedEv 1004::1 [#38] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+604: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlConnEstablishedEv 1004::1 [#39] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+605: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnCreatedEv SEP00E04C55F91C [#40] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+606: Nov 29 13:21:37.545 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 TermConnActiveEv SEP00E04C55F91C [#41] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+607: Nov 29 13:21:37.546 WIT %JTAPI-JTAPI-7-UNK:(P1-dtcjtapi) 5064/1 CallCtlTermConnTalkingEv SEP00E04C55F91C [#42] Cause:100 CallCtlCause:0 CiscoCause:31 FeatReason:12
+608: Nov 29 13:21:37.547 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 4 observers 
+609: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@2686695c]ObserverProxy.queueEvents: queuing asynchronously
+610: Nov 29 13:21:37.547 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@2686695c): queuing com.cisco.jtapi.JtapiCallEventSet
+611: Nov 29 13:21:37.547 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 4 observers 
+612: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@2686695c): delivering JCES[13]
+613: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy.queueEvents: queuing asynchronously
+614: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@2686695c]ObserverProxy.deliverEvents()
+615: Nov 29 13:21:37.547 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@4ca3916e): queuing com.cisco.jtapi.JtapiCallEventSet
+616: Nov 29 13:21:37.547 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 4 observers 
+617: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@2686695c]delivering to callChangedEvent
+618: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@4ca3916e): delivering JCES[6]
+619: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@f719660]ObserverProxy.queueEvents: queuing asynchronously
+620: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy.deliverEvents()
+621: Nov 29 13:21:37.547 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@f719660): queuing com.cisco.jtapi.JtapiCallEventSet
+622: Nov 29 13:21:37.547 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]delivering to callChangedEvent
+623: Nov 29 13:21:37.548 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 4 observers 
+624: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy.queueEvents: queuing asynchronously
+625: Nov 29 13:21:37.548 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@591905e0): queuing com.cisco.jtapi.JtapiCallEventSet
+626: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$2@f719660): delivering JCES[13]
+627: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@f719660]ObserverProxy.deliverEvents()
+628: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@f719660]delivering to callChangedEvent
+629: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@4ca3916e]ObserverProxy.deliverEvents() completed
+630: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.server.corp.cucm_server_main$4@591905e0): delivering JCES[6]
+631: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy.deliverEvents()
+632: Nov 29 13:21:37.548 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]delivering to callChangedEvent
+633: Nov 29 13:21:37.549 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@591905e0]ObserverProxy.deliverEvents() completed
+634: Nov 29 13:21:37.549 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$2@f719660]ObserverProxy.deliverEvents() completed
+635: Nov 29 13:21:37.550 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.server.corp.cucm_server_main$4@2686695c]ObserverProxy.deliverEvents() completed
+636: Nov 29 13:21:52.548 WIT %JTAPI-MISC-7-UNK:(P3-) started preloading classes
+637: Nov 29 13:21:52.549 WIT %JTAPI-MISC-7-UNK:(P3-) finished preloading classes
+638: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) JVM Field Order is  onetwothree
+639: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) EventThread wakeups are disabled
+640: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) EventThread queue statistics are disabled
+641: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) EventThread queue size threshold is 25
+642: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) Provider retry interval is set to  30 seconds
+643: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) Client desired server heartbeat time is set to 30 seconds
+644: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) CTI request timeout is is set to 30 seconds
+645: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) Provider open request timeout is set to 200 seconds
+646: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) Provider priority is set to 2
+647: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) Provider Reconnect attempts is set to 0
+648: Nov 29 13:21:52.549 WIT %JTAPI-CTI-7-UNK:(P3-) JAVA Socket Connect Timeout is set to 15 seconds
+649: Nov 29 13:21:52.550 WIT %JTAPI-CTI-7-UNK:(P3-) Hunt List is disabled
+650: Nov 29 13:21:52.550 WIT %JTAPI-CTIIMPL-7-UNK:(P3-) Provider.info(Entering encryptPassword)
+651: Nov 29 13:21:52.551 WIT %JTAPI-CTIIMPL-7-UNK:(P3-) Provider.info(Exiting encryptPassword)
+652: Nov 29 13:21:52.551 WIT %JTAPI-CTIIMPL-7-UNK:(P3-) application did not set appinfo, creating default
+653: Nov 29 13:21:52.551 WIT %JTAPI-JTAPIIMPL-7-UNK:ProviderImpl(): calling jtapiProperties.getSecurityPropertyForInstance()
+654: Nov 29 13:21:52.551 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) TraceModule: JTAPI version Cisco Jtapi version 8.0(2.32200)-7 Release
+655: Nov 29 13:21:52.551 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) Route Select Timeout is 5000 msecs
+656: Nov 29 13:21:52.551 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) Jtapi post condition timeout is set to 15 seconds
+657: Nov 29 13:21:52.551 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) IgnoreFwdDestination set to false
+658: Nov 29 13:21:52.551 WIT %JTAPI-CTIIMPL-7-UNK:(P3-dtcjtapi) Opening server "192.168.15.11" login "dtcjtapi"
+659: Nov 29 13:21:52.551 WIT %JTAPI-CTIIMPL-7-UNK:(P3-dtcjtapi) ProviderID = P3-dtcjtapi
+660: Nov 29 13:21:57.652 WIT %JTAPI-CTIIMPL-7-UNK:(P3-dtcjtapi) Trying to create normal socket connection to 192.168.15.11
+661: Nov 29 13:21:57.653 WIT %JTAPI-CTIIMPL-7-UNK:(P3-dtcjtapi) connected
+662: Nov 29 13:21:57.654 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: created
+663: Nov 29 13:21:57.654 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread starting up...
+664: Nov 29 13:21:57.654 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.ProviderOpenRequest {
+ provider                   = 192.168.15.11
+ qbeClientVersion           = Cisco JTAPI 8.0(2.32200)-7 Release
+ login                      = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = dtcjtapi
+  count              = 8
+  sizeofElement      = 2
+  }
+ filter                     = com.cisco.cti.protocol.ProviderEventFilter {
+  deviceRegistered         = true
+  deviceUnregistered       = true
+  directoryChangeNotify    = true
+  deviceConfigChangeNotify = true
+  }
+ applicationID              = JTAPI[36]@localhost.localdomain
+ desiredServerHeartbeatTime = 30
+ requestTimer               = 0
+ cmAssignedApplicationID    = 0
+ pluginName                 = CiscoJTAPI
+ applicationPriority        = 2
+ lightWeightOpen            = false
+}
+665: Nov 29 13:21:57.655 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) ReceiveThread starting up...
+666: Nov 29 13:21:57.657 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderOpenResponse {
+  sequenceNumber     = 0
+  result             = 0
+  providerInfoString = 8.0.0.99141-4
+  clientHeartbeat    = 30
+  serverHeartbeat    = 30
+  requestTimer       = 5
+  pluginVersion      = 8.0.0.98000-17
+  pluginLocation     = http://CUCMPub/plugins/
+  providerId         = 16777433
+  }
+667: Nov 29 13:21:57.657 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) Server response: will send server heartbeat every 30 seconds
+668: Nov 29 13:21:57.657 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) Server response: expecting client heartbeat every 30 seconds
+669: Nov 29 13:21:57.657 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) HeartbeatSendThread starting up
+670: Nov 29 13:21:57.658 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) DeviceLineUpdateThread: created
+671: Nov 29 13:21:57.658 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) HeartbeatReceiveThread starting up
+672: Nov 29 13:21:57.658 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) DeviceLineUpdateThread starting up...
+673: Nov 29 13:21:57.883 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.ProviderOpenCompletedEvent {
+  eventSequence       = 17
+  reason              = 0
+  sequenceNumber      = 0
+  providerInfoString  = 8.0.0.99141-4
+  clientHeartbeat     = 30
+  serverHeartbeat     = 30
+  failureDescription  = null
+  bMonitorCallParkDNs = true
+  providerId          = 16777433
+  precedenceValue     = 96
+  canSupportIPv6      = false
+  }
+674: Nov 29 13:21:57.883 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ProviderOpenCompletedEvent
+675: Nov 29 13:21:57.884 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 18
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP080027CA5FBC
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 5
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 252684480
+  }
+676: Nov 29 13:21:57.884 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+677: Nov 29 13:21:57.886 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 19
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP001B2431F2F6
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 8
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 303016128
+  }
+678: Nov 29 13:21:57.886 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+679: Nov 29 13:21:57.886 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ProviderOpenCompletedEvent[17]
+680: Nov 29 13:21:57.887 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) connected to CTIManager version 8.0.0.99141-4
+681: Nov 29 13:21:57.887 WIT %JTAPI-PROTOCOL-7-UNK:QoS parameter Set To96
+682: Nov 29 13:21:57.887 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[18]
+683: Nov 29 13:21:57.887 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) Received DeviceRegisteredEvent
+684: Nov 29 13:21:57.887 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP080027CA5FBC EMLoginUsername=
+685: Nov 29 13:21:57.887 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[19]
+686: Nov 29 13:21:57.887 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) Received DeviceRegisteredEvent
+687: Nov 29 13:21:57.887 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP001B2431F2F6 EMLoginUsername=
+688: Nov 29 13:21:57.887 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.ProviderGetCapabilitiesRequest {
+  sequenceNumber = 1
+  }
+689: Nov 29 13:21:57.887 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceRegisteredEvent {
+  eventSequence            = 20
+  deviceInfo               = com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP00E04C55F91C
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 7
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }
+  loginAllowed             = false
+  loginUserID              = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  controllable             = true
+  reason                   = 0
+  registrationType         = 5
+  unicodeEnabled           = 3
+  ctiControl               = 1
+  deviceControlFlagBitMask = 202352832
+  }
+690: Nov 29 13:21:57.888 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceRegisteredEvent
+691: Nov 29 13:21:57.888 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceRegisteredEvent[20]
+692: Nov 29 13:21:57.888 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) Received DeviceRegisteredEvent
+693: Nov 29 13:21:57.888 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi)DeviceRegistered with CCNDeviceInfo - name = SEP00E04C55F91C EMLoginUsername=
+694: Nov 29 13:21:57.889 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetCapabilitiesResponse {
+  sequenceNumber           = 1
+  result                   = 0
+  providerCapabilitiesInfo = com.cisco.cti.protocol.ProviderCapabilitiesInfo {
+  controlAnyDevice       = true
+  maxNumberOfDevicesOpen = 0
+  monitorParkDN          = true
+  modifyCallingParty     = true
+  allowCallMonitoring    = true
+  allowCallRecording     = true
+  canSupportIPv6         = false
+  providerCapabilityMask = 3
+  canAutoPickup          = false
+  }
+  }
+695: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) CanControlAnyDevice: can control any device = true
+696: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) MonitorParkDN:  can Park = true
+697: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) CallingPartyModification: can Modify CgPn = true
+698: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11)can record = true
+699: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11)can Monitor= true
+700: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) CanSupportIPv6 = false
+701: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) CanSupportConnectedTransferConference= true
+702: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) CanObserveTerminalsWithRollOverMode= true
+703: Nov 29 13:21:57.889 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) CanAutoPickup = false
+704: Nov 29 13:21:57.890 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.ProviderGetDeviceInfoRequest {
+  sequenceNumber = 2
+  deviceGroup    = 1
+  }
+705: Nov 29 13:21:57.891 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetDeviceInfoResponse {
+  sequenceNumber    = 2
+  result            = 0
+  enumerationHandle = 867
+  }
+706: Nov 29 13:21:57.891 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetDeviceInfoFetchRequest {
+  sequenceNumber    = 3
+  enumerationHandle = 867
+  count             = 100
+  }
+707: Nov 29 13:21:57.975 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoFetchResponse {
+  sequenceNumber           = 3
+  result                   = 0
+  info                     = 4@[
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP080027CA5FBC
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 5
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP001B2431F2F6
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 8
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP08002701469E
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 6
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  },
+com.cisco.cti.protocol.DeviceInfo {
+  name               = SEP00E04C55F91C
+  type               = 30016
+  allowsRegistration = false
+  deviceID           = 7
+  locale             = 1
+  protocol           = 1
+  isRestricted       = false
+  altScript          = 
+  devTypeName        = Cisco IP Communicator
+  dndOption          = 1
+  roleOverMode       = 0
+  isBIBEnabled       = false
+  ipAddressingMode   = 0
+  supportsFeature    = 0
+  isVisitingDevice   = false
+  }]
+  more                     = false
+  deviceControlFlagBitMask = 4@[1,1,1,1]
+  }
+708: Nov 29 13:21:57.975 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetDeviceInfoCloseRequest {
+  sequenceNumber    = 4
+  enumerationHandle = 867
+  }
+709: Nov 29 13:21:57.976 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoCloseResponse {
+  sequenceNumber = 4
+  result         = 0
+  }
+710: Nov 29 13:21:57.976 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) creating controlled devices
+711: Nov 29 13:21:57.977 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 5
+  deviceName     = SEP001B2431F2F6
+  }
+712: Nov 29 13:21:57.978 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 5
+  result            = 0
+  enumerationHandle = 881
+  }
+713: Nov 29 13:21:57.978 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 6
+  enumerationHandle = 881
+  count             = 10
+  }
+714: Nov 29 13:21:57.981 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 6
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1003
+  displayName               = test ASCII
+  permanentLineID           = 4
+  maxNumberOfCalls          = 4
+  lineInstance              = 1
+  busyTrigger               = 2
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = test Line Text
+  pickupGroupPartition      = a h a i  
+  }]
+  more           = false
+  }
+715: Nov 29 13:21:57.981 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 7
+  enumerationHandle = 881
+  }
+716: Nov 29 13:21:57.982 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 7
+  result         = 0
+  }
+717: Nov 29 13:21:57.983 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi) DeviceMap: adding device "SEP001B2431F2F6"
+718: Nov 29 13:21:57.983 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 8
+  deviceName     = SEP080027CA5FBC
+  }
+719: Nov 29 13:21:57.984 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 8
+  result            = 0
+  enumerationHandle = 882
+  }
+720: Nov 29 13:21:57.984 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 9
+  enumerationHandle = 882
+  count             = 10
+  }
+721: Nov 29 13:21:57.988 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 9
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1001
+  displayName               = 
+  permanentLineID           = 8
+  maxNumberOfCalls          = 2
+  lineInstance              = 1
+  busyTrigger               = 1
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = aduh
+  count              = 4
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = d u h a i  
+  }]
+  more           = false
+  }
+722: Nov 29 13:21:57.988 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 10
+  enumerationHandle = 882
+  }
+723: Nov 29 13:21:57.990 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 10
+  result         = 0
+  }
+724: Nov 29 13:21:57.990 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi) DeviceMap: adding device "SEP080027CA5FBC"
+725: Nov 29 13:21:57.990 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 11
+  deviceName     = SEP08002701469E
+  }
+726: Nov 29 13:21:57.991 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 11
+  result            = 0
+  enumerationHandle = 883
+  }
+727: Nov 29 13:21:57.991 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 12
+  enumerationHandle = 883
+  count             = 10
+  }
+728: Nov 29 13:21:57.993 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 12
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1002
+  displayName               = 
+  permanentLineID           = 7
+  maxNumberOfCalls          = 2
+  lineInstance              = 1
+  busyTrigger               = 1
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = h h e h e  
+  }]
+  more           = false
+  }
+729: Nov 29 13:21:57.994 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 13
+  enumerationHandle = 883
+  }
+730: Nov 29 13:21:58.000 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 13
+  result         = 0
+  }
+731: Nov 29 13:21:58.000 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi) DeviceMap: adding device "SEP08002701469E"
+732: Nov 29 13:21:58.000 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.DeviceGetLineInfoRequest {
+  sequenceNumber = 14
+  deviceName     = SEP00E04C55F91C
+  }
+733: Nov 29 13:21:58.001 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceGetLineInfoResponse {
+  sequenceNumber    = 14
+  result            = 0
+  enumerationHandle = 884
+  }
+734: Nov 29 13:21:58.002 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoFetchRequest {
+  sequenceNumber    = 15
+  enumerationHandle = 884
+  count             = 10
+  }
+735: Nov 29 13:21:58.004 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoFetchResponse {
+  sequenceNumber = 15
+  result         = 0
+  info           = 1@[
+com.cisco.cti.protocol.LineInfo {
+  name                      = 1004
+  displayName               = 
+  permanentLineID           = 3
+  maxNumberOfCalls          = 4
+  lineInstance              = 1
+  busyTrigger               = 2
+  unicodeDisplayName        = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  partition                 = 
+  isRestricted              = false
+  autoAnswerStatus          = 0
+  dnType                    = 0
+  defaultIntercomTargetInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  recordType                = 0
+  pickupGroupNumber         = 
+  pickupGroupPartition      = H E L L O 2  
+  }]
+  more           = false
+  }
+736: Nov 29 13:21:58.005 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetLineInfoCloseRequest {
+  sequenceNumber    = 16
+  enumerationHandle = 884
+  }
+737: Nov 29 13:21:58.007 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetLineInfoCloseResponse {
+  sequenceNumber = 16
+  result         = 0
+  }
+738: Nov 29 13:21:58.007 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi) DeviceMap: adding device "SEP00E04C55F91C"
+739: Nov 29 13:21:58.007 WIT %JTAPI-CTI-7-UNK:(P3-192.168.15.11) refreshing device map: previous=0 current=4 created=4 removed=0
+740: Nov 29 13:21:58.007 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.ProviderGetDeviceInfoRequest {
+  sequenceNumber = 17
+  deviceGroup    = 3
+  }
+741: Nov 29 13:21:58.008 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetDeviceInfoResponse {
+  sequenceNumber    = 17
+  result            = 0
+  enumerationHandle = 868
+  }
+742: Nov 29 13:21:58.008 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetDeviceInfoFetchRequest {
+  sequenceNumber    = 18
+  enumerationHandle = 868
+  count             = 100
+  }
+743: Nov 29 13:21:58.011 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoFetchResponse {
+  sequenceNumber           = 18
+  result                   = 0
+  info                     = null
+  more                     = false
+  deviceControlFlagBitMask = null
+  }
+744: Nov 29 13:21:58.011 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetDeviceInfoCloseRequest {
+  sequenceNumber    = 19
+  enumerationHandle = 868
+  }
+745: Nov 29 13:21:58.011 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetDeviceInfoCloseResponse {
+  sequenceNumber = 19
+  result         = 0
+  }
+746: Nov 29 13:21:58.012 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.ProviderGetMonitorDNInfoRequest {
+  sequenceNumber = 20
+  DNType         = 0
+  }
+747: Nov 29 13:21:58.013 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.ProviderGetMonitorDNInfoResponse {
+  sequenceNumber             = 20
+  result                     = 0
+  monitorDNenumerationHandle = 1
+  }
+748: Nov 29 13:21:58.013 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetMonitorDNFetchRequest {
+  sequenceNumber    = 21
+  enumerationHandle = 1
+  count             = 100
+  }
+749: Nov 29 13:21:58.014 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetMonitorDNFetchResponse {
+  sequenceNumber = 21
+  result         = 0
+  dninfo         = null
+  more           = false
+  }
+750: Nov 29 13:21:58.015 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) No Park DNs Created
+751: Nov 29 13:21:58.015 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.GetMonitorDNCloseRequest {
+  sequenceNumber = 22
+  enumHandle     = 1
+  }
+752: Nov 29 13:21:58.015 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.GetMonitorDNCloseResponse {
+  sequenceNumber             = 22
+  result                     = 0
+  monitorDNenumerationHandle = 0
+  }
+753: Nov 29 13:21:58.015 WIT %JTAPI-MISC-7-UNK:Provider 192.168.15.11 open, beginning device initialization
+754: Nov 29 13:21:58.019 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi)[Thread-32](P3-dtcjtapi) Request: addObserver
+755: Nov 29 13:21:58.020 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1001 in partition
+756: Nov 29 13:21:58.020 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) SEP080027CA5FBC: Address: 1001 in partition created
+757: Nov 29 13:21:58.020 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1001 in Partition 
+758: Nov 29 13:21:58.020 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1003 in partition
+759: Nov 29 13:21:58.021 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) SEP001B2431F2F6: Address: 1003 in partition created
+760: Nov 29 13:21:58.021 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1003 in Partition 
+761: Nov 29 13:21:58.022 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1002 in partition
+762: Nov 29 13:21:58.020 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy: creating asynchronous proxy
+763: Nov 29 13:21:58.022 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) SEP08002701469E: Address: 1002 in partition created
+764: Nov 29 13:21:58.022 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1002 in Partition 
+765: Nov 29 13:21:58.022 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$3@699bc302): created
+766: Nov 29 13:21:58.022 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) ProviderRetryThread starting up
+767: Nov 29 13:21:58.023 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) ProviderRetryThread waiting until notified
+768: Nov 29 13:21:58.023 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Support 1004 in partition
+769: Nov 29 13:21:58.023 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) ProvOutOfServiceEv [#43] Cause:100 CallCtlCause:0 FeatReason:12
+770: Nov 29 13:21:58.023 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) SEP00E04C55F91C: Address: 1004 in partition created
+771: Nov 29 13:21:58.023 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy.queueEvents: queuing asynchronously
+772: Nov 29 13:21:58.023 WIT %JTAPI-JTAPIIMPL-7-UNK:Partition Internal Address Added 1004 in Partition 
+773: Nov 29 13:21:58.023 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$3@699bc302): queuing com.cisco.jtapi.JtapiProviderEventSet
+774: Nov 29 13:21:58.024 WIT %JTAPI-MISC-7-UNK:Provider "(P3-dtcjtapi)" changing state to IN_SERVICE
+775: Nov 29 13:21:58.024 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$3@699bc302) starting up...
+776: Nov 29 13:21:58.024 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi)[Thread-38](P3-dtcjtapi) Request: getObservers
+777: Nov 29 13:21:58.026 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) ProvInServiceEv [#44] Cause:100 CallCtlCause:0 FeatReason:12
+778: Nov 29 13:21:58.026 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy.queueEvents: queuing asynchronously
+779: Nov 29 13:21:58.026 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$3@699bc302): delivering JPES[1]
+780: Nov 29 13:21:58.026 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$3@699bc302): queuing com.cisco.jtapi.JtapiProviderEventSet
+781: Nov 29 13:21:58.026 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy.deliverEvents()
+782: Nov 29 13:21:58.026 WIT %JTAPI-JTAPIIMPL-7-UNK:Provider 192.168.15.11 initialized 4 devices
+783: Nov 29 13:21:58.026 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]delivering to providerChangedEvent
+784: Nov 29 13:21:58.028 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy.deliverEvents() completed
+785: Nov 29 13:21:58.028 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$3@699bc302): delivering JPES[1]
+786: Nov 29 13:21:58.028 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy.deliverEvents()
+787: Nov 29 13:21:58.028 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]delivering to providerChangedEvent
+788: Nov 29 13:21:58.028 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$3@699bc302]ObserverProxy.deliverEvents() completed
+789: Nov 29 13:21:58.030 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi)[Thread-32](P3-dtcjtapi) Request: getAddress( 1004 )Partition = 
+790: Nov 29 13:21:58.031 WIT %JTAPI-JTAPI-7-UNK:[1004::1]Request: addCallObserver(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587)
+791: Nov 29 13:21:58.032 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy: creating asynchronous proxy
+792: Nov 29 13:21:58.032 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587): created
+793: Nov 29 13:21:58.033 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.DeviceOpenRequest {
+  sequenceNumber        = 23
+  deviceName            = SEP00E04C55F91C
+  filter                = com.cisco.cti.protocol.DeviceEventFilter {
+  deviceModeChanged               = false
+  keyPressed                      = false
+  featureButtonPressed            = false
+  lampModeChanged                 = false
+  ringModeChanged                 = false
+  displayChanged                  = false
+  startTransmission               = true
+  stopTransmission                = true
+  startReception                  = true
+  stopReception                   = true
+  softKeyPressed                  = true
+  openLogicalChannel              = false
+  deviceData                      = false
+  mediaResourceAllocated          = false
+  mediaResourceDeallocated        = false
+  mediaResourceUpdated            = false
+  mediaConnectionAdded            = false
+  mediaConnectionRemoved          = false
+  mediaResourceExisting           = false
+  existingMediaResourcesCompleted = false
+  snapshot                        = false
+  receptionKey                    = false
+  transmissionKey                 = false
+  deviceIdleState                 = false
+  deviceActiveState               = false
+  deviceAlertingState             = false
+  deviceHoldState                 = false
+  deviceWhisperState              = false
+  bDNDChanged                     = true
+  bDNDOptionChanged               = false
+  }
+  softkeysApplicationId = 0
+  }
+794: Nov 29 13:21:58.035 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587) starting up...
+795: Nov 29 13:21:58.038 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.DeviceOpenResponse {
+  sequenceNumber = 23
+  result         = 0
+  callManagerID  = 1
+  deviceID       = 736
+  }
+796: Nov 29 13:21:58.039 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.DeviceInServiceEvent {
+  eventSequence       = 21
+  deviceCallManagerID = 1
+  deviceID            = 736
+  locale              = 1
+  supportedEncoding   = 3
+  altScript           = 
+  dndStatus           = true
+  dndOption           = 1
+  }
+797: Nov 29 13:21:58.039 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.DeviceInServiceEvent
+798: Nov 29 13:21:58.039 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.DeviceInServiceEvent[21]
+799: Nov 29 13:21:58.039 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi) DeviceMap: opening device "SEP00E04C55F91C"
+800: Nov 29 13:21:58.040 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) Terminal "SEP00E04C55F91C" in service
+801: Nov 29 13:21:58.040 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) [SEP00E04C55F91C] CiscoTermInServiceEv [#45] Cause:100 CallCtlCause:0 FeatReason:12
+802: Nov 29 13:21:58.040 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP00E04C55F91C:1004::(0,0)] out of service
+803: Nov 29 13:21:58.040 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) [1004:] CiscoAddrOutOfServiceEv [#46] Cause:100 CallCtlCause:0 FeatReason:12
+804: Nov 29 13:21:58.065 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) [Thread-32] sending: com.cisco.cti.protocol.LineOpenRequest {
+  sequenceNumber   = 24
+  deviceName       = SEP00E04C55F91C
+  lineName         = 1004
+  filter           = com.cisco.cti.protocol.LineEventFilter {
+  callStateChanged               = true
+  dtmf                           = true
+  ring                           = false
+  toneChanged                    = 1
+  globalCallHandleChanged        = true
+  partyInfoChanged               = true
+  bExistingCallEvent             = true
+  bNewCallEvent                  = true
+  bLineCfwdAllStatus             = true
+  bTransferStarted               = true
+  bTransferEnded                 = true
+  bTransferFailed                = true
+  bConferenceStarted             = true
+  bConferenceEnded               = true
+  bConferenceFailed              = true
+  bBargeStarted                  = true
+  bBargeEnded                    = true
+  bCBargeStarted                 = true
+  bCBargeEnded                   = true
+  bPrivacyChanged                = true
+  bCallSelectChanged             = true
+  bExistingCallCompleted         = false
+  bHoldReversion                 = true
+  bIntercomInfoChanged           = true
+  bIntercomInfoRestorationFailed = true
+  bMonitoringStarted             = true
+  bMonitoringEnded               = true
+  bRecordingStarted              = true
+  bRecordingEnded                = true
+  bCallAttributeInfo             = true
+  bCallSecurityStatusUpdate      = false
+  bCallPresentEvent              = true
+  bCallFeatureCancelled          = true
+  bParkStatusEvent               = false
+  bMonitoringTerminatedEvent     = true
+  }
+  autoAcceptStatus = 0
+  partition        = 
+  }
+805: Nov 29 13:21:58.070 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Response: com.cisco.cti.protocol.LineOpenResponse {
+  sequenceNumber    = 24
+  result            = 0
+  lineCallManagerID = 1
+  lineID            = 736
+  autoAcceptStatus  = 0
+  }
+806: Nov 29 13:21:58.070 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.LineInServiceEvent {
+  eventSequence       = 22
+  lineCallManagerID   = 1
+  lineID              = 736
+  defaultIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  currentIntercomInfo = com.cisco.cti.protocol.LineIntercomSpeedDialInfo {
+  number       = 
+  label        = 
+  unicodeLabel = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  }
+  isIntercomTargetSet = false
+  }
+807: Nov 29 13:21:58.070 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.LineInServiceEvent
+808: Nov 29 13:21:58.070 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.LineInServiceEvent[22]
+809: Nov 29 13:21:58.070 WIT %JTAPI-JTAPIIMPL-7-UNK:SEP00E04C55F91C: Lines opened
+810: Nov 29 13:21:58.072 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi){Line:SEP00E04C55F91C:1004::(1,736)} LineInServiceEvent
+811: Nov 29 13:21:58.072 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi){Line:SEP00E04C55F91C:1004::(1,736)} open() Added Line into Vector size = 1
+812: Nov 29 13:21:58.072 WIT %JTAPI-JTAPIIMPL-7-UNK:Address [SEP00E04C55F91C:1004::(1,736)]  in service
+813: Nov 29 13:21:58.072 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) [1004:] CiscoAddrInServiceEv [#47] Cause:100 CallCtlCause:0 FeatReason:12
+814: Nov 29 13:21:58.074 WIT %JTAPI-PROTOCOL-7-UNK:(P3-192.168.15.11) received Event: com.cisco.cti.protocol.ExistingCallEvent {
+  eventSequence                     = 23
+  lineCallManagerID                 = 1
+  lineID                            = 736
+  lineHandleSpecified               = true
+  deviceName                        = SEP00E04C55F91C
+  callCallManagerID                 = 1
+  callLegID                         = 21720099
+  globalCallManagerID               = 1
+  callID                            = 5064
+  callingParty                      = 1004
+  calledParty                       = 1003
+  originalCalledParty               = 1003
+  lastRedirectingParty              = 
+  state                             = 8
+  origin                            = 4
+  userData                          = null
+  auxiliaryData                     = 0
+  farEndpointCallManagerID          = 0
+  farEndpointType                   = 1
+  reason                            = 1
+  cause                             = 0
+  participantsInfo                  = null
+  callingPartyName                  = 
+  calledPartyName                   = test ASCII
+  originalCalledPartyName           = test ASCII
+  lastRedirectingPartyName          = 
+  callingPartyDeviceName            = SEP00E04C55F91C
+  controllerParticipant             = com.cisco.cti.protocol.ParticipantInfo {
+  participantNumber                      = 
+  unModifiedParticipantNumber            = 
+  participantName                        = 
+  numberPI                               = false
+  namePI                                 = false
+  endpointType                           = 0
+  state                                  = 0
+  unModifiedPaticipantUnicodeDisplayName = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  participantLocale                      = 1
+  participantDNInfo                      = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  callManagerID                          = 0
+  callLegID                              = 0
+  bridgeParticipantID                    = 
+  }
+  mediaDeviceName                   = 
+  mediaResourceId                   = 0
+  mediaTransmitActive               = true
+  mediaReceiveActive                = true
+  bRemoteInUse                      = false
+  parentCallManagerID               = 0
+  parentCallID                      = 0
+  bPrivacy                          = false
+  callSelectStatus                  = 0
+  unModifiedCallingParty            = 1004
+  unModifiedCalledParty             = 1003
+  unModifiedOriginalCalledParty     = 1003
+  unModifiedLastRedirectingParty    = 
+  callingPartyPi                    = true
+  callingPartyNamePi                = true
+  calledPartyPi                     = true
+  calledPartyNamePi                 = true
+  originalCalledPartyPi             = true
+  originalCalledPartyNamePi         = true
+  lastRedirectingPartyPi            = true
+  lastRedirectingPartyNamePi        = true
+  unicodeCallingPartyName           = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodeCalledPartyName            = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodeOriginalCalledPartyName    = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = w
+  count              = 1
+  sizeofElement      = 2
+  }
+  unicodelastRedirectingPartyName   = com.cisco.cti.protocol.UnicodeString {
+  unicodedisplayName = 
+  count              = 0
+  sizeofElement      = 2
+  }
+  unicodeCallingPartyLocale         = 1
+  unicodeCalledPartyLocale          = 1
+  unicodeOriginalCalledPartyLocale  = 1
+  unicodeLastRedirectingPartyLocale = 1
+  callingPartyDNInfo                = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  calledPartyDNInfo                 = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  originalCalledPartyDNInfo         = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  lastRedirectingPartyDNInfo        = com.cisco.cti.protocol.PartyDNInfo {
+  sipUrl           = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  unModifiedsipUrl = com.cisco.cti.protocol.SIPUrl {
+  user         = 
+  host         = 
+  port         = 0
+  transportTye = 0
+  urlType      = 0
+  }
+  partition        = 
+  voiceMailbox     = 
+  numberType       = 0
+  }
+  bHoldReversionDelivered           = false
+  localConferenceBridgeId           = 
+  localConferenceBridgeName         = 
+  bAdvanceAdhocConference           = false
+  ctiCallType                       = 0
+  callingPartyIpAddr                = 0
+  overallCallSecurityStatus         = 1
+  farEndLineIdDN                    = 1003
+  farEndLineIdPartition             = 
+  callPresentable                   = true
+  featurePriority                   = 1
+  globalizedCallingParty            = 
+  callingPartyIpAddr_v6             = null
+  callingPartyIpAddressingMode      = 3
+  consultSetupbyRollover            = false
+  uniqueProtocolCallReference       = 00000000000013C8014B6C2300000000
+  cgpnHuntMemberDN                  = 
+  cgpnHuntMemberPartition           = 
+  cdpnHuntMemberDN                  = 
+  cdpnHuntMemberPartition           = 
+  cgpnPatternUsage                  = 2
+  cdpnPatternUsage                  = 2
+  calledPartyDeviceName             = SEP001B2431F2F6
+  }
+815: Nov 29 13:21:58.074 WIT %JTAPI-MISC-7-UNK:(P3-192.168.15.11) EventThread: queuing com.cisco.cti.protocol.ExistingCallEvent
+816: Nov 29 13:21:58.074 WIT %JTAPI-CTIIMPL-7-UNK:(P3-192.168.15.11) EventThread handling event com.cisco.cti.protocol.ExistingCallEvent[23]
+817: Nov 29 13:21:58.074 WIT %JTAPI-CTI-7-UNK:(P3-dtcjtapi){Line:SEP00E04C55F91C:1004::(1,736)|Call:[GCID=(5064/1),CID=21720099]} ExistingCall [ state=CONNECTED auxData=0 destCM=0 destType=IN_CLUSTER cause=0 confParties=PARTY[](null) localConferenceBridgeId= localConferenceBridgeName= bAdvanceAdhocConference=false CallType=0 CallSecurityStatus=1 unCg=1004 unCd=1003 unOrigCd=1003 unLRP= cg=1004 cgN= ed=1003 edN=test ASCII orig=1003 origN=test ASCII lrp= lrpN= origin=OUTBOUND reason=DIRECTCALL activeTone=0 devN=SEP00E04C55F91C RIU=false Priv=false Select=0 CgPI=True CgNPI=True CdPI=True CdNPI=True OrigPI=True OrigNPI=True LRPPI=True LRPNPI=True UcodeCgPN= w Locale = 1 UcodeCdPN= w Locale = 1 CgIP = null CgIPv6 = null LineIdDn = 1003 Parti =  globCg = CdInfo=000Url= 000CdNType= 0CgInfo=000Url= 000CgPNType= 0 Pre=true Priority=1 UniqueIdentifier=00000000000013C8014B6C2300000000 cgHuntDN=: cdHuntDN: cgPat=2 cdpat=2 ]
+818: Nov 29 13:21:58.075 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) getCallManager() Creating new Call/CallManager
+819: Nov 29 13:21:58.075 WIT %JTAPI-JTAPIIMPL-7-UNK:CallInfo for = (P3-dtcjtapi) GCID=(1,5064)->IDLE CurIng :1004::1 Cured :1003::1 LRP :null ing :1004::1 ed :1003::1 ModEd :1003::1 Moding :1004::1
+820: Nov 29 13:21:58.075 WIT %JTAPI-JTAPIIMPL-7-UNK:{SETTING Calling Address 1004Partition = Display name
+821: Nov 29 13:21:58.075 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 CallActiveEv [#48] Cause:106 CallCtlCause:0 CiscoCause:0 FeatReason:12
+822: Nov 29 13:21:58.076 WIT %JTAPI-JTAPI-7-UNK:[[1004::1/(P3-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE]creating internal connection for 1004::1
+823: Nov 29 13:21:58.076 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 ConnCreatedEv 1004::1 [#49] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+824: Nov 29 13:21:58.076 WIT %JTAPI-JTAPI-7-UNK:{ CcnCall=Call:[GCID=(5064/1),CID=21720099] Connection=[1004::1/(P3-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE: creating new Connection for CCNCall }
+825: Nov 29 13:21:58.076 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P3-dtcjtapi) GCID=(1,5064)->ACTIVE} Initializing to CONNECTED for 1004::1
+826: Nov 29 13:21:58.076 WIT %JTAPI-JTAPI-7-UNK:[[1003::1/(P3-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE]creating external connection for 1003::1
+827: Nov 29 13:21:58.076 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 ConnCreatedEv 1003::1 [#50] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+828: Nov 29 13:21:58.076 WIT %JTAPI-JTAPI-7-UNK:{ CcnCall=Call:[GCID=(5064/1),CID=21720099] Connection=[1003::1/(P3-dtcjtapi) GCID=(1,5064)->ACTIVE]->IDLE: creating new Connection for CCNCall }
+829: Nov 29 13:21:58.077 WIT %JTAPI-CTI-7-UNK:{Address:1004::1 Call:(P3-dtcjtapi) GCID=(1,5064)->ACTIVE} MAKEUP CallStateChanged [ state=CONNECTED cause=NOERROR unCg=1004 unCd=1003 unOrigCd=1003 unLRP= cg=1004 cgN= ed=1003 edN=test ASCII orig=1003 origN=test ASCII lrp= lrpN= origin=OUTBOUND reason=DIRECTCALL activeTone=0 devN=SEP00E04C55F91C RIU=false Priv=false Select=0 CgPI=True CgNPI=True CdPI=True CdNPI=True OrigPI=True OrigNPI=True LRPPI=True LRPNPI=True UcodeCgPN= w Locale = 1 UcodeCdPN= w Locale = 1 CgIP = null CgIPv6 = null LineIdDn = 1003 Parti =  globCg = CdInfo=000Url= 000CdNType= 0CgInfo=000Url= 000CgPNType= 0 Pre=true Priority=1 UniqueIdentifier=00000000000013C8014B6C2300000000 cgHuntDN=: cdHuntDN: cgPat=2 cdpat=2 ]
+830: Nov 29 13:21:58.077 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P3-dtcjtapi) GCID=(1,5064)->ACTIVE} CallManager.processCallStateChange:Handling CONNECTED for 1004::1
+831: Nov 29 13:21:58.077 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 ConnConnectedEv 1004::1 [#51] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+832: Nov 29 13:21:58.077 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 CallCtlConnEstablishedEv 1004::1 [#52] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+833: Nov 29 13:21:58.077 WIT %JTAPI-JTAPIIMPL-7-UNK:Adding CCNCall Call:[GCID=(5064/1),CID=21720099] to TermConn:[SEP00E04C55F91C/[1004::1/(P3-dtcjtapi) GCID=(1,5064)->ACTIVE]->ESTABLISHED]->IDLE
+834: Nov 29 13:21:58.077 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 TermConnCreatedEv SEP00E04C55F91C [#53] Cause:0 CallCtlCause:0 CiscoCause:110 FeatReason:12
+835: Nov 29 13:21:58.077 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 TermConnActiveEv SEP00E04C55F91C [#54] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+836: Nov 29 13:21:58.077 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 CallCtlTermConnTalkingEv SEP00E04C55F91C [#55] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+837: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) GCID=(1,5064)->ACTIVECallManager.deliverEvents: deliver 8 events with METACODE 128
+838: Nov 29 13:21:58.078 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 1 observers 
+839: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy.queueEvents: queuing asynchronously
+840: Nov 29 13:21:58.078 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587): queuing com.cisco.jtapi.JtapiCallEventSet
+841: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587): delivering JCES[8]
+842: Nov 29 13:21:58.078 WIT %JTAPI-CTI-7-UNK:{ALL EXTERNAL ADDRESSES|Call:(P3-dtcjtapi) GCID=(1,5064)->ACTIVE} ExternalCallStateChanged [ state=CONNECTED cause=110 processEvent= reason =12 ]
+843: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy.deliverEvents()
+844: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]delivering to callChangedEvent
+845: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy.deliverEvents() completed
+846: Nov 29 13:21:58.078 WIT %JTAPI-JTAPIIMPL-7-UNK:{(P3-dtcjtapi) GCID=(1,5064)->ACTIVE} Handling External STATE_CONNECTED for 1003::1
+847: Nov 29 13:21:58.079 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 ConnConnectedEv 1003::1 [#56] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+848: Nov 29 13:21:58.079 WIT %JTAPI-JTAPI-7-UNK:(P3-dtcjtapi) 5064/1 CallCtlConnEstablishedEv 1003::1 [#57] Cause:110 CallCtlCause:0 CiscoCause:0 FeatReason:12
+849: Nov 29 13:21:58.079 WIT %JTAPI-JTAPIIMPL-7-UNK:(P3-dtcjtapi) GCID=(1,5064)->ACTIVECallManager.deliverEvents: deliver 2 events with METACODE 129
+850: Nov 29 13:21:58.079 WIT %JTAPI-JTAPI-7-UNK:[5064/1]CallImpl.deliverEvents(): for all 1 observers 
+851: Nov 29 13:21:58.079 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy.queueEvents: queuing asynchronously
+852: Nov 29 13:21:58.079 WIT %JTAPI-MISC-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587): queuing com.cisco.jtapi.JtapiCallEventSet
+853: Nov 29 13:21:58.079 WIT %JTAPI-JTAPIIMPL-7-UNK:ObserverThread(dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587): delivering JCES[2]
+854: Nov 29 13:21:58.079 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy.deliverEvents()
+855: Nov 29 13:21:58.080 WIT %JTAPI-JTAPIIMPL-7-UNK:CallInfo for = (P3-dtcjtapi) GCID=(1,5064)->ACTIVE CurIng :1004::1 Cured :1003::1 LRP :null ing :1004::1 ed :1003::1 ModEd :1003::1 Moding :1004::1
+856: Nov 29 13:21:58.080 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]delivering to callChangedEvent
+857: Nov 29 13:21:58.080 WIT %JTAPI-JTAPIIMPL-7-UNK:[dtcom.cisco.corp.cucm_host_devices_access$4@5d70b587]ObserverProxy.deliverEvents() completed
+858: Nov 29 13:22:00.731 WIT %JTAPI-PROTOCOL-7-UNK:(P1-192.168.15.11) received server Heartbeat: com.cisco.cti.protocol.Heartbeat {
+  }
